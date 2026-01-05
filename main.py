@@ -9,10 +9,10 @@ from datetime import datetime
 class IPTVProcessor:
     def __init__(self):
         # 定义1：需要写入文件1的类别
-        self.categories_file1 = {"新聞", "香港", "央视", "CCTV", "卫视", "广东", "深圳", "广州"}
+        self.categories_file1 = {"新聞", "体育", "香港", "台湾", "大陆", "海外中文OC", "新加坡", "马来西亚","日本","韩国","美国","加拿大","英国"}
         
         # 定义2：需要写入文件2的类别
-        self.categories_file2 = {"体育", "台湾", "电影", "娱乐", "动漫", "少儿", "戏剧", "音乐"}
+        self.categories_file2 = {"【1】", "【2】", "【3】", "【4】", "【5】", "【6】", "【7】", "【8】","【9】","【10】","【11】","【12】","【3】","【14】","【15】","【16】",}
         
         # 源URL列表
         self.source_urls = [
