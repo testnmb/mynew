@@ -1,216 +1,196 @@
-# process_iptv.py
+#!/usr/bin/env python3
+# process_iptv.py - 处理IPTV源文件并分类
 import requests
 import time
-from typing import List, Dict
 import os
+from typing import List, Dict, Set
+from datetime import datetime
 
 class IPTVProcessor:
     def __init__(self):
         # 定义1：需要写入文件1的类别
-        self.categories_file1 = {"新聞", "香港", "央视", "卫视", "CCTV", "卫视"}
+        self.categories_file1 = {"新聞", "香港", "央视", "CCTV", "卫视", "广东", "深圳", "广州"}
+        
         # 定义2：需要写入文件2的类别
-        self.categories_file2 = {"体育", "台湾", "电影", "娱乐", "动漫", "少儿"}
+        self.categories_file2 = {"体育", "台湾", "电影", "娱乐", "动漫", "少儿", "戏剧", "音乐"}
         
-        # 存储从各个URL获取的内容
-        self.all_content = []
-        
-        # 设置请求头
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-        
-        # GitHub Raw URLs
-        self.urls = [
+        # 源URL列表
+        self.source_urls = [
             "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E5%88%AB%E4%BA%BA%E6%94%B6%E8%B4%B9%E6%BA%90",
             "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%B5%B7%E8%A7%92%E7%A4%BE%E5%8C%BA%E5%8D%9A%E4%B8%BB(%E5%85%8D%E7%95%AA%E5%BC%BA)"
         ]
+        
+        # 请求头
+        self.headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'text/plain'
+        }
+        
+        # 存储处理结果
+        self.file1_content = []
+        self.file2_content = []
+        
+    def fetch_content(self, url: str) -> str:
+        """从URL获取内容"""
+        try:
+            print(f"正在获取: {url}")
+            response = requests.get(url, headers=self.headers, timeout=15)
+            response.raise_for_status()
+            return response.text
+        except Exception as e:
+            print(f"获取失败 {url}: {e}")
+            return ""
     
-    def fetch_content_from_urls(self) -> None:
-        """从多个URL获取内容"""
-        print("开始从GitHub Raw URL获取IPTV源数据...")
+    def process_content(self, content: str):
+        """处理内容并分类"""
+        if not content:
+            return
+            
+        current_group = []
+        current_category = ""
         
-        for i, url in enumerate(self.urls):
-            try:
-                print(f"正在获取 URL {i+1}/{len(self.urls)}: {url}")
-                response = requests.get(url, headers=self.headers, timeout=20)
-                response.raise_for_status()
-                content = response.text
-                
-                # 检查内容是否有效
-                if len(content.strip()) > 100:  # 确保不是空文件或错误页面
-                    self.all_content.append(content)
-                    print(f"✓ 获取成功，长度: {len(content):,} 字符")
-                else:
-                    print(f"⚠ 内容过短或可能为空，跳过")
-                
-                time.sleep(1)  # 礼貌延迟
-                
-            except Exception as e:
-                print(f"✗ 获取失败: {e}")
-    
-    def parse_content(self, content: str) -> Dict[str, List[str]]:
-        """解析内容，按类别分组"""
-        categories = {}
-        current_category = None
-        category_lines = []
-        
-        lines = content.strip().split('\n')
-        
-        for line in lines:
+        for line in content.splitlines():
             line = line.strip()
             if not line:
                 continue
-            
-            # 检查是否是类别行（包含,#genre#）
-            if ',#genre#' in line:
-                # 保存上一个类别的内容
-                if current_category and category_lines:
-                    if current_category not in categories:
-                        categories[current_category] = []
-                    # 去重
-                    for item in category_lines:
-                        if item not in categories[current_category]:
-                            categories[current_category].append(item)
                 
-                # 开始新类别
-                current_category = line.split(',')[0].strip()
-                category_lines = [line]
-            elif current_category is not None:
-                # 如果是频道行，添加到当前类别
-                if line and line not in category_lines:
-                    category_lines.append(line)
+            # 检查是否是分组标题行
+            if line.endswith(",#genre#"):
+                # 保存上一个分组
+                if current_group and current_category:
+                    self.classify_group(current_category, current_group)
+                
+                # 开始新分组
+                current_category = line.split(',')[0]
+                current_group = [line]
+            else:
+                # 添加频道行到当前分组
+                if current_group is not None:
+                    current_group.append(line)
         
-        # 保存最后一个类别
-        if current_category and category_lines:
-            if current_category not in categories:
-                categories[current_category] = []
-            # 去重
-            for item in category_lines:
-                if item not in categories[current_category]:
-                    categories[current_category].append(item)
-        
-        return categories
+        # 处理最后一个分组
+        if current_group and current_category:
+            self.classify_group(current_category, current_group)
     
-    def process_and_write_files(self):
-        """处理内容并写入文件"""
-        # 获取内容
-        self.fetch_content_from_urls()
+    def classify_group(self, category: str, lines: List[str]):
+        """分类分组到对应的文件"""
+        # 检查是否属于文件1的类别
+        for cat1 in self.categories_file1:
+            if cat1 in category:
+                self.file1_content.append({"category": category, "lines": lines})
+                return
         
-        if not self.all_content:
-            print("错误: 未获取到任何内容")
-            return
+        # 检查是否属于文件2的类别
+        for cat2 in self.categories_file2:
+            if cat2 in category:
+                self.file2_content.append({"category": category, "lines": lines})
+                return
         
-        print(f"\n成功获取 {len(self.all_content)} 个源文件")
-        
-        # 处理内容
-        all_categories_file1 = {}
-        all_categories_file2 = {}
-        
-        for content in self.all_content:
-            categories = self.parse_content(content)
-            
-            for category, lines in categories.items():
-                # 检查类别是否匹配定义
-                matched_file1 = False
-                matched_file2 = False
-                
-                # 检查是否属于文件1的类别
-                for cat1 in self.categories_file1:
-                    if cat1 in category:
-                        if category not in all_categories_file1:
-                            all_categories_file1[category] = []
-                        # 去重添加
-                        for line in lines:
-                            if line not in all_categories_file1[category]:
-                                all_categories_file1[category].append(line)
-                        matched_file1 = True
-                        break
-                
-                # 检查是否属于文件2的类别
-                if not matched_file1:
-                    for cat2 in self.categories_file2:
-                        if cat2 in category:
-                            if category not in all_categories_file2:
-                                all_categories_file2[category] = []
-                            # 去重添加
-                            for line in lines:
-                                if line not in all_categories_file2[category]:
-                                    all_categories_file2[category].append(line)
-                            matched_file2 = True
-                            break
-        
-        # 写入文件1
-        self.write_file("my1.txt", all_categories_file1)
-        
-        # 写入文件2
-        self.write_file("my2.txt", all_categories_file2)
-        
-        # 打印统计信息
-        self.print_statistics(all_categories_file1, all_categories_file2)
+        # 如果不匹配任何类别，可以根据需要添加到其他文件或忽略
     
-    def write_file(self, filename: str, categories: Dict[str, List[str]]):
+    def write_files(self):
         """写入文件"""
-        if not categories:
-            print(f"警告: {filename} 没有内容可写入")
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write("# 无相关内容\n")
-            return
+        # 写入my1.txt
+        self._write_single_file("my1.txt", self.file1_content)
         
-        with open(filename, 'w', encoding='utf-8') as f:
-            for category in sorted(categories.keys()):
-                # 写入类别行
-                if categories[category] and categories[category][0].endswith(',#genre#'):
-                    f.write(categories[category][0] + '\n')
-                    # 写入频道行（跳过类别行）
-                    for line in categories[category][1:]:
-                        f.write(line + '\n')
-                else:
-                    # 如果没有类别行，添加一个
-                    f.write(f"{category},#genre#\n")
-                    for line in categories[category]:
-                        f.write(line + '\n')
-                f.write('\n')  # 类别之间空一行
-        
-        print(f"✓ 已写入文件: {filename}")
+        # 写入my2.txt
+        self._write_single_file("my2.txt", self.file2_content)
     
-    def print_statistics(self, file1_cats, file2_cats):
-        """打印统计信息"""
-        total_channels_file1 = sum(len(lines) - 1 for lines in file1_cats.values() if lines)
-        total_channels_file2 = sum(len(lines) - 1 for lines in file2_cats.values() if lines)
+    def _write_single_file(self, filename: str, content_list: List[Dict]):
+        """写入单个文件"""
+        if not content_list:
+            print(f"⚠ {filename}: 没有内容可写入")
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write("# 此文件暂无内容\n")
+            return
+            
+        with open(filename, 'w', encoding='utf-8') as f:
+            # 写入文件头
+            f.write(f"# IPTV源文件 - 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"# 源URL: {', '.join(self.source_urls)}\n")
+            f.write("# " + "="*50 + "\n\n")
+            
+            # 写入内容
+            for item in content_list:
+                for line in item["lines"]:
+                    f.write(line + "\n")
+                f.write("\n")  # 分组之间空一行
         
-        print("\n" + "="*50)
-        print("处理完成统计:")
-        print("="*50)
-        print(f"my1.txt: {len(file1_cats)} 个类别，约 {total_channels_file1} 个频道")
-        print(f"my2.txt: {len(file2_cats)} 个类别，约 {total_channels_file2} 个频道")
-        print("="*50)
+        # 统计信息
+        total_channels = sum(len(item["lines"]) - 1 for item in content_list)
+        print(f"✅ {filename}: {len(content_list)}个分组, {total_channels}个频道")
+    
+    def run(self):
+        """主运行方法"""
+        print("="*60)
+        print("IPTV源文件处理工具")
+        print(f"开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print("="*60)
+        
+        # 获取并处理所有源
+        for url in self.source_urls:
+            content = self.fetch_content(url)
+            if content:
+                self.process_content(content)
+                time.sleep(0.5)  # 礼貌延迟
+        
+        # 写入文件
+        self.write_files()
+        
+        # 输出统计信息
+        self.print_statistics()
+        
+        print("="*60)
+        print("处理完成!")
+        print("="*60)
+    
+    def print_statistics(self):
+        """打印统计信息"""
+        print("\n📊 统计信息:")
+        print("-" * 40)
+        
+        # 文件1统计
+        if self.file1_content:
+            channels1 = sum(len(item["lines"]) - 1 for item in self.file1_content)
+            categories1 = [item["category"] for item in self.file1_content]
+            print(f"📁 my1.txt:")
+            print(f"   分组数量: {len(self.file1_content)}")
+            print(f"   频道数量: {channels1}")
+            print(f"   包含类别: {', '.join(categories1[:5])}{'...' if len(categories1) > 5 else ''}")
+        else:
+            print("📁 my1.txt: 无内容")
+        
+        # 文件2统计
+        if self.file2_content:
+            channels2 = sum(len(item["lines"]) - 1 for item in self.file2_content)
+            categories2 = [item["category"] for item in self.file2_content]
+            print(f"\n📁 my2.txt:")
+            print(f"   分组数量: {len(self.file2_content)}")
+            print(f"   频道数量: {channels2}")
+            print(f"   包含类别: {', '.join(categories2[:5])}{'...' if len(categories2) > 5 else ''}")
+        else:
+            print("\n📁 my2.txt: 无内容")
 
 
 def main():
     """主函数"""
-    print("开始处理IPTV源数据...")
-    
     processor = IPTVProcessor()
     
     try:
-        processor.process_and_write_files()
-        print("\n✅ 处理完成！文件已生成:")
-        print("   - my1.txt")
-        print("   - my2.txt")
+        processor.run()
         
-        # 检查文件是否存在
-        if os.path.exists("my1.txt") and os.path.exists("my2.txt"):
-            # 显示文件大小
-            size1 = os.path.getsize("my1.txt")
-            size2 = os.path.getsize("my2.txt")
-            print(f"\n文件大小:")
-            print(f"  my1.txt: {size1:,} 字节")
-            print(f"  my2.txt: {size2:,} 字节")
-        else:
-            print("警告: 某些输出文件不存在")
-            
+        # 验证文件是否存在
+        for filename in ["my1.txt", "my2.txt"]:
+            if os.path.exists(filename):
+                size = os.path.getsize(filename)
+                print(f"\n📄 {filename}: {size:,} 字节")
+            else:
+                print(f"\n⚠ {filename}: 文件未生成")
+                
+    except KeyboardInterrupt:
+        print("\n\n❌ 用户中断")
     except Exception as e:
-        print(f"❌ 处理过程中出现错误: {e}")
+        print(f"\n❌ 错误: {e}")
         import traceback
         traceback.print_exc()
 
