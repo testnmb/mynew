@@ -3,7 +3,7 @@
 # ==================================================
 
 新聞,#genre#
-TVB 無線新聞 News H265 (HK),http://iptvpro.pw:35451//live/加QQ群1041749599/68686868/3.ts
+TVB 無線新聞 News H265 (HK),http://iptvpro.pw:35451//live/加QQ群1041749599/77228833/3.ts
 TVB 無線新聞台 4K (HK),http://iptvpro.pw:35451//live/加QQ群1041749599/68686868/8.ts
 TVB 無線新聞直播台 4K (HK),http://iptvpro.pw:35451//live/加QQ群1041749599/68686868/9.ts
 TVB 無線新聞台 CH083 (HK),http://iptvpro.pw:35451//live/加QQ群1041749599/68686868/13.ts
