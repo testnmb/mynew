@@ -1,4 +1,4 @@
-# IPTV源文件 - 生成时间: 2026-01-14 02:45:16
+# IPTV源文件 - 生成时间: 2026-01-14 02:47:37
 # 源URL: https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源1, https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%B5%B7%E8%A7%92%E7%A4%BE%E5%8C%BA%E5%8D%9A%E4%B8%BB(%E5%85%8D%E7%95%AA%E5%BC%BA)
 # ==================================================
 
@@ -592,4 +592,27 @@ MiaoMi,http://96.44.160.246:9999/smt.php?id=MiaoMi
 Nickelodeon,http://96.44.160.246:9999/smt.php?id=Nickelodeon
 Nick Jr,http://96.44.160.246:9999/smt.php?id=Nickjr
 Cartoon Network,http://96.44.160.246:9999/smt.php?id=Cn
+
+📹纪录频道,#genre#
+CI,http://96.44.160.246:9999/smt.php?id=ci_twn
+Asia Travel,http://96.44.160.246:9999/smt.php?id=asiatravel_twn
+亚洲美食,http://96.44.160.246:9999/smt.php?id=afc_twn
+NatGeo HD,http://96.44.160.246:9999/smt.php?id=Natgeo
+Fashion TV,http://96.44.160.246:9999/smt.php?id=fashiontv_twn
+History,http://96.44.160.246:9999/smt.php?id=History
+BBC Earth HD,http://96.44.160.246:9999/smt.php?id=bbcearth_twn
+BBC Earth Lifestyle,http://96.44.160.246:9999/smt.php?id=bbclifestyle_twn
+亚洲旅游 TLC Asia,http://96.44.160.246:9999/smt.php?id=tlc_twn
+MTV Live,http://96.44.160.246:9999/smt.php?id=mtvhd_twn
+NatGeo_Wild HD,http://96.44.160.246:9999/smt.php?id=Natgeowild
+Animal_Planet,http://96.44.160.246:9999/smt.php?id=AnimalPlanet
+HGTV,http://96.44.160.246:9999/smt.php?id=HGTV
+TLC,http://96.44.160.246:9999/smt.php?id=Tlc
+Foodnetwork Hd,http://96.44.160.246:9999/smt.php?id=Foodnetwork
+Asia Food Network,http://96.44.160.246:9999/smt.php?id=Afc
+Animal Planet (Eng),http://96.44.160.246:9999/smt.php?id=AnimalPlanet
+NatGeo Wild HD,http://96.44.160.246:9999/smt.php?id=Natgeowild
+Discovery Asia,http://96.44.160.246:9999/smt.php?id=Discoveryasia
+Dmax,http://96.44.160.246:9999/smt.php?id=Dmax
+探索频道,http://96.44.160.246:9999/smt.php?id=discoverych_twn
 
