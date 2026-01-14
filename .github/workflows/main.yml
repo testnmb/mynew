@@ -2,7 +2,7 @@ name: synczb
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # 每6小时运行一次
+    - cron: '0 0/1 * * *'  # 每小时运行一次
   workflow_dispatch:
   push:
     paths:
@@ -13,101 +13,65 @@ permissions:
   contents: write
 
 jobs:
-  sync-sources:
+  fetch_and_process:
     runs-on: ubuntu-latest
     
     steps:
-    - name: 检出仓库
+    # 1. 检出项目仓库
+    - name: Checkout repository
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    
-    - name: 设置Python
+
+    # 2. 设置 Python 环境
+    - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
-    
-    - name: 安装依赖
+        python-version: '3.x'
+
+    # 3. 安装依赖
+    - name: Install dependencies
       run: |
+        python -m pip install --upgrade pip
         pip install requests
-    
-    - name: 运行处理脚本
+
+    # 4. 运行 Python 脚本
+    - name: Run processing script
       run: |
-        echo "开始同步直播源..."
         python main.py
-        
-        echo ""
-        echo "=== 文件检查 ==="
-        if [ -f "my1.txt" ]; then
-          echo "✅ my1.txt 已生成"
-          echo "大小: $(wc -c < my1.txt) 字节"
-          echo "行数: $(wc -l < my1.txt) 行"
-          echo "URL数: $(grep -c "http" my1.txt || echo 0) 个"
-        else
-          echo "❌ my1.txt 未生成"
-          # 生成空文件确保有文件可提交
-          echo "smt,#genre#" > my1.txt
-          echo "# 同步失败，生成了空文件" >> my1.txt
-        fi
-    
-    - name: 配置Git
+
+    # 5. 配置 Git
+    - name: Configure Git
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-    
-    - name: 强制提交文件
+
+    # 6. 强制提交更改
+    - name: Commit and Push changes
       run: |
-        echo "强制提交 my1.txt 文件..."
+        echo "开始强制提交更新..."
         
-        # 确保文件存在
-        if [ ! -f "my1.txt" ]; then
-          echo "smt,#genre#" > my1.txt
-          echo "# 自动生成的文件" >> my1.txt
-        fi
+        # 添加my1.txt文件
+        git add my1.txt
         
-        # 强制添加文件到Git
-        git add -f my1.txt
+        # 创建提交信息
+        commit_msg="📺 更新IPTV源文件 [$(date +'%Y-%m-%d %H:%M')]
         
-        # 获取文件信息
-        FILE_SIZE=$(wc -c < my1.txt)
-        FILE_LINES=$(wc -l < my1.txt)
-        URL_COUNT=$(grep -c "http" my1.txt || echo 0)
-        CURRENT_TIME=$(date +'%Y-%m-%d %H:%M')
-        GIT_HASH=$(git log -1 --pretty=format:"%h")
+        更新my1.txt文件
+        由GitHub Actions自动执行"
         
-        # 提交信息
-        COMMIT_MSG="📺 强制更新直播源 [$CURRENT_TIME]
-
-执行状态: 成功 ✅
-Git提交: $GIT_HASH
-文件信息:
-- 大小: $FILE_SIZE 字节
-- 行数: $FILE_LINES 行
-- 频道数: $URL_COUNT 个
-
-本次执行强制覆盖更新，确保my1.txt为最新版本
-
-由 GitHub Actions 自动执行"
-
-        # 强制提交（使用 --allow-empty 确保即使没有变更也能提交）
-        git commit --allow-empty -m "$COMMIT_MSG"
+        # 强制提交
+        git commit -m "$commit_msg" || echo "提交完成"
         
-        # 强制推送到仓库
+        # 推送到仓库
         git push origin main
         
-        echo "✅ 已强制提交并覆盖 my1.txt 文件"
-        
-        # 输出最终状态
-        echo ""
-        echo "=== 提交状态 ==="
-        echo "提交时间: $CURRENT_TIME"
-        echo "文件大小: $FILE_SIZE 字节"
-        echo "文件行数: $FILE_LINES 行"
-        echo "包含频道: $URL_COUNT 个"
-    
-    - name: 上传文件
+        echo "✅ 文件已强制更新"
+
+    # 7. 上传工件
+    - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: iptv-source
+        name: iptv-files
         path: my1.txt
         retention-days: 7
