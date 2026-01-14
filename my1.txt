@@ -1,6 +1,4 @@
 smt,#genre#
-Now星影台(粤),http://74.91.26.218:82/live/nowxy.m3u8
-Now星影台(粤),https://stream1.freetv.fun/b56bee75906bfad78f50f3eccffccdc4ed2dfe763f4fd01135948baae9af8e35.m3u8
 华数电影1080p,http://hmfs.f3322.net:3388/hls/40/index.m3u8
 CCTV-6 電影,http://96.44.160.246:9999/smt.php?id=cctv6
 HBO_HD,http://96.44.160.246:9999/smt.php?id=hbohd_twn
