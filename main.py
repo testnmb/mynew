@@ -40,16 +40,11 @@ class IPTVProcessor:
             'Connection': 'keep-alive'
         }
         
-        # 存储处理结果
-        self.file1_content = []  # 存储分类后的分组
-        self.file2_content = []
+        # 存储原始分组
+        self.raw_groups = []  # 存储 (category, lines)
         
         # 去重相关
-        self.url_signatures = set()  # 存储URL的签名用于去重
-        self.channel_cache = {      # 缓存每个文件中的频道
-            'file1': defaultdict(set),  # category -> set(channel_lines)
-            'file2': defaultdict(set)
-        }
+        self.url_signatures = set()  # 存储URL的签名用于源去重
         
         # 统计信息
         self.stats = {
@@ -71,7 +66,7 @@ class IPTVProcessor:
             # 计算内容签名用于去重
             content_hash = hashlib.md5(response.content).hexdigest()
             if content_hash in self.url_signatures:
-                print(f"⚠️  检测到重复内容，跳过: {url}")
+                print(f"⚠️  检测到重复源内容，跳过: {url}")
                 return "", False
                 
             self.url_signatures.add(content_hash)
@@ -91,22 +86,15 @@ class IPTVProcessor:
         if len(parts) >= 2:
             channel_name = parts[0].strip()
             channel_url = parts[1].strip()
-            # 创建频道签名（使用名称和URL的hash）
-            signature = hashlib.md5(f"{channel_name}:{channel_url}".encode()).hexdigest()
+            # 创建频道签名（使用名称和URL的组合）
+            # 对URL进行标准化处理，去除可能的查询参数差异
+            clean_url = channel_url.split('?')[0] if '?' in channel_url else channel_url
+            signature = hashlib.md5(f"{channel_name}:{clean_url}".encode()).hexdigest()
             return channel_name, channel_url, signature
         return "", "", ""
     
-    def is_duplicate_channel(self, category: str, channel_line: str, file_type: str) -> bool:
-        """检查频道是否重复"""
-        _, _, signature = self.extract_channel_info(channel_line)
-        if signature:
-            if signature in self.channel_cache[file_type][category]:
-                return True
-            self.channel_cache[file_type][category].add(signature)
-        return False
-    
     def process_content(self, content: str):
-        """处理内容并分类去重"""
+        """处理内容并存储原始分组"""
         if not content:
             return
             
@@ -122,7 +110,7 @@ class IPTVProcessor:
             if line.endswith(",#genre#"):
                 # 保存上一个分组
                 if current_group and current_category:
-                    self.classify_and_deduplicate(current_category, current_group)
+                    self.raw_groups.append((current_category, current_group))
                 
                 # 开始新分组
                 current_category = line.split(',')[0]
@@ -134,64 +122,99 @@ class IPTVProcessor:
         
         # 处理最后一个分组
         if current_group and current_category:
-            self.classify_and_deduplicate(current_category, current_group)
+            self.raw_groups.append((current_category, current_group))
     
-    def classify_and_deduplicate(self, category: str, lines: List[str]):
-        """分类并去重分组"""
-        if len(lines) <= 1:  # 只有标题没有频道
-            return
+    def classify_and_deduplicate(self) -> Tuple[List[Dict], List[Dict]]:
+        """分类并整体去重，返回(file1_content, file2_content)"""
+        # 按文件分类收集频道
+        file1_channels = defaultdict(list)  # category -> [(channel_name, channel_line, signature)]
+        file2_channels = defaultdict(list)
         
-        # 检查类别属于哪个文件
-        target_file = None
-        for cat1 in self.categories_file1:
-            if cat1 in category:
-                target_file = 'file1'
-                self.stats['file1_categories'].add(category)
-                break
+        file1_signatures = set()  # 用于file1整体去重
+        file2_signatures = set()  # 用于file2整体去重
         
-        if not target_file:
-            for cat2 in self.categories_file2:
-                if cat2 in category:
-                    target_file = 'file2'
-                    self.stats['file2_categories'].add(category)
+        print("🔍 分类和去重处理...")
+        
+        for category, lines in self.raw_groups:
+            if len(lines) <= 1:  # 只有标题没有频道
+                continue
+            
+            # 确定属于哪个文件
+            target_file = None
+            for cat1 in self.categories_file1:
+                if cat1 in category:
+                    target_file = 1
+                    self.stats['file1_categories'].add(category)
                     break
+            
+            if not target_file:
+                for cat2 in self.categories_file2:
+                    if cat2 in category:
+                        target_file = 2
+                        self.stats['file2_categories'].add(category)
+                        break
+            
+            if not target_file:
+                continue  # 不匹配任何类别，跳过
+            
+            # 处理每个频道
+            title_line = lines[0]
+            for channel_line in lines[1:]:
+                channel_name, channel_url, signature = self.extract_channel_info(channel_line)
+                if not signature:
+                    continue
+                
+                # 根据目标文件进行去重
+                if target_file == 1:
+                    if signature not in file1_signatures:
+                        file1_signatures.add(signature)
+                        file1_channels[category].append((channel_name, channel_line, signature))
+                        self.stats['unique_channels'] += 1
+                    else:
+                        self.stats['duplicate_channels'] += 1
+                else:  # target_file == 2
+                    if signature not in file2_signatures:
+                        file2_signatures.add(signature)
+                        file2_channels[category].append((channel_name, channel_line, signature))
+                        self.stats['unique_channels'] += 1
+                    else:
+                        self.stats['duplicate_channels'] += 1
         
-        if not target_file:
-            return  # 不匹配任何类别，跳过
+        # 构建最终输出结构
+        file1_content = []
+        file2_content = []
         
-        # 去重处理
-        unique_lines = [lines[0]]  # 标题行
-        seen_channels = set()
+        # 构建file1内容
+        for category, channels in file1_channels.items():
+            if channels:  # 有实际频道才添加
+                lines = [f"{category},#genre#"]
+                for _, channel_line, _ in channels:
+                    lines.append(channel_line)
+                file1_content.append({"category": category, "lines": lines})
         
-        for channel_line in lines[1:]:
-            if not self.is_duplicate_channel(category, channel_line, target_file):
-                unique_lines.append(channel_line)
-                self.stats['unique_channels'] += 1
-            else:
-                self.stats['duplicate_channels'] += 1
+        # 构建file2内容
+        for category, channels in file2_channels.items():
+            if channels:  # 有实际频道才添加
+                lines = [f"{category},#genre#"]
+                for _, channel_line, _ in channels:
+                    lines.append(channel_line)
+                file2_content.append({"category": category, "lines": lines})
         
-        # 如果有实际频道内容，添加到对应文件
-        if len(unique_lines) > 1:
-            if target_file == 'file1':
-                self.file1_content.append({
-                    "category": category,
-                    "lines": unique_lines
-                })
-            else:
-                self.file2_content.append({
-                    "category": category,
-                    "lines": unique_lines
-                })
+        # 按分类名称排序，使输出更有序
+        file1_content.sort(key=lambda x: x["category"])
+        file2_content.sort(key=lambda x: x["category"])
+        
+        return file1_content, file2_content
     
-    def write_files(self):
+    def write_files(self, file1_content: List[Dict], file2_content: List[Dict]):
         """写入文件"""
         # 写入my1.txt
-        self._write_single_file("my1.txt", self.file1_content, "文件1")
+        self._write_single_file("my1.txt", file1_content, "文件1", self.stats['file1_categories'])
         
         # 写入my2.txt
-        self._write_single_file("my2.txt", self.file2_content, "文件2")
+        self._write_single_file("my2.txt", file2_content, "文件2", self.stats['file2_categories'])
     
-    def _write_single_file(self, filename: str, content_list: List[Dict], file_desc: str):
+    def _write_single_file(self, filename: str, content_list: List[Dict], file_desc: str, categories: Set):
         """写入单个文件"""
         total_channels = sum(len(item["lines"]) - 1 for item in content_list)
         
@@ -202,7 +225,7 @@ class IPTVProcessor:
             f.write(f"# 源URL: {', '.join(self.source_urls)}\n")
             f.write(f"# 分组数量: {len(content_list)}\n")
             f.write(f"# 频道数量: {total_channels}\n")
-            f.write(f"# 过滤重复频道: {self.stats['duplicate_channels']}\n")
+            f.write(f"# 去重策略: 文件整体去重（相同频道只出现一次）\n")
             f.write("# " + "="*60 + "\n\n")
             
             # 写入内容
@@ -213,7 +236,12 @@ class IPTVProcessor:
         
         # 输出结果
         if total_channels > 0:
+            categories_list = sorted(list(categories))
             print(f"✅ {filename}: {len(content_list)}个分组, {total_channels}个唯一频道")
+            if categories_list:
+                print(f"   包含分类: {', '.join(categories_list[:5])}")
+                if len(categories_list) > 5:
+                    print(f"             等共{len(categories_list)}个分类")
         else:
             print(f"⚠️  {filename}: 没有内容可写入")
             with open(filename, 'w', encoding='utf-8') as f:
@@ -222,7 +250,7 @@ class IPTVProcessor:
     def run(self):
         """主运行方法"""
         print("="*60)
-        print("🎬 IPTV源文件处理工具 (带去重功能)")
+        print("🎬 IPTV源文件处理工具 (整体去重)")
         print(f"⏰ 开始时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         print("="*60)
         
@@ -236,18 +264,22 @@ class IPTVProcessor:
                 self.process_content(content)
                 time.sleep(0.3)  # 礼貌延迟
         
+        # 分类并整体去重
+        print("\n🔧 进行整体去重处理...")
+        file1_content, file2_content = self.classify_and_deduplicate()
+        
         # 写入文件
         print("\n💾 写入文件...")
-        self.write_files()
+        self.write_files(file1_content, file2_content)
         
         # 输出统计信息
-        self.print_statistics()
+        self.print_statistics(file1_content, file2_content)
         
         print("="*60)
         print("🎉 处理完成!")
         print("="*60)
     
-    def print_statistics(self):
+    def print_statistics(self, file1_content: List[Dict], file2_content: List[Dict]):
         """打印详细统计信息"""
         print("\n📊 详细统计信息:")
         print("-" * 60)
@@ -262,31 +294,35 @@ class IPTVProcessor:
         print(f"\n📺 频道统计:")
         print(f"   唯一频道数: {self.stats['unique_channels']:,}")
         print(f"   过滤重复频道数: {self.stats['duplicate_channels']:,}")
-        print(f"   总处理频道数: {self.stats['unique_channels'] + self.stats['duplicate_channels']:,}")
+        print(f"   总发现频道数: {self.stats['unique_channels'] + self.stats['duplicate_channels']:,}")
         
         # 文件1统计
-        if self.file1_content:
-            channels1 = sum(len(item["lines"]) - 1 for item in self.file1_content)
+        if file1_content:
+            channels1 = sum(len(item["lines"]) - 1 for item in file1_content)
             categories1 = list(self.stats['file1_categories'])
-            print(f"\n📁 my1.txt (类别匹配: {', '.join(self.categories_file1)})")
-            print(f"   分组数量: {len(self.file1_content)}")
+            print(f"\n📁 my1.txt (匹配类别: {len(self.categories_file1)}个)")
+            print(f"   分组数量: {len(file1_content)}")
             print(f"   频道数量: {channels1}")
-            print(f"   包含类别: {', '.join(sorted(categories1)[:8])}")
-            if len(categories1) > 8:
-                print(f"             ... 等{len(categories1)}个类别")
+            print(f"   分类数量: {len(categories1)}")
+            if categories1:
+                print(f"   分类列表: {', '.join(sorted(categories1)[:6])}")
+                if len(categories1) > 6:
+                    print(f"             等{len(categories1)}个分类")
         else:
             print(f"\n📁 my1.txt: 无匹配内容")
         
         # 文件2统计
-        if self.file2_content:
-            channels2 = sum(len(item["lines"]) - 1 for item in self.file2_content)
+        if file2_content:
+            channels2 = sum(len(item["lines"]) - 1 for item in file2_content)
             categories2 = list(self.stats['file2_categories'])
-            print(f"\n📁 my2.txt (类别匹配: {', '.join(self.categories_file2)})")
-            print(f"   分组数量: {len(self.file2_content)}")
+            print(f"\n📁 my2.txt (匹配类别: {len(self.categories_file2)}个)")
+            print(f"   分组数量: {len(file2_content)}")
             print(f"   频道数量: {channels2}")
-            print(f"   包含类别: {', '.join(sorted(categories2)[:8])}")
-            if len(categories2) > 8:
-                print(f"             ... 等{len(categories2)}个类别")
+            print(f"   分类数量: {len(categories2)}")
+            if categories2:
+                print(f"   分类列表: {', '.join(sorted(categories2)[:6])}")
+                if len(categories2) > 6:
+                    print(f"             等{len(categories2)}个分类")
         else:
             print(f"\n📁 my2.txt: 无匹配内容")
 
@@ -308,7 +344,20 @@ def main():
                     with open(filename, 'r', encoding='utf-8') as f:
                         lines_count = len(f.readlines())
                     
-                    print(f"   📄 {filename}: {size:,} 字节, {lines_count} 行")
+                    # 统计频道数
+                    channel_count = 0
+                    with open(filename, 'r', encoding='utf-8') as f:
+                        for line in f:
+                            if line.strip() and not line.startswith('#') and ',#genre#' not in line:
+                                channel_count += 1
+                    
+                    print(f"   📄 {filename}:")
+                    print(f"      大小: {size:,} 字节")
+                    print(f"      行数: {lines_count}")
+                    print(f"      频道数: {channel_count}")
+                    
+                    if size < 100:
+                        print(f"      ⚠️  文件过小，可能为空")
                 else:
                     print(f"   ⚠️  {filename}: 文件未生成")
             except Exception as e:
