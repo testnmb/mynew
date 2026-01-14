@@ -1,6 +1,7 @@
 import requests
 import re
 import os
+import sys  # 添加这行
 
 # 全局排除关键词定义
 EXCLUDE_KEYWORDS = ["成人", "激情", "情色", "涩情", "18禁", "R18"]
@@ -97,11 +98,6 @@ class TVSourceProcessor:
             file_size = os.path.getsize(filename)
             print(f"保存: {filename} ({len(content)}行, {file_size}字节)")
             
-            # 显示前3行预览
-            print("预览:")
-            for i in range(min(3, len(content))):
-                print(f"  {content[i][:80]}")
-            
             return True
             
         except Exception as e:
@@ -110,14 +106,11 @@ class TVSourceProcessor:
     
     def process(self):
         """主处理流程"""
-        print("=" * 50)
         print("开始处理直播源")
-        print("=" * 50)
         
         # 只使用指定的URL
         urls = [
             "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源1",
-            "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源2"
         ]
         
         print(f"源URL: {len(urls)}个")
@@ -141,9 +134,7 @@ class TVSourceProcessor:
         
         # 4. 保存文件
         if self.save_to_file(final, "my1.txt", "smt,#genre#"):
-            print("=" * 50)
             print("处理完成")
-            print("=" * 50)
             return True
         else:
             return False
