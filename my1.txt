@@ -1,12 +1,75 @@
-# IPTV源文件 - 文件1
-# 生成时间: 2026-01-14 02:57:54
-# 源URL: https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源1, https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%B5%B7%E8%A7%92%E7%A4%BE%E5%8C%BA%E5%8D%9A%E4%B8%BB(%E5%85%8D%E7%95%AA%E5%BC%BA)
-# 分组数量: 17
-# 频道数量: 436
-# 去重策略: 文件整体去重（相同频道只出现一次）
-# ============================================================
-
-⛹️‍体育,#genre#
+smt,#genre#
+Now星影台(粤),http://74.91.26.218:82/live/nowxy.m3u8
+Now星影台(粤),https://stream1.freetv.fun/b56bee75906bfad78f50f3eccffccdc4ed2dfe763f4fd01135948baae9af8e35.m3u8
+华数电影1080p,http://hmfs.f3322.net:3388/hls/40/index.m3u8
+CCTV-6 電影,http://96.44.160.246:9999/smt.php?id=cctv6
+HBO_HD,http://96.44.160.246:9999/smt.php?id=hbohd_twn
+HBO_HITS,http://96.44.160.246:9999/smt.php?id=hbohits_twn
+HBO Signature Taiwan,http://96.44.160.246:9999/smt.php?id=hbosignature_twn
+Hollywood Movies,http://96.44.160.246:9999/smt.php?id=hollywoodmovies_twn
+AXN Taiwan,http://96.44.160.246:9999/smt.php?id=axn_twn
+CINEMAX,http://96.44.160.246:9999/smt.php?id=cinemax_twn
+Cinemax,http://96.44.160.246:9999/smt.php?id=Cinemax
+大爱2台,http://96.44.160.246:9999/smt.php?id=daai2_twn
+东森电影 ETTV Movie,http://96.44.160.246:9999/smt.php?id=ettvmovie
+东森洋片 ETTV Western,http://96.44.160.246:9999/smt.php?id=ettvwestern
+龙华洋片 Lunghua Western,http://96.44.160.246:9999/smt.php?id=lunghuawestern_twn
+Animax,http://96.44.160.246:9999/smt.php?id=Animax
+龙详时代,http://96.44.160.246:9999/smt.php?id=lungxiangtime_twn
+Movies Now HD,http://96.44.160.246:9999/smt.php?id=moviesnow_raj
+Star Movies HD,http://96.44.160.246:9999/smt.php?id=starmovies_raj
+卫视中文台 Star Movies Chinese,http://96.44.160.246:9999/smt.php?id=weishichinese_twn
+Hits,http://96.44.160.246:9999/smt.php?id=Hits
+Warner TV,http://96.44.160.246:9999/smt.php?id=WarnerTV
+美亚电影,http://96.44.160.246:9999/smt.php?id=meiyamovie_twn
+SCM,http://96.44.160.246:9999/smt.php?id=Weishimovie
+Thrill,http://96.44.160.246:9999/smt.php?id=Thrill
+HBO Family,http://96.44.160.246:9999/smt.php?id=Hbofamily
+Axn HD,http://96.44.160.246:9999/smt.php?id=Axn
+HBO HD,http://96.44.160.246:9999/smt.php?id=Hbo
+HBO Signature,http://96.44.160.246:9999/smt.php?id=Hbosignature
+HBO Hits,http://96.44.160.246:9999/smt.php?id=Hbohitshd
+Dreamworks,http://96.44.160.246:9999/smt.php?id=Dreamworks
+Hits Movie,http://96.44.160.246:9999/smt.php?id=Hitsmovie
+tvN Movie,http://96.44.160.246:9999/smt.php?id=Tvnmovie
+Astrol Kplus,http://96.44.160.246:9999/smt.php?id=Kplus
+One,http://96.44.160.246:9999/smt.php?id=One
+天映頻道Celestial Movies,http://96.44.160.246:9999/smt.php?id=Celestialindo
+Celestial Classic,http://96.44.160.246:9999/smt.php?id=Celestial2
+Rock Actions,http://96.44.160.246:9999/smt.php?id=Rockaction
+Rock Entertainment,http://96.44.160.246:9999/smt.php?id=Rockentertain
+ABC News,http://96.44.160.246:9999/smt.php?id=abcnews_glo
+iNews 互動新聞台,http://96.44.160.246:9999/smt.php?id=inews_twn
+CBS HD,http://96.44.160.246:9999/smt.php?id=cbshd_glo
+CBSN HD,http://96.44.160.246:9999/smt.php?id=cbsn_glo
+CGTN,http://96.44.160.246:9999/smt.php?id=CGTN
+DW (Deutsch),http://96.44.160.246:9999/smt.php?id=dw_twn
+Fox News,http://96.44.160.246:9999/smt.php?id=foxnews_twn
+NHK World,http://96.44.160.246:9999/smt.php?id=nhkworld_japan
+TVBS News 新聞台,http://96.44.160.246:9999/smt.php?id=tvbs_n
+Al-Jazeera,http://96.44.160.246:9999/smt.php?id=aljazeera_twn
+Bloomberg News,http://96.44.160.246:9999/smt.php?id=bloomberg_twn
+東森新聞 ETTV News,http://96.44.160.246:9999/smt.php?id=ettvnews
+東森財經新聞 ETTV Business,http://96.44.160.246:9999/smt.php?id=ettvcaijing_twn
+中天新聞 CTI News,http://96.44.160.246:9999/smt.php?id=ctinews
+非凡新聞台,http://96.44.160.246:9999/smt.php?id=feifannews_twn
+台視新聞台 TTV News,http://96.44.160.246:9999/smt.php?id=ttvnews_twn
+民視新聞台 FTV News,http://96.44.160.246:9999/smt.php?id=ftvnew_taiwan
+Al_Jazeera,http://96.44.160.246:9999/smt.php?id=Aljazeera
+寰宇新聞台,http://96.44.160.246:9999/smt.php?id=huanyuxinwen_twn
+中視新聞台,http://96.44.160.246:9999/smt.php?id=zhongshinews_twn
+CNN,http://96.44.160.246:9999/smt.php?id=Cnn
+CNN backup,http://96.44.160.246:9999/smt.php?id=cnn_twn
+BBC World News,http://96.44.160.246:9999/smt.php?id=Bbcnews
+CNBC,http://96.44.160.246:9999/smt.php?id=Cnbc
+Bloomberg TV,http://96.44.160.246:9999/smt.php?id=Bloomberg
+CNA,http://96.44.160.246:9999/smt.php?id=cna
+DW,http://96.44.160.246:9999/smt.php?id=Dw
+France 24,http://96.44.160.246:9999/smt.php?id=france24_twn
+France 24,http://96.44.160.246:9999/smt.php?id=France24
+Skynews,http://96.44.160.246:9999/smt.php?id=Skynews
+Skynews,http://96.44.160.246:9999/smt.php?id=skynews_twn
+NHK Premium,http://96.44.160.246:9999/smt.php?id=NHKpremium
 Astro PL 1,http://96.44.160.246:9999/smt.php?id=Assp1
 Astro PL 1 (Back Up 1),http://96.44.160.246:9999/smt.php?id=go_assp1
 Astro PL 1 (Back Up 2),http://96.44.160.246:9999/smt.php?id=go_assp1x
@@ -57,62 +120,6 @@ Skysports Racing,http://96.44.160.246:9999/smt.php?id=tiankongracing
 DAZN 1,http://96.44.160.246:9999/smt.php?id=dazn1_twn
 DAZN 2,http://96.44.160.246:9999/smt.php?id=dazn2_twn
 Eurosport,http://96.44.160.246:9999/smt.php?id=Eurosport
-
-🇨🇳中国,#genre#
-CCTV-1 綜合,http://96.44.160.246:9999/smt.php?id=cctv1
-CCTV-2 財經,http://96.44.160.246:9999/smt.php?id=cctv2
-CCTV-3 綜藝,http://96.44.160.246:9999/smt.php?id=cctv3
-CCTV-4 中文國際,http://96.44.160.246:9999/smt.php?id=Cctv4
-CCTV-4 中文國際 (備:1),http://96.44.160.246:9999/smt.php?id=cctv4
-CCTV-5+ 體育赛事,http://96.44.160.246:9999/smt.php?id=cctv5plus
-CCTV-7 軍事農業,http://96.44.160.246:9999/smt.php?id=cctv7
-CCTV-8 電視劇,http://96.44.160.246:9999/smt.php?id=cctv8hd
-CCTV-9 紀錄,http://96.44.160.246:9999/smt.php?id=cctv9hd
-CCTV-10 科教,http://96.44.160.246:9999/smt.php?id=cctv10hd
-CCTV-11 戲曲,http://96.44.160.246:9999/smt.php?id=cctv11
-CCTV-12 社會與法,http://96.44.160.246:9999/smt.php?id=cctv12
-CCTV-13 新聞與頻道,http://96.44.160.246:9999/smt.php?id=cctv13
-CCTV-14 少兒,http://96.44.160.246:9999/smt.php?id=cctv14
-CCTV-15 音樂,http://96.44.160.246:9999/smt.php?id=cctv15
-湖南卫视,http://96.44.160.246:9999/smt.php?id=hunan_twn
-浙江卫视,http://96.44.160.246:9999/smt.php?id=zhejiang_twn
-江苏卫视,http://96.44.160.246:9999/smt.php?id=jiangsu_twn
-深圳卫视,http://96.44.160.246:9999/smt.php?id=shenzhen
-福建东南卫视,http://96.44.160.246:9999/smt.php?id=fujian
-广东大湾区卫视,http://96.44.160.246:9999/smt.php?id=nanfang_twn
-广东卫视,http://96.44.160.246:9999/smt.php?id=guangdongweishi_twn
-北京卫视,http://96.44.160.246:9999/smt.php?id=beijing
-珠江台,http://96.44.160.246:9999/smt.php?id=zhujiang
-广西卫视,http://96.44.160.246:9999/smt.php?id=guangxi
-湖北卫视,http://96.44.160.246:9999/smt.php?id=hubei
-四川卫视,http://96.44.160.246:9999/smt.php?id=sichuan_twn
-东方卫视,http://96.44.160.246:9999/smt.php?id=dongfangweishi_twn
-
-🇬🇧英国,#genre#
-BBC 1,http://96.44.160.246:9999/smt.php?id=bbc1_antik
-BBC 2,http://96.44.160.246:9999/smt.php?id=bbc2_antik
-CBBC,http://96.44.160.246:9999/smt.php?id=cbbc_antik
-More4,http://96.44.160.246:9999/smt.php?id=more4_antik
-Freesports,http://96.44.160.246:9999/smt.php?id=freesports_antik
-Pick TV,http://96.44.160.246:9999/smt.php?id=picktv_antik
-itv 1,http://96.44.160.246:9999/smt.php?id=itv1_antik
-itv 2,http://96.44.160.246:9999/smt.php?id=itv2_antik
-Euronews,http://96.44.160.246:9999/smt.php?id=euronews_antik
-Channel 4,http://96.44.160.246:9999/smt.php?id=channel4_antik
-NatGeo HD,http://96.44.160.246:9999/smt.php?id=Natgeo
-CBeebies,http://96.44.160.246:9999/smt.php?id=Cbeebies
-History,http://96.44.160.246:9999/smt.php?id=History
-Kids TV,http://96.44.160.246:9999/smt.php?id=KidsTV
-BBC Earth HD,http://96.44.160.246:9999/smt.php?id=bbcearth_twn
-BBC Earth Lifestyle,http://96.44.160.246:9999/smt.php?id=bbclifestyle_twn
-HGTV,http://96.44.160.246:9999/smt.php?id=HGTV
-TLC,http://96.44.160.246:9999/smt.php?id=Tlc
-Nickelodeon,http://96.44.160.246:9999/smt.php?id=Nickelodeon
-Nick Jr,http://96.44.160.246:9999/smt.php?id=Nickjr
-Animal Planet (Eng),http://96.44.160.246:9999/smt.php?id=AnimalPlanet
-NatGeo Wild HD,http://96.44.160.246:9999/smt.php?id=Natgeowild
-
-🇭🇰香港,#genre#
 翡翠台,http://96.44.160.246:9999/smt.php?id=jade_twn
 翡翠台 (Back up 1),http://96.44.160.246:9999/smt.php?id=jade_xue
 J 2,http://96.44.160.246:9999/smt.php?id=j2_twn
@@ -128,206 +135,6 @@ TVB Asia,http://96.44.160.246:9999/smt.php?id=Tvbasia
 TVB Entertainment,http://96.44.160.246:9999/smt.php?id=Tvbentertainment
 TVB Classic,http://96.44.160.246:9999/smt.php?id=Tvbclassic
 Viu6,http://96.44.160.246:9999/smt.php?id=viusix_twn
-
-🇮🇳印度,#genre#
-Sun TV HD,http://96.44.160.246:9999/smt.php?id=Suntv
-Star Vijay,http://96.44.160.246:9999/smt.php?id=Starvijay
-Colors Tamil,http://96.44.160.246:9999/smt.php?id=Colorstam
-Sun Music,http://96.44.160.246:9999/smt.php?id=Sunmusic
-Astro Sunlife,http://96.44.160.246:9999/smt.php?id=Sunlife
-Astro Vaanavil,http://96.44.160.246:9999/smt.php?id=Vaanavil
-Zee Tamil,http://96.44.160.246:9999/smt.php?id=Zeetamil
-Zee Business,http://96.44.160.246:9999/smt.php?id=Zeebusiness
-News 18 Tamil,http://96.44.160.246:9999/smt.php?id=news18tamil_raj
-Adithya,http://96.44.160.246:9999/smt.php?id=Adithya
-Makkal TV,http://96.44.160.246:9999/smt.php?id=Makkaltv
-Zee Action,http://96.44.160.246:9999/smt.php?id=Zeeaction
-Astro KTV,http://96.44.160.246:9999/smt.php?id=Astroktv
-Zee TV HD,http://96.44.160.246:9999/smt.php?id=Zeetvhd
-Zee Cinema HD,http://96.44.160.246:9999/smt.php?id=Zeecinemahd
-Color HD,http://96.44.160.246:9999/smt.php?id=Colorhd
-Starplus HD,http://96.44.160.246:9999/smt.php?id=Starplushd
-Picture HD,http://96.44.160.246:9999/smt.php?id=Npicture
-Zee News,http://96.44.160.246:9999/smt.php?id=Zeenews
-Asianet,http://96.44.160.246:9999/smt.php?id=asianet_raj
-Asianet News,http://96.44.160.246:9999/smt.php?id=asianetnews_raj
-Discovery World Tamil,http://96.44.160.246:9999/smt.php?id=discoveryworldtam_raj
-History Tamil,http://96.44.160.246:9999/smt.php?id=historytam_raj
-NatGeo Tamil,http://96.44.160.246:9999/smt.php?id=natgeotamil_raj
-Natgeo Wild Tamil,http://96.44.160.246:9999/smt.php?id=natgeowildtamil_raj
-Discovery Kids Tamil,http://96.44.160.246:9999/smt.php?id=discoverykidtamil_raj
-Sony Yay Tamil,http://96.44.160.246:9999/smt.php?id=sonyyaytam_raj
-Sun TV India,http://96.44.160.246:9999/smt.php?id=suntv_raj
-Starmaa HD,http://96.44.160.246:9999/smt.php?id=starmaa_raj
-Starmaa Movies HD,http://96.44.160.246:9999/smt.php?id=starmaamovies_raj
-Vijay Super,http://96.44.160.246:9999/smt.php?id=vijaysuper_raj
-Bollyone,http://96.44.160.246:9999/smt.php?id=Bollyone
-Astro Sunmusic,http://96.44.160.246:9999/smt.php?id=Sunmusic
-Thangathirai,http://96.44.160.246:9999/smt.php?id=Thangathirai
-Vinmeen,http://96.44.160.246:9999/smt.php?id=Vinmeen
-Vellithirai,http://96.44.160.246:9999/smt.php?id=Vellithirai
-Sony Pictures HD,http://96.44.160.246:9999/smt.php?id=sonypix
-
-🇯🇵日本,#genre#
-NHK-総合-2,http://96.44.160.246:9999/smt.php?id=nhkg_japan
-NHK-E,http://96.44.160.246:9999/smt.php?id=nhke_japan
-テレビ朝日 Asahi TV,http://96.44.160.246:9999/smt.php?id=asahitv_japan
-JET 綜合,http://96.44.160.246:9999/smt.php?id=jettv_japan
-テレビ東京 Tokyo TV,http://96.44.160.246:9999/smt.php?id=tokyotv_japan
-TOKYOMX,http://96.44.160.246:9999/smt.php?id=tokyomx_japan
-NHKBS1,http://96.44.160.246:9999/smt.php?id=nhkbs1_japan
-NHKBSプレミア Premium,http://96.44.160.246:9999/smt.php?id=nhkpremium_japan
-BSジャパン 181,http://96.44.160.246:9999/smt.php?id=bs181_japan
-BSフジ BS Fuji,http://96.44.160.246:9999/smt.php?id=bsfuji_japan
-CNA Japan,http://96.44.160.246:9999/smt.php?id=cna_japan
-BS-TBS,http://96.44.160.246:9999/smt.php?id=bstbs_japan
-NHK Oaska,http://96.44.160.246:9999/smt.php?id=nhkosaka_japan
-
-🇰🇷韩国,#genre#
-Arirang HD,http://96.44.160.246:9999/smt.php?id=arirang_twn
-Yonhap News,http://96.44.160.246:9999/smt.php?id=yonhapnews_korea
-CBS,http://96.44.160.246:9999/smt.php?id=cbs_korea
-EBS 1,http://96.44.160.246:9999/smt.php?id=ebs1_korea
-EBS2,http://96.44.160.246:9999/smt.php?id=ebs2_korea
-EBS Plus2,http://96.44.160.246:9999/smt.php?id=ebsplus2_korea
-SBS Plus,http://96.44.160.246:9999/smt.php?id=sbsplus_korea
-YTN,http://96.44.160.246:9999/smt.php?id=ytn_korea
-KBS World 24,http://96.44.160.246:9999/smt.php?id=kbsworld24_korea
-YTN Science,http://96.44.160.246:9999/smt.php?id=ytnscience_korea
-YTN Korean,http://96.44.160.246:9999/smt.php?id=ytnkorean_korea
-YTN DMB,http://96.44.160.246:9999/smt.php?id=ytndmb_korea
-Apps TV,http://96.44.160.246:9999/smt.php?id=appongoogle_korea
-All the Kpop,http://96.44.160.246:9999/smt.php?id=allthekpop_korea
-J the Kpop,http://96.44.160.246:9999/smt.php?id=jthekpop_korea
-EBS Kids,http://96.44.160.246:9999/smt.php?id=ebskids_korea
-CGNTV,http://96.44.160.246:9999/smt.php?id=cgntv_korea
-
-🇲🇨印度尼西亚,#genre#
-TVRi National,http://96.44.160.246:9999/smt.php?id=TVRI
-RCTI,http://96.44.160.246:9999/smt.php?id=Rcti
-Kompass TV,http://96.44.160.246:9999/smt.php?id=Kompass
-Berita Satu,http://96.44.160.246:9999/smt.php?id=BeritaSatu_eko
-Indosiar HD,http://96.44.160.246:9999/smt.php?id=Indosiar
-Metro TV,http://96.44.160.246:9999/smt.php?id=metrotv_eko
-SCTV,http://96.44.160.246:9999/smt.php?id=SCTV
-AnTV,http://96.44.160.246:9999/smt.php?id=Antv
-MNC TV,http://96.44.160.246:9999/smt.php?id=Mnctv
-Trans 7,http://96.44.160.246:9999/smt.php?id=Trans7_eko
-Transtv,http://96.44.160.246:9999/smt.php?id=Transtv
-JTV,http://96.44.160.246:9999/smt.php?id=JTV_eko
-Tvone,http://96.44.160.246:9999/smt.php?id=Tvone
-TVMU,http://96.44.160.246:9999/smt.php?id=TVMU_eko
-GTV,http://96.44.160.246:9999/smt.php?id=Gtv
-RTV,http://96.44.160.246:9999/smt.php?id=Rtv
-Jak TV,http://96.44.160.246:9999/smt.php?id=JakTV
-iNews TV,http://96.44.160.246:9999/smt.php?id=Inewstv
-Daai TV,http://96.44.160.246:9999/smt.php?id=DaaiTV
-Net TV,http://96.44.160.246:9999/smt.php?id=NetTV
-EWTN,http://96.44.160.246:9999/smt.php?id=Ewtn
-AlQuran AlKareem,http://96.44.160.246:9999/smt.php?id=Alkareem
-Tawaf TV,http://96.44.160.246:9999/smt.php?id=TawafTV
-Vision Prime,http://96.44.160.246:9999/smt.php?id=VisionPrime
-Muslim TV,http://96.44.160.246:9999/smt.php?id=MuslimTV
-Music TV,http://96.44.160.246:9999/smt.php?id=MusicTV
-Lifestyle&Fashion,http://96.44.160.246:9999/smt.php?id=Lifestyle
-Entertain,http://96.44.160.246:9999/smt.php?id=Entertain
-
-🇲🇾马来西亚MY,#genre#
-TV1,http://96.44.160.246:9999/smt.php?id=TV1
-TV1 backup,http://96.44.160.246:9999/smt.php?id=TV1_backup
-TV2,http://96.44.160.246:9999/smt.php?id=TV2
-TV3,http://96.44.160.246:9999/smt.php?id=TV3
-TV3 SD,http://96.44.160.246:9999/smt.php?id=TV3_mega
-TV3 backup,http://96.44.160.246:9999/smt.php?id=TV3_backup
-TV3 backup2,http://96.44.160.246:9999/smt.php?id=TV3_1
-TV5,http://96.44.160.246:9999/smt.php?id=TV5
-NTV7,http://96.44.160.246:9999/smt.php?id=NTV7
-8TV,http://96.44.160.246:9999/smt.php?id=TV8
-TV9,http://96.44.160.246:9999/smt.php?id=TV9
-Al-Hijrah,http://96.44.160.246:9999/smt.php?id=Alhijrah
-Quran,http://96.44.160.246:9999/smt.php?id=quran_mido
-Sunnah,http://96.44.160.246:9999/smt.php?id=sunnah_mido
-Bernama,http://96.44.160.246:9999/smt.php?id=Bernama
-Awani,http://96.44.160.246:9999/smt.php?id=Awani
-Ceria,http://96.44.160.246:9999/smt.php?id=Ceria
-Oasis,http://96.44.160.246:9999/smt.php?id=Oasis
-Boo,http://96.44.160.246:9999/smt.php?id=Boo
-Citra,http://96.44.160.246:9999/smt.php?id=AAcitra1
-Citra backup,http://96.44.160.246:9999/smt.php?id=AAcitra1
-Prima,http://96.44.160.246:9999/smt.php?id=Prima
-Prima backup,http://96.44.160.246:9999/smt.php?id=AAprima
-Ria,http://96.44.160.246:9999/smt.php?id=Ria-0
-Ria-3,http://96.44.160.246:9999/smt.php?id=Ria_backup
-Awesome TV,http://96.44.160.246:9999/smt.php?id=Dsangat
-Aura,http://96.44.160.246:9999/smt.php?id=Aura
-Sensasi,http://96.44.160.246:9999/smt.php?id=Sensasi
-Siar,http://96.44.160.246:9999/smt.php?id=Siar
-Rania,http://96.44.160.246:9999/smt.php?id=Rania
-WION,http://96.44.160.246:9999/smt.php?id=Wion
-Astro MTV,http://96.44.160.246:9999/smt.php?id=AstroMTV
-NatGeo_Wild HD,http://96.44.160.246:9999/smt.php?id=Natgeowild
-Animal_Planet,http://96.44.160.246:9999/smt.php?id=AnimalPlanet
-Showcase,http://96.44.160.246:9999/smt.php?id=Showcase
-RTM Asean,http://96.44.160.246:9999/smt.php?id=Rtmasean
-Foodnetwork Hd,http://96.44.160.246:9999/smt.php?id=Foodnetwork
-Cartoon Network,http://96.44.160.246:9999/smt.php?id=Cn
-TvN,http://96.44.160.246:9999/smt.php?id=TVN
-KBS World,http://96.44.160.246:9999/smt.php?id=KBS
-Sony HD,http://96.44.160.246:9999/smt.php?id=SetOne
-AEC,http://96.44.160.246:9999/smt.php?id=AEC
-AOD,http://96.44.160.246:9999/smt.php?id=Aodhd
-华丽台 HD (Wah Lai Toi),http://96.44.160.246:9999/smt.php?id=Wlt
-欢喜台 HD(Hua Hee Tai),http://96.44.160.246:9999/smt.php?id=Huahee
-Astro QJ,http://96.44.160.246:9999/smt.php?id=Quanjia
-TVB Jade,http://96.44.160.246:9999/smt.php?id=Tvbjade
-爱奇艺 iQiyi,http://96.44.160.246:9999/smt.php?id=Qiyi
-TVB 星河台  Xing He,http://96.44.160.246:9999/smt.php?id=Xinhe
-Discovery Asia,http://96.44.160.246:9999/smt.php?id=Discoveryasia
-Dmax,http://96.44.160.246:9999/smt.php?id=Dmax
-Celestial Movies HD,http://96.44.160.246:9999/smt.php?id=Celestial
-Astro LOL,http://96.44.160.246:9999/smt.php?id=Astro_lol
-
-🇸🇬新加坡,#genre#
-Channel 5,http://96.44.160.246:9999/smt.php?id=Channel5HD
-Channel 5 backup,http://96.44.160.246:9999/smt.php?id=Mewatch_ch5
-Channel 8,http://96.44.160.246:9999/smt.php?id=Channel8HD
-Channel 8 backup,http://96.44.160.246:9999/smt.php?id=Mewatch_ch8
-Channel U,http://96.44.160.246:9999/smt.php?id=ChannelU
-Channel U backup,http://96.44.160.246:9999/smt.php?id=Mewatch_chU
-Suria,http://96.44.160.246:9999/smt.php?id=Suria
-Suria backup,http://96.44.160.246:9999/smt.php?id=Mewatch_Suria
-Vasantham,http://96.44.160.246:9999/smt.php?id=Vasantham
-Vasantham backup,http://96.44.160.246:9999/smt.php?id=Mewatch_Vasantham
-CNA backup1,http://96.44.160.246:9999/smt.php?id=Mewatch_cna
-CNA backup2,http://96.44.160.246:9999/smt.php?id=cna_twn
-
-🇹🇭泰国,#genre#
-Channel 3 Thailand,http://96.44.160.246:9999/smt.php?id=ch3_pat
-Channel 5 Thailand,http://96.44.160.246:9999/smt.php?id=ch5_pat
-Channel 7 Thailand,http://96.44.160.246:9999/smt.php?id=ch7_pat
-MCOT HD Thailand-1,http://96.44.160.246:9999/smt.php?id=mcot_pat
-PPTV Thailand1,http://96.44.160.246:9999/smt.php?id=pptv_pat
-Thai Thai,http://96.44.160.246:9999/smt.php?id=thaithai_pat
-Amarin,http://96.44.160.246:9999/smt.php?id=amarin_pat
-Ch 8,http://96.44.160.246:9999/smt.php?id=ch8_pat
-GmmOne,http://96.44.160.246:9999/smt.php?id=gmmone_pat
-Mono,http://96.44.160.246:9999/smt.php?id=mono_pat
-Thairath,http://96.44.160.246:9999/smt.php?id=thairath_pat
-tpbs,http://96.44.160.246:9999/smt.php?id=tpbs_pat
-Workpoint,http://96.44.160.246:9999/smt.php?id=workpoint_pat
-Gmm Channel,http://96.44.160.246:9999/smt.php?id=gmmchannel_pat
-Nation,http://96.44.160.246:9999/smt.php?id=nation_pat
-Tnn24,http://96.44.160.246:9999/smt.php?id=tnn24_pat
-Nbt,http://96.44.160.246:9999/smt.php?id=nbt_pat
-New,http://96.44.160.246:9999/smt.php?id=new_pat
-TPTV,http://96.44.160.246:9999/smt.php?id=tptv_pat
-Test 1,http://96.44.160.246:9999/smt.php?id=AAA1
-Test 2,http://96.44.160.246:9999/smt.php?id=AAA2
-Test 3,http://96.44.160.246:9999/smt.php?id=AAA3
-Test 4,http://96.44.160.246:9999/smt.php?id=AAA4
-Test 5,http://96.44.160.246:9999/smt.php?id=AAA5
-
-🇹🇼台湾,#genre#
 TVBS 歡樂台,http://96.44.160.246:9999/smt.php?id=tvbshuanle_twn
 TVBS HD,http://96.44.160.246:9999/smt.php?id=tvbs
 中天娱乐 CTI Entertaiment,http://96.44.160.246:9999/smt.php?id=ctient
@@ -378,8 +185,98 @@ EYETV 戏剧,http://96.44.160.246:9999/smt.php?id=eyetvxiju_twn
 爱尔达戏剧台,http://96.44.160.246:9999/smt.php?id=eltadrama_twn
 Asia Food Network,http://96.44.160.246:9999/smt.php?id=Afc
 探索频道,http://96.44.160.246:9999/smt.php?id=discoverych_twn
-
-🇻🇳越南,#genre#
+CCTV-1 綜合,http://96.44.160.246:9999/smt.php?id=cctv1
+CCTV-2 財經,http://96.44.160.246:9999/smt.php?id=cctv2
+CCTV-3 綜藝,http://96.44.160.246:9999/smt.php?id=cctv3
+CCTV-4 中文國際,http://96.44.160.246:9999/smt.php?id=Cctv4
+CCTV-4 中文國際 (備:1),http://96.44.160.246:9999/smt.php?id=cctv4
+CCTV-7 軍事農業,http://96.44.160.246:9999/smt.php?id=cctv7
+CCTV-8 電視劇,http://96.44.160.246:9999/smt.php?id=cctv8hd
+CCTV-9 紀錄,http://96.44.160.246:9999/smt.php?id=cctv9hd
+CCTV-10 科教,http://96.44.160.246:9999/smt.php?id=cctv10hd
+CCTV-11 戲曲,http://96.44.160.246:9999/smt.php?id=cctv11
+CCTV-12 社會與法,http://96.44.160.246:9999/smt.php?id=cctv12
+CCTV-13 新聞與頻道,http://96.44.160.246:9999/smt.php?id=cctv13
+CCTV-14 少兒,http://96.44.160.246:9999/smt.php?id=cctv14
+CCTV-15 音樂,http://96.44.160.246:9999/smt.php?id=cctv15
+湖南卫视,http://96.44.160.246:9999/smt.php?id=hunan_twn
+浙江卫视,http://96.44.160.246:9999/smt.php?id=zhejiang_twn
+江苏卫视,http://96.44.160.246:9999/smt.php?id=jiangsu_twn
+深圳卫视,http://96.44.160.246:9999/smt.php?id=shenzhen
+福建东南卫视,http://96.44.160.246:9999/smt.php?id=fujian
+广东大湾区卫视,http://96.44.160.246:9999/smt.php?id=nanfang_twn
+广东卫视,http://96.44.160.246:9999/smt.php?id=guangdongweishi_twn
+北京卫视,http://96.44.160.246:9999/smt.php?id=beijing
+珠江台,http://96.44.160.246:9999/smt.php?id=zhujiang
+广西卫视,http://96.44.160.246:9999/smt.php?id=guangxi
+湖北卫视,http://96.44.160.246:9999/smt.php?id=hubei
+四川卫视,http://96.44.160.246:9999/smt.php?id=sichuan_twn
+东方卫视,http://96.44.160.246:9999/smt.php?id=dongfangweishi_twn
+Yonhap News,http://96.44.160.246:9999/smt.php?id=yonhapnews_korea
+CBS,http://96.44.160.246:9999/smt.php?id=cbs_korea
+EBS 1,http://96.44.160.246:9999/smt.php?id=ebs1_korea
+EBS2,http://96.44.160.246:9999/smt.php?id=ebs2_korea
+EBS Plus2,http://96.44.160.246:9999/smt.php?id=ebsplus2_korea
+SBS Plus,http://96.44.160.246:9999/smt.php?id=sbsplus_korea
+YTN,http://96.44.160.246:9999/smt.php?id=ytn_korea
+KBS World 24,http://96.44.160.246:9999/smt.php?id=kbsworld24_korea
+YTN Science,http://96.44.160.246:9999/smt.php?id=ytnscience_korea
+YTN Korean,http://96.44.160.246:9999/smt.php?id=ytnkorean_korea
+YTN DMB,http://96.44.160.246:9999/smt.php?id=ytndmb_korea
+Apps TV,http://96.44.160.246:9999/smt.php?id=appongoogle_korea
+All the Kpop,http://96.44.160.246:9999/smt.php?id=allthekpop_korea
+J the Kpop,http://96.44.160.246:9999/smt.php?id=jthekpop_korea
+EBS Kids,http://96.44.160.246:9999/smt.php?id=ebskids_korea
+CGNTV,http://96.44.160.246:9999/smt.php?id=cgntv_korea
+NHK-総合-2,http://96.44.160.246:9999/smt.php?id=nhkg_japan
+NHK-E,http://96.44.160.246:9999/smt.php?id=nhke_japan
+テレビ朝日 Asahi TV,http://96.44.160.246:9999/smt.php?id=asahitv_japan
+JET 綜合,http://96.44.160.246:9999/smt.php?id=jettv_japan
+テレビ東京 Tokyo TV,http://96.44.160.246:9999/smt.php?id=tokyotv_japan
+TOKYOMX,http://96.44.160.246:9999/smt.php?id=tokyomx_japan
+NHKBS1,http://96.44.160.246:9999/smt.php?id=nhkbs1_japan
+NHKBSプレミア Premium,http://96.44.160.246:9999/smt.php?id=nhkpremium_japan
+BSジャパン 181,http://96.44.160.246:9999/smt.php?id=bs181_japan
+BSフジ BS Fuji,http://96.44.160.246:9999/smt.php?id=bsfuji_japan
+CNA Japan,http://96.44.160.246:9999/smt.php?id=cna_japan
+BS-TBS,http://96.44.160.246:9999/smt.php?id=bstbs_japan
+NHK Oaska,http://96.44.160.246:9999/smt.php?id=nhkosaka_japan
+Sun TV HD,http://96.44.160.246:9999/smt.php?id=Suntv
+Star Vijay,http://96.44.160.246:9999/smt.php?id=Starvijay
+Colors Tamil,http://96.44.160.246:9999/smt.php?id=Colorstam
+Sun Music,http://96.44.160.246:9999/smt.php?id=Sunmusic
+Astro Sunlife,http://96.44.160.246:9999/smt.php?id=Sunlife
+Astro Vaanavil,http://96.44.160.246:9999/smt.php?id=Vaanavil
+Zee Tamil,http://96.44.160.246:9999/smt.php?id=Zeetamil
+Zee Business,http://96.44.160.246:9999/smt.php?id=Zeebusiness
+News 18 Tamil,http://96.44.160.246:9999/smt.php?id=news18tamil_raj
+Adithya,http://96.44.160.246:9999/smt.php?id=Adithya
+Makkal TV,http://96.44.160.246:9999/smt.php?id=Makkaltv
+Zee Action,http://96.44.160.246:9999/smt.php?id=Zeeaction
+Astro KTV,http://96.44.160.246:9999/smt.php?id=Astroktv
+Zee TV HD,http://96.44.160.246:9999/smt.php?id=Zeetvhd
+Zee Cinema HD,http://96.44.160.246:9999/smt.php?id=Zeecinemahd
+Color HD,http://96.44.160.246:9999/smt.php?id=Colorhd
+Starplus HD,http://96.44.160.246:9999/smt.php?id=Starplushd
+Picture HD,http://96.44.160.246:9999/smt.php?id=Npicture
+Zee News,http://96.44.160.246:9999/smt.php?id=Zeenews
+Asianet,http://96.44.160.246:9999/smt.php?id=asianet_raj
+Asianet News,http://96.44.160.246:9999/smt.php?id=asianetnews_raj
+Discovery World Tamil,http://96.44.160.246:9999/smt.php?id=discoveryworldtam_raj
+History Tamil,http://96.44.160.246:9999/smt.php?id=historytam_raj
+NatGeo Tamil,http://96.44.160.246:9999/smt.php?id=natgeotamil_raj
+Natgeo Wild Tamil,http://96.44.160.246:9999/smt.php?id=natgeowildtamil_raj
+Discovery Kids Tamil,http://96.44.160.246:9999/smt.php?id=discoverykidtamil_raj
+Sony Yay Tamil,http://96.44.160.246:9999/smt.php?id=sonyyaytam_raj
+Sun TV India,http://96.44.160.246:9999/smt.php?id=suntv_raj
+Starmaa HD,http://96.44.160.246:9999/smt.php?id=starmaa_raj
+Starmaa Movies HD,http://96.44.160.246:9999/smt.php?id=starmaamovies_raj
+Vijay Super,http://96.44.160.246:9999/smt.php?id=vijaysuper_raj
+Bollyone,http://96.44.160.246:9999/smt.php?id=Bollyone
+Thangathirai,http://96.44.160.246:9999/smt.php?id=Thangathirai
+Vinmeen,http://96.44.160.246:9999/smt.php?id=Vinmeen
+Vellithirai,http://96.44.160.246:9999/smt.php?id=Vellithirai
+Sony Pictures HD,http://96.44.160.246:9999/smt.php?id=sonypix
 ANTV,http://96.44.160.246:9999/smt.php?id=vtn_antv
 VTV 1,http://96.44.160.246:9999/smt.php?id=vtn_vtv1
 VTV 3,http://96.44.160.246:9999/smt.php?id=vtn_vtv3
@@ -391,88 +288,577 @@ THVL HD,http://96.44.160.246:9999/smt.php?id=vtn_thvl
 TBKTV,http://96.44.160.246:9999/smt.php?id=vtn_tbktv
 BTV HD,http://96.44.160.246:9999/smt.php?id=vtn_btvhd
 CTV HD,http://96.44.160.246:9999/smt.php?id=vtn_ctvhd
-
-📹纪录频道,#genre#
-CI,http://96.44.160.246:9999/smt.php?id=ci_twn
-Asia Travel,http://96.44.160.246:9999/smt.php?id=asiatravel_twn
-Fashion TV,http://96.44.160.246:9999/smt.php?id=fashiontv_twn
-
-📺新闻频道,#genre#
-ABC News,http://96.44.160.246:9999/smt.php?id=abcnews_glo
-iNews 互動新聞台,http://96.44.160.246:9999/smt.php?id=inews_twn
-CBS HD,http://96.44.160.246:9999/smt.php?id=cbshd_glo
-CBSN HD,http://96.44.160.246:9999/smt.php?id=cbsn_glo
-CGTN,http://96.44.160.246:9999/smt.php?id=CGTN
-DW (Deutsch),http://96.44.160.246:9999/smt.php?id=dw_twn
-Fox News,http://96.44.160.246:9999/smt.php?id=foxnews_twn
-NHK World,http://96.44.160.246:9999/smt.php?id=nhkworld_japan
-TVBS News 新聞台,http://96.44.160.246:9999/smt.php?id=tvbs_n
-Al-Jazeera,http://96.44.160.246:9999/smt.php?id=aljazeera_twn
-Bloomberg News,http://96.44.160.246:9999/smt.php?id=bloomberg_twn
-東森新聞 ETTV News,http://96.44.160.246:9999/smt.php?id=ettvnews
-東森財經新聞 ETTV Business,http://96.44.160.246:9999/smt.php?id=ettvcaijing_twn
-中天新聞 CTI News,http://96.44.160.246:9999/smt.php?id=ctinews
-非凡新聞台,http://96.44.160.246:9999/smt.php?id=feifannews_twn
-台視新聞台 TTV News,http://96.44.160.246:9999/smt.php?id=ttvnews_twn
-民視新聞台 FTV News,http://96.44.160.246:9999/smt.php?id=ftvnew_taiwan
-Al_Jazeera,http://96.44.160.246:9999/smt.php?id=Aljazeera
-寰宇新聞台,http://96.44.160.246:9999/smt.php?id=huanyuxinwen_twn
-中視新聞台,http://96.44.160.246:9999/smt.php?id=zhongshinews_twn
-CNN,http://96.44.160.246:9999/smt.php?id=Cnn
-CNN backup,http://96.44.160.246:9999/smt.php?id=cnn_twn
-BBC World News,http://96.44.160.246:9999/smt.php?id=Bbcnews
-CNBC,http://96.44.160.246:9999/smt.php?id=Cnbc
-Bloomberg TV,http://96.44.160.246:9999/smt.php?id=Bloomberg
-CNA,http://96.44.160.246:9999/smt.php?id=cna
-DW,http://96.44.160.246:9999/smt.php?id=Dw
-France 24,http://96.44.160.246:9999/smt.php?id=france24_twn
-Skynews,http://96.44.160.246:9999/smt.php?id=Skynews
-NHK Premium,http://96.44.160.246:9999/smt.php?id=NHKpremium
-
-📽电影频道,#genre#
-Now星影台(粤),http://74.91.26.218:82/live/nowxy.m3u8
-Now星影台(粤),https://stream1.freetv.fun/b56bee75906bfad78f50f3eccffccdc4ed2dfe763f4fd01135948baae9af8e35.m3u8
-华数电影1080p,http://hmfs.f3322.net:3388/hls/40/index.m3u8
-CCTV-6 電影,http://96.44.160.246:9999/smt.php?id=cctv6
-HBO_HD,http://96.44.160.246:9999/smt.php?id=hbohd_twn
-HBO_HITS,http://96.44.160.246:9999/smt.php?id=hbohits_twn
-HBO Signature Taiwan,http://96.44.160.246:9999/smt.php?id=hbosignature_twn
-Hollywood Movies,http://96.44.160.246:9999/smt.php?id=hollywoodmovies_twn
-AXN Taiwan,http://96.44.160.246:9999/smt.php?id=axn_twn
-CINEMAX,http://96.44.160.246:9999/smt.php?id=cinemax_twn
-Cinemax,http://96.44.160.246:9999/smt.php?id=Cinemax
-大爱2台,http://96.44.160.246:9999/smt.php?id=daai2_twn
-东森电影 ETTV Movie,http://96.44.160.246:9999/smt.php?id=ettvmovie
-东森洋片 ETTV Western,http://96.44.160.246:9999/smt.php?id=ettvwestern
-龙华洋片 Lunghua Western,http://96.44.160.246:9999/smt.php?id=lunghuawestern_twn
-Animax,http://96.44.160.246:9999/smt.php?id=Animax
-龙详时代,http://96.44.160.246:9999/smt.php?id=lungxiangtime_twn
-Movies Now HD,http://96.44.160.246:9999/smt.php?id=moviesnow_raj
-Star Movies HD,http://96.44.160.246:9999/smt.php?id=starmovies_raj
-卫视中文台 Star Movies Chinese,http://96.44.160.246:9999/smt.php?id=weishichinese_twn
-Hits,http://96.44.160.246:9999/smt.php?id=Hits
-Warner TV,http://96.44.160.246:9999/smt.php?id=WarnerTV
-美亚电影,http://96.44.160.246:9999/smt.php?id=meiyamovie_twn
-SCM,http://96.44.160.246:9999/smt.php?id=Weishimovie
-Thrill,http://96.44.160.246:9999/smt.php?id=Thrill
-HBO Family,http://96.44.160.246:9999/smt.php?id=Hbofamily
-Axn HD,http://96.44.160.246:9999/smt.php?id=Axn
-HBO HD,http://96.44.160.246:9999/smt.php?id=Hbo
-HBO Signature,http://96.44.160.246:9999/smt.php?id=Hbosignature
-HBO Hits,http://96.44.160.246:9999/smt.php?id=Hbohitshd
-Dreamworks,http://96.44.160.246:9999/smt.php?id=Dreamworks
-Hits Movie,http://96.44.160.246:9999/smt.php?id=Hitsmovie
-tvN Movie,http://96.44.160.246:9999/smt.php?id=Tvnmovie
-Astrol Kplus,http://96.44.160.246:9999/smt.php?id=Kplus
-One,http://96.44.160.246:9999/smt.php?id=One
-天映頻道Celestial Movies,http://96.44.160.246:9999/smt.php?id=Celestialindo
-Celestial Classic,http://96.44.160.246:9999/smt.php?id=Celestial2
-Rock Actions,http://96.44.160.246:9999/smt.php?id=Rockaction
-Rock Entertainment,http://96.44.160.246:9999/smt.php?id=Rockentertain
-
-🧚‍♀儿童频道,#genre#
+Channel 3 Thailand,http://96.44.160.246:9999/smt.php?id=ch3_pat
+Channel 5 Thailand,http://96.44.160.246:9999/smt.php?id=ch5_pat
+Channel 7 Thailand,http://96.44.160.246:9999/smt.php?id=ch7_pat
+MCOT HD Thailand-1,http://96.44.160.246:9999/smt.php?id=mcot_pat
+PPTV Thailand1,http://96.44.160.246:9999/smt.php?id=pptv_pat
+Thai Thai,http://96.44.160.246:9999/smt.php?id=thaithai_pat
+Amarin,http://96.44.160.246:9999/smt.php?id=amarin_pat
+Ch 8,http://96.44.160.246:9999/smt.php?id=ch8_pat
+GmmOne,http://96.44.160.246:9999/smt.php?id=gmmone_pat
+Mono,http://96.44.160.246:9999/smt.php?id=mono_pat
+Thairath,http://96.44.160.246:9999/smt.php?id=thairath_pat
+tpbs,http://96.44.160.246:9999/smt.php?id=tpbs_pat
+Workpoint,http://96.44.160.246:9999/smt.php?id=workpoint_pat
+Gmm Channel,http://96.44.160.246:9999/smt.php?id=gmmchannel_pat
+Nation,http://96.44.160.246:9999/smt.php?id=nation_pat
+Tnn24,http://96.44.160.246:9999/smt.php?id=tnn24_pat
+Nbt,http://96.44.160.246:9999/smt.php?id=nbt_pat
+New,http://96.44.160.246:9999/smt.php?id=new_pat
+TPTV,http://96.44.160.246:9999/smt.php?id=tptv_pat
+Test 1,http://96.44.160.246:9999/smt.php?id=AAA1
+Test 2,http://96.44.160.246:9999/smt.php?id=AAA2
+Test 3,http://96.44.160.246:9999/smt.php?id=AAA3
+Test 4,http://96.44.160.246:9999/smt.php?id=AAA4
+Test 5,http://96.44.160.246:9999/smt.php?id=AAA5
+BBC 1,http://96.44.160.246:9999/smt.php?id=bbc1_antik
+BBC 2,http://96.44.160.246:9999/smt.php?id=bbc2_antik
+CBBC,http://96.44.160.246:9999/smt.php?id=cbbc_antik
+More4,http://96.44.160.246:9999/smt.php?id=more4_antik
+Freesports,http://96.44.160.246:9999/smt.php?id=freesports_antik
+Pick TV,http://96.44.160.246:9999/smt.php?id=picktv_antik
+itv 1,http://96.44.160.246:9999/smt.php?id=itv1_antik
+itv 2,http://96.44.160.246:9999/smt.php?id=itv2_antik
+Euronews,http://96.44.160.246:9999/smt.php?id=euronews_antik
+Channel 4,http://96.44.160.246:9999/smt.php?id=channel4_antik
+NatGeo HD,http://96.44.160.246:9999/smt.php?id=Natgeo
+CBeebies,http://96.44.160.246:9999/smt.php?id=Cbeebies
+History,http://96.44.160.246:9999/smt.php?id=History
+Kids TV,http://96.44.160.246:9999/smt.php?id=KidsTV
+BBC Earth HD,http://96.44.160.246:9999/smt.php?id=bbcearth_twn
+BBC Earth Lifestyle,http://96.44.160.246:9999/smt.php?id=bbclifestyle_twn
+HGTV,http://96.44.160.246:9999/smt.php?id=HGTV
+TLC,http://96.44.160.246:9999/smt.php?id=Tlc
+Nickelodeon,http://96.44.160.246:9999/smt.php?id=Nickelodeon
+Nick Jr,http://96.44.160.246:9999/smt.php?id=Nickjr
+Animal Planet (Eng),http://96.44.160.246:9999/smt.php?id=AnimalPlanet
+NatGeo Wild HD,http://96.44.160.246:9999/smt.php?id=Natgeowild
+BBC World News,http://96.44.160.246:9999/smt.php?id=bbcworldnews_antik
+Channel 5,http://96.44.160.246:9999/smt.php?id=Channel5HD
+Channel 5 backup,http://96.44.160.246:9999/smt.php?id=Mewatch_ch5
+Channel 8,http://96.44.160.246:9999/smt.php?id=Channel8HD
+Channel 8 backup,http://96.44.160.246:9999/smt.php?id=Mewatch_ch8
+Channel U,http://96.44.160.246:9999/smt.php?id=ChannelU
+Channel U backup,http://96.44.160.246:9999/smt.php?id=Mewatch_chU
+Suria,http://96.44.160.246:9999/smt.php?id=Suria
+Suria backup,http://96.44.160.246:9999/smt.php?id=Mewatch_Suria
+Vasantham,http://96.44.160.246:9999/smt.php?id=Vasantham
+Vasantham backup,http://96.44.160.246:9999/smt.php?id=Mewatch_Vasantham
+CNA backup1,http://96.44.160.246:9999/smt.php?id=Mewatch_cna
+CNA backup2,http://96.44.160.246:9999/smt.php?id=cna_twn
+TV1,http://96.44.160.246:9999/smt.php?id=TV1
+TV1 backup,http://96.44.160.246:9999/smt.php?id=TV1_backup
+TV2,http://96.44.160.246:9999/smt.php?id=TV2
+TV3,http://96.44.160.246:9999/smt.php?id=TV3
+TV3 SD,http://96.44.160.246:9999/smt.php?id=TV3_mega
+TV3 backup,http://96.44.160.246:9999/smt.php?id=TV3_backup
+TV3 backup2,http://96.44.160.246:9999/smt.php?id=TV3_1
+TV5,http://96.44.160.246:9999/smt.php?id=TV5
+NTV7,http://96.44.160.246:9999/smt.php?id=NTV7
+8TV,http://96.44.160.246:9999/smt.php?id=TV8
+TV9,http://96.44.160.246:9999/smt.php?id=TV9
+Al-Hijrah,http://96.44.160.246:9999/smt.php?id=Alhijrah
+Quran,http://96.44.160.246:9999/smt.php?id=quran_mido
+Sunnah,http://96.44.160.246:9999/smt.php?id=sunnah_mido
+Bernama,http://96.44.160.246:9999/smt.php?id=Bernama
+Awani,http://96.44.160.246:9999/smt.php?id=Awani
+Ceria,http://96.44.160.246:9999/smt.php?id=Ceria
+Oasis,http://96.44.160.246:9999/smt.php?id=Oasis
+Boo,http://96.44.160.246:9999/smt.php?id=Boo
+Citra,http://96.44.160.246:9999/smt.php?id=AAcitra1
+Prima,http://96.44.160.246:9999/smt.php?id=Prima
+Prima backup,http://96.44.160.246:9999/smt.php?id=AAprima
+Ria,http://96.44.160.246:9999/smt.php?id=Ria-0
+Ria-3,http://96.44.160.246:9999/smt.php?id=Ria_backup
+Awesome TV,http://96.44.160.246:9999/smt.php?id=Dsangat
+Aura,http://96.44.160.246:9999/smt.php?id=Aura
+Sensasi,http://96.44.160.246:9999/smt.php?id=Sensasi
+Siar,http://96.44.160.246:9999/smt.php?id=Siar
+Rania,http://96.44.160.246:9999/smt.php?id=Rania
+WION,http://96.44.160.246:9999/smt.php?id=Wion
+Astro MTV,http://96.44.160.246:9999/smt.php?id=AstroMTV
+Showcase,http://96.44.160.246:9999/smt.php?id=Showcase
+RTM Asean,http://96.44.160.246:9999/smt.php?id=Rtmasean
+Foodnetwork Hd,http://96.44.160.246:9999/smt.php?id=Foodnetwork
+Cartoon Network,http://96.44.160.246:9999/smt.php?id=Cn
+TvN,http://96.44.160.246:9999/smt.php?id=TVN
+KBS World,http://96.44.160.246:9999/smt.php?id=KBS
+Sony HD,http://96.44.160.246:9999/smt.php?id=SetOne
+AEC,http://96.44.160.246:9999/smt.php?id=AEC
+AOD,http://96.44.160.246:9999/smt.php?id=Aodhd
+华丽台 HD (Wah Lai Toi),http://96.44.160.246:9999/smt.php?id=Wlt
+欢喜台 HD(Hua Hee Tai),http://96.44.160.246:9999/smt.php?id=Huahee
+Astro QJ,http://96.44.160.246:9999/smt.php?id=Quanjia
+TVB Jade,http://96.44.160.246:9999/smt.php?id=Tvbjade
+爱奇艺 iQiyi,http://96.44.160.246:9999/smt.php?id=Qiyi
+TVB 星河台  Xing He,http://96.44.160.246:9999/smt.php?id=Xinhe
+Discovery Asia,http://96.44.160.246:9999/smt.php?id=Discoveryasia
+Dmax,http://96.44.160.246:9999/smt.php?id=Dmax
+Celestial Movies HD,http://96.44.160.246:9999/smt.php?id=Celestial
+Astro LOL,http://96.44.160.246:9999/smt.php?id=Astro_lol
+TVRi National,http://96.44.160.246:9999/smt.php?id=TVRI
+RCTI,http://96.44.160.246:9999/smt.php?id=Rcti
+Kompass TV,http://96.44.160.246:9999/smt.php?id=Kompass
+Berita Satu,http://96.44.160.246:9999/smt.php?id=BeritaSatu_eko
+Indosiar HD,http://96.44.160.246:9999/smt.php?id=Indosiar
+Metro TV,http://96.44.160.246:9999/smt.php?id=metrotv_eko
+SCTV,http://96.44.160.246:9999/smt.php?id=SCTV
+AnTV,http://96.44.160.246:9999/smt.php?id=Antv
+MNC TV,http://96.44.160.246:9999/smt.php?id=Mnctv
+Trans 7,http://96.44.160.246:9999/smt.php?id=Trans7_eko
+Transtv,http://96.44.160.246:9999/smt.php?id=Transtv
+JTV,http://96.44.160.246:9999/smt.php?id=JTV_eko
+Tvone,http://96.44.160.246:9999/smt.php?id=Tvone
+TVMU,http://96.44.160.246:9999/smt.php?id=TVMU_eko
+GTV,http://96.44.160.246:9999/smt.php?id=Gtv
+RTV,http://96.44.160.246:9999/smt.php?id=Rtv
+Jak TV,http://96.44.160.246:9999/smt.php?id=JakTV
+iNews TV,http://96.44.160.246:9999/smt.php?id=Inewstv
+Daai TV,http://96.44.160.246:9999/smt.php?id=DaaiTV
+Net TV,http://96.44.160.246:9999/smt.php?id=NetTV
+EWTN,http://96.44.160.246:9999/smt.php?id=Ewtn
+AlQuran AlKareem,http://96.44.160.246:9999/smt.php?id=Alkareem
+Tawaf TV,http://96.44.160.246:9999/smt.php?id=TawafTV
+Vision Prime,http://96.44.160.246:9999/smt.php?id=VisionPrime
+Muslim TV,http://96.44.160.246:9999/smt.php?id=MuslimTV
+Music TV,http://96.44.160.246:9999/smt.php?id=MusicTV
+Lifestyle&Fashion,http://96.44.160.246:9999/smt.php?id=Lifestyle
+Entertain,http://96.44.160.246:9999/smt.php?id=Entertain
 Baby TV Eng,http://96.44.160.246:9999/smt.php?id=Ind_babytv
 Momo TV,http://96.44.160.246:9999/smt.php?id=momo1_twn
 Baby TV,http://96.44.160.246:9999/smt.php?id=babytv_twn
 MiaoMi,http://96.44.160.246:9999/smt.php?id=MiaoMi
-
+CI,http://96.44.160.246:9999/smt.php?id=ci_twn
+Asia Travel,http://96.44.160.246:9999/smt.php?id=asiatravel_twn
+Fashion TV,http://96.44.160.246:9999/smt.php?id=fashiontv_twn
+美亚电影,https://sto.ufile.eu.org/smt.php?id=meiyamovie_twn&h=sto.ufile.eu.org&p=22364
+天映頻道Celestial Movies,https://sto.ufile.eu.org/smt.php?id=Celestialindo&h=sto.ufile.eu.org&p=22364
+龙详时代,https://sto.ufile.eu.org/smt.php?id=lungxiangtime_twn&h=sto.ufile.eu.org&p=22364
+大爱2台,https://sto.ufile.eu.org/smt.php?id=daai2_twn&h=sto.ufile.eu.org&p=22364
+东森电影 ETTV Movie,https://sto.ufile.eu.org/smt.php?id=ettvmovie&h=sto.ufile.eu.org&p=22364
+东森洋片 ETTV Western,https://sto.ufile.eu.org/smt.php?id=ettvwestern&h=sto.ufile.eu.org&p=22364
+龙华洋片 Lunghua Western,https://sto.ufile.eu.org/smt.php?id=lunghuawestern_twn&h=sto.ufile.eu.org&p=22364
+纬来电影台,https://sto.ufile.eu.org/smt.php?id=videolandmovie&h=sto.ufile.eu.org&p=22364
+CCTV-6 電影,https://sto.ufile.eu.org/smt.php?id=cctv6&h=sto.ufile.eu.org&p=22364
+HBO_HD,https://sto.ufile.eu.org/smt.php?id=hbohd_twn&h=sto.ufile.eu.org&p=22364
+HBO_HITS,https://sto.ufile.eu.org/smt.php?id=hbohits_twn&h=sto.ufile.eu.org&p=22364
+HBO Signature Taiwan,https://sto.ufile.eu.org/smt.php?id=hbosignature_twn&h=sto.ufile.eu.org&p=22364
+Hollywood Movies,https://sto.ufile.eu.org/smt.php?id=hollywoodmovies_twn&h=sto.ufile.eu.org&p=22364
+AXN Taiwan,https://sto.ufile.eu.org/smt.php?id=axn_twn&h=sto.ufile.eu.org&p=22364
+CINEMAX,https://sto.ufile.eu.org/smt.php?id=cinemax_twn&h=sto.ufile.eu.org&p=22364
+Cinemax,https://sto.ufile.eu.org/smt.php?id=Cinemax&h=sto.ufile.eu.org&p=22364
+Animax,https://sto.ufile.eu.org/smt.php?id=Animax&h=sto.ufile.eu.org&p=22364
+Movies Now HD,https://sto.ufile.eu.org/smt.php?id=moviesnow_raj&h=sto.ufile.eu.org&p=22364
+Star Movies HD,https://sto.ufile.eu.org/smt.php?id=starmovies_raj&h=sto.ufile.eu.org&p=22364
+卫视中文台 Star Movies Chinese,https://sto.ufile.eu.org/smt.php?id=weishichinese_twn&h=sto.ufile.eu.org&p=22364
+Hits,https://sto.ufile.eu.org/smt.php?id=Hits&h=sto.ufile.eu.org&p=22364
+Warner TV,https://sto.ufile.eu.org/smt.php?id=WarnerTV&h=sto.ufile.eu.org&p=22364
+SCM,https://sto.ufile.eu.org/smt.php?id=Weishimovie&h=sto.ufile.eu.org&p=22364
+Thrill,https://sto.ufile.eu.org/smt.php?id=Thrill&h=sto.ufile.eu.org&p=22364
+HBO Family,https://sto.ufile.eu.org/smt.php?id=Hbofamily&h=sto.ufile.eu.org&p=22364
+Axn HD,https://sto.ufile.eu.org/smt.php?id=Axn&h=sto.ufile.eu.org&p=22364
+HBO HD,https://sto.ufile.eu.org/smt.php?id=Hbo&h=sto.ufile.eu.org&p=22364
+HBO Signature,https://sto.ufile.eu.org/smt.php?id=Hbosignature&h=sto.ufile.eu.org&p=22364
+HBO Hits,https://sto.ufile.eu.org/smt.php?id=Hbohitshd&h=sto.ufile.eu.org&p=22364
+Dreamworks,https://sto.ufile.eu.org/smt.php?id=Dreamworks&h=sto.ufile.eu.org&p=22364
+Hits Movie,https://sto.ufile.eu.org/smt.php?id=Hitsmovie&h=sto.ufile.eu.org&p=22364
+tvN Movie,https://sto.ufile.eu.org/smt.php?id=Tvnmovie&h=sto.ufile.eu.org&p=22364
+Astrol Kplus,https://sto.ufile.eu.org/smt.php?id=Kplus&h=sto.ufile.eu.org&p=22364
+One,https://sto.ufile.eu.org/smt.php?id=One&h=sto.ufile.eu.org&p=22364
+Celestial Classic,https://sto.ufile.eu.org/smt.php?id=Celestial2&h=sto.ufile.eu.org&p=22364
+Rock Actions,https://sto.ufile.eu.org/smt.php?id=Rockaction&h=sto.ufile.eu.org&p=22364
+Rock Entertainment,https://sto.ufile.eu.org/smt.php?id=Rockentertain&h=sto.ufile.eu.org&p=22364
+ABC News,https://sto.ufile.eu.org/smt.php?id=abcnews_glo&h=sto.ufile.eu.org&p=22364
+iNews 互動新聞台,https://sto.ufile.eu.org/smt.php?id=inews_twn&h=sto.ufile.eu.org&p=22364
+CBS HD,https://sto.ufile.eu.org/smt.php?id=cbshd_glo&h=sto.ufile.eu.org&p=22364
+CBSN HD,https://sto.ufile.eu.org/smt.php?id=cbsn_glo&h=sto.ufile.eu.org&p=22364
+CCTV-13 新聞與頻道,https://sto.ufile.eu.org/smt.php?id=cctv13&h=sto.ufile.eu.org&p=22364
+CGTN,https://sto.ufile.eu.org/smt.php?id=CGTN&h=sto.ufile.eu.org&p=22364
+DW (Deutsch),https://sto.ufile.eu.org/smt.php?id=dw_twn&h=sto.ufile.eu.org&p=22364
+Fox News,https://sto.ufile.eu.org/smt.php?id=foxnews_twn&h=sto.ufile.eu.org&p=22364
+NHK World,https://sto.ufile.eu.org/smt.php?id=nhkworld_japan&h=sto.ufile.eu.org&p=22364
+TVBS News 新聞台,https://sto.ufile.eu.org/smt.php?id=tvbs_n&h=sto.ufile.eu.org&p=22364
+Al-Jazeera,https://sto.ufile.eu.org/smt.php?id=aljazeera_twn&h=sto.ufile.eu.org&p=22364
+Bloomberg News,https://sto.ufile.eu.org/smt.php?id=bloomberg_twn&h=sto.ufile.eu.org&p=22364
+東森新聞 ETTV News,https://sto.ufile.eu.org/smt.php?id=ettvnews&h=sto.ufile.eu.org&p=22364
+東森財經新聞 ETTV Business,https://sto.ufile.eu.org/smt.php?id=ettvcaijing_twn&h=sto.ufile.eu.org&p=22364
+中天新聞 CTI News,https://sto.ufile.eu.org/smt.php?id=ctinews&h=sto.ufile.eu.org&p=22364
+非凡新聞台,https://sto.ufile.eu.org/smt.php?id=feifannews_twn&h=sto.ufile.eu.org&p=22364
+台視新聞台 TTV News,https://sto.ufile.eu.org/smt.php?id=ttvnews_twn&h=sto.ufile.eu.org&p=22364
+民視新聞台 FTV News,https://sto.ufile.eu.org/smt.php?id=ftvnew_taiwan&h=sto.ufile.eu.org&p=22364
+Al_Jazeera,https://sto.ufile.eu.org/smt.php?id=Aljazeera&h=sto.ufile.eu.org&p=22364
+寰宇新聞台,https://sto.ufile.eu.org/smt.php?id=huanyuxinwen_twn&h=sto.ufile.eu.org&p=22364
+中視新聞台,https://sto.ufile.eu.org/smt.php?id=zhongshinews_twn&h=sto.ufile.eu.org&p=22364
+CNN,https://sto.ufile.eu.org/smt.php?id=Cnn&h=sto.ufile.eu.org&p=22364
+CNN backup,https://sto.ufile.eu.org/smt.php?id=cnn_twn&h=sto.ufile.eu.org&p=22364
+BBC World News,https://sto.ufile.eu.org/smt.php?id=Bbcnews&h=sto.ufile.eu.org&p=22364
+CNBC,https://sto.ufile.eu.org/smt.php?id=Cnbc&h=sto.ufile.eu.org&p=22364
+Bloomberg TV,https://sto.ufile.eu.org/smt.php?id=Bloomberg&h=sto.ufile.eu.org&p=22364
+CNA,https://sto.ufile.eu.org/smt.php?id=cna&h=sto.ufile.eu.org&p=22364
+DW,https://sto.ufile.eu.org/smt.php?id=Dw&h=sto.ufile.eu.org&p=22364
+France 24,https://sto.ufile.eu.org/smt.php?id=france24_twn&h=sto.ufile.eu.org&p=22364
+France 24,https://sto.ufile.eu.org/smt.php?id=France24&h=sto.ufile.eu.org&p=22364
+Skynews,https://sto.ufile.eu.org/smt.php?id=Skynews&h=sto.ufile.eu.org&p=22364
+Skynews,https://sto.ufile.eu.org/smt.php?id=skynews_twn&h=sto.ufile.eu.org&p=22364
+NHK Premium,https://sto.ufile.eu.org/smt.php?id=NHKpremium&h=sto.ufile.eu.org&p=22364
+Astro PL 1,https://sto.ufile.eu.org/smt.php?id=Assp1&h=sto.ufile.eu.org&p=22364
+Astro PL 1 (Back Up 1),https://sto.ufile.eu.org/smt.php?id=go_assp1&h=sto.ufile.eu.org&p=22364
+Astro PL 1 (Back Up 2),https://sto.ufile.eu.org/smt.php?id=go_assp1x&h=sto.ufile.eu.org&p=22364
+Astro W-Sports,https://sto.ufile.eu.org/smt.php?id=go_assp5&h=sto.ufile.eu.org&p=22364
+Astro PL 2,https://sto.ufile.eu.org/smt.php?id=go_assp2&h=sto.ufile.eu.org&p=22364
+WWE,https://sto.ufile.eu.org/smt.php?id=Wwe&h=sto.ufile.eu.org&p=22364
+博斯高球2 HD,https://sto.ufile.eu.org/smt.php?id=bosigolf2_twn&h=sto.ufile.eu.org&p=22364
+博斯网球 HD,https://sto.ufile.eu.org/smt.php?id=bositennis_twn&h=sto.ufile.eu.org&p=22364
+Fight Sports,https://sto.ufile.eu.org/smt.php?id=Fs&h=sto.ufile.eu.org&p=22364
+NBA TV,https://sto.ufile.eu.org/smt.php?id=Nba&h=sto.ufile.eu.org&p=22364
+Arena,https://sto.ufile.eu.org/smt.php?id=Arena&h=sto.ufile.eu.org&p=22364
+Arena 2,https://sto.ufile.eu.org/smt.php?id=Arena2&h=sto.ufile.eu.org&p=22364
+Arena Bola 1,https://sto.ufile.eu.org/smt.php?id=Bolaarena1&h=sto.ufile.eu.org&p=22364
+Arena Bola 2,https://sto.ufile.eu.org/smt.php?id=Bolaarena2&h=sto.ufile.eu.org&p=22364
+Astro Golf,https://sto.ufile.eu.org/smt.php?id=Agolf&h=sto.ufile.eu.org&p=22364
+RTM Sports HD,https://sto.ufile.eu.org/smt.php?id=Rtmsport&h=sto.ufile.eu.org&p=22364
+Astro Football,https://sto.ufile.eu.org/smt.php?id=go_assp4&h=sto.ufile.eu.org&p=22364
+Astro Football (Back Up 1),https://sto.ufile.eu.org/smt.php?id=Assp4&h=sto.ufile.eu.org&p=22364
+Astro Badminton,https://sto.ufile.eu.org/smt.php?id=go_badminton1&h=sto.ufile.eu.org&p=22364
+Astro Badminton 2,https://sto.ufile.eu.org/smt.php?id=go_badminton2&h=sto.ufile.eu.org&p=22364
+SPOTV 1 HD,https://sto.ufile.eu.org/smt.php?id=go_spotv&h=sto.ufile.eu.org&p=22364
+SPO TV 2,https://sto.ufile.eu.org/smt.php?id=go_spotv2&h=sto.ufile.eu.org&p=22364
+CCTV-5 體育,https://sto.ufile.eu.org/smt.php?id=cctv5&h=sto.ufile.eu.org&p=22364
+CCTV-5+ 體育,https://sto.ufile.eu.org/smt.php?id=cctv5plus&h=sto.ufile.eu.org&p=22364
+Supersports 2,https://sto.ufile.eu.org/smt.php?id=Assp2&h=sto.ufile.eu.org&p=22364
+Astro Grandstand,https://sto.ufile.eu.org/smt.php?id=go_assp3&h=sto.ufile.eu.org&p=22364
+Astro Cricket,https://sto.ufile.eu.org/smt.php?id=Acricket&h=sto.ufile.eu.org&p=22364
+Tnt Sports 1,https://sto.ufile.eu.org/smt.php?id=tntsport1&h=sto.ufile.eu.org&p=22364
+Astro Grandstand (Back Up 1),https://sto.ufile.eu.org/smt.php?id=Assp3&h=sto.ufile.eu.org&p=22364
+TNT Sports 2,https://sto.ufile.eu.org/smt.php?id=tntsport2&h=sto.ufile.eu.org&p=22364
+TNT Sports 3,https://sto.ufile.eu.org/smt.php?id=tntsport3&h=sto.ufile.eu.org&p=22364
+TNT Sports 4,https://sto.ufile.eu.org/smt.php?id=tntsport4&h=sto.ufile.eu.org&p=22364
+Astro Sports Plus,https://sto.ufile.eu.org/smt.php?id=go_sportsplus&h=sto.ufile.eu.org&p=22364
+Elta体育1台,https://sto.ufile.eu.org/smt.php?id=eltasport1_twn&h=sto.ufile.eu.org&p=22364
+Elta體育2台,https://sto.ufile.eu.org/smt.php?id=eltasport2_twn&h=sto.ufile.eu.org&p=22364
+Elta體育3台,https://sto.ufile.eu.org/smt.php?id=eltasport3_twn&h=sto.ufile.eu.org&p=22364
+Rugby Pass TV,https://sto.ufile.eu.org/smt.php?id=Rugbypasstv&h=sto.ufile.eu.org&p=22364
+Astro Beinsports 1,https://sto.ufile.eu.org/smt.php?id=Astrobein1&h=sto.ufile.eu.org&p=22364
+Astro Beinsports 2,https://sto.ufile.eu.org/smt.php?id=Astrobein2&h=sto.ufile.eu.org&p=22364
+Astro Beinsports 3,https://sto.ufile.eu.org/smt.php?id=Astrobein3&h=sto.ufile.eu.org&p=22364
+Skysports Cricket,https://sto.ufile.eu.org/smt.php?id=tiankongcricket&h=sto.ufile.eu.org&p=22364
+Skysports EPL,https://sto.ufile.eu.org/smt.php?id=tiankongepl&h=sto.ufile.eu.org&p=22364
+Skysports F1,https://sto.ufile.eu.org/smt.php?id=tiankongf1&h=sto.ufile.eu.org&p=22364
+Skysports Golf,https://sto.ufile.eu.org/smt.php?id=tiankonggolf&h=sto.ufile.eu.org&p=22364
+Skysports Main Event,https://sto.ufile.eu.org/smt.php?id=tiankongmain&h=sto.ufile.eu.org&p=22364
+Skysports Mix,https://sto.ufile.eu.org/smt.php?id=tiankongmix&h=sto.ufile.eu.org&p=22364
+Skysports Racing,https://sto.ufile.eu.org/smt.php?id=tiankongracing&h=sto.ufile.eu.org&p=22364
+DAZN 1,https://sto.ufile.eu.org/smt.php?id=dazn1_twn&h=sto.ufile.eu.org&p=22364
+DAZN 2,https://sto.ufile.eu.org/smt.php?id=dazn2_twn&h=sto.ufile.eu.org&p=22364
+Eurosport,https://sto.ufile.eu.org/smt.php?id=Eurosport&h=sto.ufile.eu.org&p=22364
+翡翠台,https://sto.ufile.eu.org/smt.php?id=jade_twn&h=sto.ufile.eu.org&p=22364
+翡翠台 (Back up 1),https://sto.ufile.eu.org/smt.php?id=jade_xue&h=sto.ufile.eu.org&p=22364
+J 2,https://sto.ufile.eu.org/smt.php?id=j2_twn&h=sto.ufile.eu.org&p=22364
+珍珠台,https://sto.ufile.eu.org/smt.php?id=pearl_twn&h=sto.ufile.eu.org&p=22364
+凤凰香港,https://sto.ufile.eu.org/smt.php?id=hkphoenix_twn&h=sto.ufile.eu.org&p=22364
+无线财经资讯台,https://sto.ufile.eu.org/smt.php?id=hoycaijing_twn&h=sto.ufile.eu.org&p=22364
+RHK 31,https://sto.ufile.eu.org/smt.php?id=rhk31_twn&h=sto.ufile.eu.org&p=22364
+VIUTV1,https://sto.ufile.eu.org/smt.php?id=viu1_twn&h=sto.ufile.eu.org&p=22364
+RHK 32,https://sto.ufile.eu.org/smt.php?id=rhk32_twn&h=sto.ufile.eu.org&p=22364
+TVB Asia,https://sto.ufile.eu.org/smt.php?id=Tvbasia&h=sto.ufile.eu.org&p=22364
+凤凰卫视,https://sto.ufile.eu.org/smt.php?id=phoenixtv_hd&h=sto.ufile.eu.org&p=22364
+鳳凰資訊,https://sto.ufile.eu.org/smt.php?id=phoenixinfo_hd&h=sto.ufile.eu.org&p=22364
+TVB Entertainment,https://sto.ufile.eu.org/smt.php?id=Tvbentertainment&h=sto.ufile.eu.org&p=22364
+TVB Classic,https://sto.ufile.eu.org/smt.php?id=Tvbclassic&h=sto.ufile.eu.org&p=22364
+Viu6,https://sto.ufile.eu.org/smt.php?id=viusix_twn&h=sto.ufile.eu.org&p=22364
+TVBS 歡樂台,https://sto.ufile.eu.org/smt.php?id=tvbshuanle_twn&h=sto.ufile.eu.org&p=22364
+TVBS HD,https://sto.ufile.eu.org/smt.php?id=tvbs&h=sto.ufile.eu.org&p=22364
+中天娱乐 CTI Entertaiment,https://sto.ufile.eu.org/smt.php?id=ctient&h=sto.ufile.eu.org&p=22364
+中天综合 CTI Metro,https://sto.ufile.eu.org/smt.php?id=ctizhonghe&h=sto.ufile.eu.org&p=22364
+中天亚洲台,https://sto.ufile.eu.org/smt.php?id=ctiasia_twn&h=sto.ufile.eu.org&p=22364
+台视 TTV HD,https://sto.ufile.eu.org/smt.php?id=ttv_taiwan&h=sto.ufile.eu.org&p=22364
+台视综合台,https://sto.ufile.eu.org/smt.php?id=ttvzhonghe&h=sto.ufile.eu.org&p=22364
+中视 HD,https://sto.ufile.eu.org/smt.php?id=zhongshihd_twn&h=sto.ufile.eu.org&p=22364
+民视 HD,https://sto.ufile.eu.org/smt.php?id=ftvhd_taiwan&h=sto.ufile.eu.org&p=22364
+民视台湾台,https://sto.ufile.eu.org/smt.php?id=ftvtaiwan_twn&h=sto.ufile.eu.org&p=22364
+华视 CTS HD,https://sto.ufile.eu.org/smt.php?id=ctshd_twn&h=sto.ufile.eu.org&p=22364
+公视 CTV,https://sto.ufile.eu.org/smt.php?id=ctv18_twn&h=sto.ufile.eu.org&p=22364
+八大第一 GTV First,https://sto.ufile.eu.org/smt.php?id=badafirst&h=sto.ufile.eu.org&p=22364
+八大综合 GTV Metro,https://sto.ufile.eu.org/smt.php?id=badazhonghe&h=sto.ufile.eu.org&p=22364
+八大戏剧 GTV Drama,https://sto.ufile.eu.org/smt.php?id=badadrama&h=sto.ufile.eu.org&p=22364
+八大娱乐 GTV Entertainment,https://sto.ufile.eu.org/smt.php?id=badaentertain&h=sto.ufile.eu.org&p=22364
+三立台湾 Sanli Taiwan,https://sto.ufile.eu.org/smt.php?id=sanlitaiwan&h=sto.ufile.eu.org&p=22364
+三立戏剧台,https://sto.ufile.eu.org/smt.php?id=sanlixiju_twn&h=sto.ufile.eu.org&p=22364
+三立综合 Sanli Metro,https://sto.ufile.eu.org/smt.php?id=sanlizhonghe&h=sto.ufile.eu.org&p=22364
+三立都会台,https://sto.ufile.eu.org/smt.php?id=sanlidouhui_twn&h=sto.ufile.eu.org&p=22364
+东森综合 ETTV Metro,https://sto.ufile.eu.org/smt.php?id=ettvzhonghe&h=sto.ufile.eu.org&p=22364
+东森戏剧 ETTV Drama,https://sto.ufile.eu.org/smt.php?id=ettvdrama&h=sto.ufile.eu.org&p=22364
+公视2,https://sto.ufile.eu.org/smt.php?id=ctv2_twn&h=sto.ufile.eu.org&p=22364
+大爱1台,https://sto.ufile.eu.org/smt.php?id=daai_twn&h=sto.ufile.eu.org&p=22364
+龙华戏剧 Lunghua Drama,https://sto.ufile.eu.org/smt.php?id=lunghuaxiju_twn&h=sto.ufile.eu.org&p=22364
+龙华经典台,https://sto.ufile.eu.org/smt.php?id=lunghuajingdian_twn&h=sto.ufile.eu.org&p=22364
+龙华偶像,https://sto.ufile.eu.org/smt.php?id=lunghuaidol_twn&h=sto.ufile.eu.org&p=22364
+靖天国际台,https://sto.ufile.eu.org/smt.php?id=jingtianintl_twn&h=sto.ufile.eu.org&p=22364
+年代新闻,https://sto.ufile.eu.org/smt.php?id=niandainews_twn&h=sto.ufile.eu.org&p=22364
+纬来日本台,https://sto.ufile.eu.org/smt.php?id=videolandjapan&h=sto.ufile.eu.org&p=22364
+纬来体育台,https://sto.ufile.eu.org/smt.php?id=videolandsport&h=sto.ufile.eu.org&p=22364
+纬来综合台,https://sto.ufile.eu.org/smt.php?id=videolandzonghe&h=sto.ufile.eu.org&p=22364
+纬来育乐,https://sto.ufile.eu.org/smt.php?id=videolandmax&h=sto.ufile.eu.org&p=22364
+纬来精彩,https://sto.ufile.eu.org/smt.php?id=videolandtv&h=sto.ufile.eu.org&p=22364
+好消息 2,https://sto.ufile.eu.org/smt.php?id=good2_twn&h=sto.ufile.eu.org&p=22364
+亚洲美食,https://sto.ufile.eu.org/smt.php?id=afc_twn&h=sto.ufile.eu.org&p=22364
+亚洲旅游 TLC Asia,https://sto.ufile.eu.org/smt.php?id=tlc_twn&h=sto.ufile.eu.org&p=22364
+阿里郎 Arirang,https://sto.ufile.eu.org/smt.php?id=arirang_twn&h=sto.ufile.eu.org&p=22364
+博斯运动 1,https://sto.ufile.eu.org/smt.php?id=bosisport1_twn&h=sto.ufile.eu.org&p=22364
+博斯运动 2,https://sto.ufile.eu.org/smt.php?id=bosisport2_twn&h=sto.ufile.eu.org&p=22364
+博斯无限,https://sto.ufile.eu.org/smt.php?id=bosiunlimited_twn&h=sto.ufile.eu.org&p=22364
+MTV Live,https://sto.ufile.eu.org/smt.php?id=mtvhd_twn&h=sto.ufile.eu.org&p=22364
+EYETV 旅游,https://sto.ufile.eu.org/smt.php?id=eyetvtravel_twn&h=sto.ufile.eu.org&p=22364
+靖天卡通台,https://sto.ufile.eu.org/smt.php?id=jingtiancartoon_twn&h=sto.ufile.eu.org&p=22364
+EYETV 戏剧,https://sto.ufile.eu.org/smt.php?id=eyetvxiju_twn&h=sto.ufile.eu.org&p=22364
+东森幼幼 Yoyo TV,https://sto.ufile.eu.org/smt.php?id=yoyo_twn&h=sto.ufile.eu.org&p=22364
+爱尔达戏剧台,https://sto.ufile.eu.org/smt.php?id=eltadrama_twn&h=sto.ufile.eu.org&p=22364
+Asia Food Network,https://sto.ufile.eu.org/smt.php?id=Afc&h=sto.ufile.eu.org&p=22364
+探索频道,https://sto.ufile.eu.org/smt.php?id=discoverych_twn&h=sto.ufile.eu.org&p=22364
+CCTV-1 綜合,https://sto.ufile.eu.org/smt.php?id=cctv1&h=sto.ufile.eu.org&p=22364
+CCTV-2 財經,https://sto.ufile.eu.org/smt.php?id=cctv2&h=sto.ufile.eu.org&p=22364
+CCTV-3 綜藝,https://sto.ufile.eu.org/smt.php?id=cctv3&h=sto.ufile.eu.org&p=22364
+CCTV-4 中文國際,https://sto.ufile.eu.org/smt.php?id=Cctv4&h=sto.ufile.eu.org&p=22364
+CCTV-4 中文國際 (備:1),https://sto.ufile.eu.org/smt.php?id=cctv4&h=sto.ufile.eu.org&p=22364
+CCTV-7 軍事農業,https://sto.ufile.eu.org/smt.php?id=cctv7&h=sto.ufile.eu.org&p=22364
+CCTV-8 電視劇,https://sto.ufile.eu.org/smt.php?id=cctv8hd&h=sto.ufile.eu.org&p=22364
+CCTV-9 紀錄,https://sto.ufile.eu.org/smt.php?id=cctv9hd&h=sto.ufile.eu.org&p=22364
+CCTV-10 科教,https://sto.ufile.eu.org/smt.php?id=cctv10hd&h=sto.ufile.eu.org&p=22364
+CCTV-11 戲曲,https://sto.ufile.eu.org/smt.php?id=cctv11&h=sto.ufile.eu.org&p=22364
+CCTV-12 社會與法,https://sto.ufile.eu.org/smt.php?id=cctv12&h=sto.ufile.eu.org&p=22364
+CCTV-14 少兒,https://sto.ufile.eu.org/smt.php?id=cctv14&h=sto.ufile.eu.org&p=22364
+CCTV-15 音樂,https://sto.ufile.eu.org/smt.php?id=cctv15&h=sto.ufile.eu.org&p=22364
+湖南卫视,https://sto.ufile.eu.org/smt.php?id=hunan_twn&h=sto.ufile.eu.org&p=22364
+浙江卫视,https://sto.ufile.eu.org/smt.php?id=zhejiang_twn&h=sto.ufile.eu.org&p=22364
+江苏卫视,https://sto.ufile.eu.org/smt.php?id=jiangsu_twn&h=sto.ufile.eu.org&p=22364
+深圳卫视,https://sto.ufile.eu.org/smt.php?id=shenzhen&h=sto.ufile.eu.org&p=22364
+福建东南卫视,https://sto.ufile.eu.org/smt.php?id=fujian&h=sto.ufile.eu.org&p=22364
+广东大湾区卫视,https://sto.ufile.eu.org/smt.php?id=nanfang_twn&h=sto.ufile.eu.org&p=22364
+广东卫视,https://sto.ufile.eu.org/smt.php?id=guangdongweishi_twn&h=sto.ufile.eu.org&p=22364
+北京卫视,https://sto.ufile.eu.org/smt.php?id=beijing&h=sto.ufile.eu.org&p=22364
+珠江台,https://sto.ufile.eu.org/smt.php?id=zhujiang&h=sto.ufile.eu.org&p=22364
+广西卫视,https://sto.ufile.eu.org/smt.php?id=guangxi&h=sto.ufile.eu.org&p=22364
+湖北卫视,https://sto.ufile.eu.org/smt.php?id=hubei&h=sto.ufile.eu.org&p=22364
+四川卫视,https://sto.ufile.eu.org/smt.php?id=sichuan_twn&h=sto.ufile.eu.org&p=22364
+东方卫视,https://sto.ufile.eu.org/smt.php?id=dongfangweishi_twn&h=sto.ufile.eu.org&p=22364
+Yonhap News,https://sto.ufile.eu.org/smt.php?id=yonhapnews_korea&h=sto.ufile.eu.org&p=22364
+CBS,https://sto.ufile.eu.org/smt.php?id=cbs_korea&h=sto.ufile.eu.org&p=22364
+EBS 1,https://sto.ufile.eu.org/smt.php?id=ebs1_korea&h=sto.ufile.eu.org&p=22364
+EBS2,https://sto.ufile.eu.org/smt.php?id=ebs2_korea&h=sto.ufile.eu.org&p=22364
+EBS Plus2,https://sto.ufile.eu.org/smt.php?id=ebsplus2_korea&h=sto.ufile.eu.org&p=22364
+SBS Plus,https://sto.ufile.eu.org/smt.php?id=sbsplus_korea&h=sto.ufile.eu.org&p=22364
+YTN,https://sto.ufile.eu.org/smt.php?id=ytn_korea&h=sto.ufile.eu.org&p=22364
+KBS World 24,https://sto.ufile.eu.org/smt.php?id=kbsworld24_korea&h=sto.ufile.eu.org&p=22364
+YTN Science,https://sto.ufile.eu.org/smt.php?id=ytnscience_korea&h=sto.ufile.eu.org&p=22364
+YTN Korean,https://sto.ufile.eu.org/smt.php?id=ytnkorean_korea&h=sto.ufile.eu.org&p=22364
+YTN DMB,https://sto.ufile.eu.org/smt.php?id=ytndmb_korea&h=sto.ufile.eu.org&p=22364
+Apps TV,https://sto.ufile.eu.org/smt.php?id=appongoogle_korea&h=sto.ufile.eu.org&p=22364
+All the Kpop,https://sto.ufile.eu.org/smt.php?id=allthekpop_korea&h=sto.ufile.eu.org&p=22364
+J the Kpop,https://sto.ufile.eu.org/smt.php?id=jthekpop_korea&h=sto.ufile.eu.org&p=22364
+EBS Kids,https://sto.ufile.eu.org/smt.php?id=ebskids_korea&h=sto.ufile.eu.org&p=22364
+CGNTV,https://sto.ufile.eu.org/smt.php?id=cgntv_korea&h=sto.ufile.eu.org&p=22364
+NHK-総合-2,https://sto.ufile.eu.org/smt.php?id=nhkg_japan&h=sto.ufile.eu.org&p=22364
+NHK-E,https://sto.ufile.eu.org/smt.php?id=nhke_japan&h=sto.ufile.eu.org&p=22364
+テレビ朝日 Asahi TV,https://sto.ufile.eu.org/smt.php?id=asahitv_japan&h=sto.ufile.eu.org&p=22364
+JET 綜合,https://sto.ufile.eu.org/smt.php?id=jettv_japan&h=sto.ufile.eu.org&p=22364
+テレビ東京 Tokyo TV,https://sto.ufile.eu.org/smt.php?id=tokyotv_japan&h=sto.ufile.eu.org&p=22364
+TOKYOMX,https://sto.ufile.eu.org/smt.php?id=tokyomx_japan&h=sto.ufile.eu.org&p=22364
+NHKBS1,https://sto.ufile.eu.org/smt.php?id=nhkbs1_japan&h=sto.ufile.eu.org&p=22364
+NHKBSプレミア Premium,https://sto.ufile.eu.org/smt.php?id=nhkpremium_japan&h=sto.ufile.eu.org&p=22364
+BSジャパン 181,https://sto.ufile.eu.org/smt.php?id=bs181_japan&h=sto.ufile.eu.org&p=22364
+BSフジ BS Fuji,https://sto.ufile.eu.org/smt.php?id=bsfuji_japan&h=sto.ufile.eu.org&p=22364
+CNA Japan,https://sto.ufile.eu.org/smt.php?id=cna_japan&h=sto.ufile.eu.org&p=22364
+BS-TBS,https://sto.ufile.eu.org/smt.php?id=bstbs_japan&h=sto.ufile.eu.org&p=22364
+NHK Oaska,https://sto.ufile.eu.org/smt.php?id=nhkosaka_japan&h=sto.ufile.eu.org&p=22364
+Sun TV HD,https://sto.ufile.eu.org/smt.php?id=Suntv&h=sto.ufile.eu.org&p=22364
+Star Vijay,https://sto.ufile.eu.org/smt.php?id=Starvijay&h=sto.ufile.eu.org&p=22364
+Colors Tamil,https://sto.ufile.eu.org/smt.php?id=Colorstam&h=sto.ufile.eu.org&p=22364
+Sun Music,https://sto.ufile.eu.org/smt.php?id=Sunmusic&h=sto.ufile.eu.org&p=22364
+Astro Sunlife,https://sto.ufile.eu.org/smt.php?id=Sunlife&h=sto.ufile.eu.org&p=22364
+Astro Vaanavil,https://sto.ufile.eu.org/smt.php?id=Vaanavil&h=sto.ufile.eu.org&p=22364
+Zee Tamil,https://sto.ufile.eu.org/smt.php?id=Zeetamil&h=sto.ufile.eu.org&p=22364
+Zee Business,https://sto.ufile.eu.org/smt.php?id=Zeebusiness&h=sto.ufile.eu.org&p=22364
+News 18 Tamil,https://sto.ufile.eu.org/smt.php?id=news18tamil_raj&h=sto.ufile.eu.org&p=22364
+Adithya,https://sto.ufile.eu.org/smt.php?id=Adithya&h=sto.ufile.eu.org&p=22364
+Makkal TV,https://sto.ufile.eu.org/smt.php?id=Makkaltv&h=sto.ufile.eu.org&p=22364
+Zee Action,https://sto.ufile.eu.org/smt.php?id=Zeeaction&h=sto.ufile.eu.org&p=22364
+Astro KTV,https://sto.ufile.eu.org/smt.php?id=Astroktv&h=sto.ufile.eu.org&p=22364
+Zee TV HD,https://sto.ufile.eu.org/smt.php?id=Zeetvhd&h=sto.ufile.eu.org&p=22364
+Zee Cinema HD,https://sto.ufile.eu.org/smt.php?id=Zeecinemahd&h=sto.ufile.eu.org&p=22364
+Color HD,https://sto.ufile.eu.org/smt.php?id=Colorhd&h=sto.ufile.eu.org&p=22364
+Starplus HD,https://sto.ufile.eu.org/smt.php?id=Starplushd&h=sto.ufile.eu.org&p=22364
+Picture HD,https://sto.ufile.eu.org/smt.php?id=Npicture&h=sto.ufile.eu.org&p=22364
+Zee News,https://sto.ufile.eu.org/smt.php?id=Zeenews&h=sto.ufile.eu.org&p=22364
+Asianet,https://sto.ufile.eu.org/smt.php?id=asianet_raj&h=sto.ufile.eu.org&p=22364
+Asianet News,https://sto.ufile.eu.org/smt.php?id=asianetnews_raj&h=sto.ufile.eu.org&p=22364
+Discovery World Tamil,https://sto.ufile.eu.org/smt.php?id=discoveryworldtam_raj&h=sto.ufile.eu.org&p=22364
+History Tamil,https://sto.ufile.eu.org/smt.php?id=historytam_raj&h=sto.ufile.eu.org&p=22364
+NatGeo Tamil,https://sto.ufile.eu.org/smt.php?id=natgeotamil_raj&h=sto.ufile.eu.org&p=22364
+Natgeo Wild Tamil,https://sto.ufile.eu.org/smt.php?id=natgeowildtamil_raj&h=sto.ufile.eu.org&p=22364
+Discovery Kids Tamil,https://sto.ufile.eu.org/smt.php?id=discoverykidtamil_raj&h=sto.ufile.eu.org&p=22364
+Sony Yay Tamil,https://sto.ufile.eu.org/smt.php?id=sonyyaytam_raj&h=sto.ufile.eu.org&p=22364
+Sun TV India,https://sto.ufile.eu.org/smt.php?id=suntv_raj&h=sto.ufile.eu.org&p=22364
+Starmaa HD,https://sto.ufile.eu.org/smt.php?id=starmaa_raj&h=sto.ufile.eu.org&p=22364
+Starmaa Movies HD,https://sto.ufile.eu.org/smt.php?id=starmaamovies_raj&h=sto.ufile.eu.org&p=22364
+Vijay Super,https://sto.ufile.eu.org/smt.php?id=vijaysuper_raj&h=sto.ufile.eu.org&p=22364
+Bollyone,https://sto.ufile.eu.org/smt.php?id=Bollyone&h=sto.ufile.eu.org&p=22364
+Thangathirai,https://sto.ufile.eu.org/smt.php?id=Thangathirai&h=sto.ufile.eu.org&p=22364
+Vinmeen,https://sto.ufile.eu.org/smt.php?id=Vinmeen&h=sto.ufile.eu.org&p=22364
+Vellithirai,https://sto.ufile.eu.org/smt.php?id=Vellithirai&h=sto.ufile.eu.org&p=22364
+Sony Pictures HD,https://sto.ufile.eu.org/smt.php?id=sonypix&h=sto.ufile.eu.org&p=22364
+BBC 1,https://sto.ufile.eu.org/smt.php?id=bbc1_antik&h=sto.ufile.eu.org&p=22364
+BBC 2,https://sto.ufile.eu.org/smt.php?id=bbc2_antik&h=sto.ufile.eu.org&p=22364
+CBBC,https://sto.ufile.eu.org/smt.php?id=cbbc_antik&h=sto.ufile.eu.org&p=22364
+More4,https://sto.ufile.eu.org/smt.php?id=more4_antik&h=sto.ufile.eu.org&p=22364
+Freesports,https://sto.ufile.eu.org/smt.php?id=freesports_antik&h=sto.ufile.eu.org&p=22364
+Pick TV,https://sto.ufile.eu.org/smt.php?id=picktv_antik&h=sto.ufile.eu.org&p=22364
+itv 1,https://sto.ufile.eu.org/smt.php?id=itv1_antik&h=sto.ufile.eu.org&p=22364
+itv 2,https://sto.ufile.eu.org/smt.php?id=itv2_antik&h=sto.ufile.eu.org&p=22364
+Euronews,https://sto.ufile.eu.org/smt.php?id=euronews_antik&h=sto.ufile.eu.org&p=22364
+Channel 4,https://sto.ufile.eu.org/smt.php?id=channel4_antik&h=sto.ufile.eu.org&p=22364
+NatGeo HD,https://sto.ufile.eu.org/smt.php?id=Natgeo&h=sto.ufile.eu.org&p=22364
+CBeebies,https://sto.ufile.eu.org/smt.php?id=Cbeebies&h=sto.ufile.eu.org&p=22364
+History,https://sto.ufile.eu.org/smt.php?id=History&h=sto.ufile.eu.org&p=22364
+Kids TV,https://sto.ufile.eu.org/smt.php?id=KidsTV&h=sto.ufile.eu.org&p=22364
+BBC Earth HD,https://sto.ufile.eu.org/smt.php?id=bbcearth_twn&h=sto.ufile.eu.org&p=22364
+BBC Earth Lifestyle,https://sto.ufile.eu.org/smt.php?id=bbclifestyle_twn&h=sto.ufile.eu.org&p=22364
+HGTV,https://sto.ufile.eu.org/smt.php?id=HGTV&h=sto.ufile.eu.org&p=22364
+TLC,https://sto.ufile.eu.org/smt.php?id=Tlc&h=sto.ufile.eu.org&p=22364
+Nickelodeon,https://sto.ufile.eu.org/smt.php?id=Nickelodeon&h=sto.ufile.eu.org&p=22364
+Nick Jr,https://sto.ufile.eu.org/smt.php?id=Nickjr&h=sto.ufile.eu.org&p=22364
+Animal Planet (Eng),https://sto.ufile.eu.org/smt.php?id=AnimalPlanet&h=sto.ufile.eu.org&p=22364
+NatGeo Wild HD,https://sto.ufile.eu.org/smt.php?id=Natgeowild&h=sto.ufile.eu.org&p=22364
+BBC World News,https://sto.ufile.eu.org/smt.php?id=bbcworldnews_antik&h=sto.ufile.eu.org&p=22364
+ANTV,https://sto.ufile.eu.org/smt.php?id=vtn_antv&h=sto.ufile.eu.org&p=22364
+VTV 1,https://sto.ufile.eu.org/smt.php?id=vtn_vtv1&h=sto.ufile.eu.org&p=22364
+VTV 3,https://sto.ufile.eu.org/smt.php?id=vtn_vtv3&h=sto.ufile.eu.org&p=22364
+VTV 4,https://sto.ufile.eu.org/smt.php?id=vtn_vtv4&h=sto.ufile.eu.org&p=22364
+VTV 6,https://sto.ufile.eu.org/smt.php?id=vtn_vtv6&h=sto.ufile.eu.org&p=22364
+HTV 7,https://sto.ufile.eu.org/smt.php?id=vtn_htv7&h=sto.ufile.eu.org&p=22364
+HTV 9,https://sto.ufile.eu.org/smt.php?id=vtn_htv9&h=sto.ufile.eu.org&p=22364
+THVL HD,https://sto.ufile.eu.org/smt.php?id=vtn_thvl&h=sto.ufile.eu.org&p=22364
+TBKTV,https://sto.ufile.eu.org/smt.php?id=vtn_tbktv&h=sto.ufile.eu.org&p=22364
+BTV HD,https://sto.ufile.eu.org/smt.php?id=vtn_btvhd&h=sto.ufile.eu.org&p=22364
+CTV HD,https://sto.ufile.eu.org/smt.php?id=vtn_ctvhd&h=sto.ufile.eu.org&p=22364
+Channel 3 Thailand,https://sto.ufile.eu.org/smt.php?id=ch3_pat&h=sto.ufile.eu.org&p=22364
+Channel 5 Thailand,https://sto.ufile.eu.org/smt.php?id=ch5_pat&h=sto.ufile.eu.org&p=22364
+Channel 7 Thailand,https://sto.ufile.eu.org/smt.php?id=ch7_pat&h=sto.ufile.eu.org&p=22364
+MCOT HD Thailand-1,https://sto.ufile.eu.org/smt.php?id=mcot_pat&h=sto.ufile.eu.org&p=22364
+PPTV Thailand1,https://sto.ufile.eu.org/smt.php?id=pptv_pat&h=sto.ufile.eu.org&p=22364
+Thai Thai,https://sto.ufile.eu.org/smt.php?id=thaithai_pat&h=sto.ufile.eu.org&p=22364
+Amarin,https://sto.ufile.eu.org/smt.php?id=amarin_pat&h=sto.ufile.eu.org&p=22364
+Ch 8,https://sto.ufile.eu.org/smt.php?id=ch8_pat&h=sto.ufile.eu.org&p=22364
+GmmOne,https://sto.ufile.eu.org/smt.php?id=gmmone_pat&h=sto.ufile.eu.org&p=22364
+Mono,https://sto.ufile.eu.org/smt.php?id=mono_pat&h=sto.ufile.eu.org&p=22364
+Thairath,https://sto.ufile.eu.org/smt.php?id=thairath_pat&h=sto.ufile.eu.org&p=22364
+tpbs,https://sto.ufile.eu.org/smt.php?id=tpbs_pat&h=sto.ufile.eu.org&p=22364
+Workpoint,https://sto.ufile.eu.org/smt.php?id=workpoint_pat&h=sto.ufile.eu.org&p=22364
+Gmm Channel,https://sto.ufile.eu.org/smt.php?id=gmmchannel_pat&h=sto.ufile.eu.org&p=22364
+Nation,https://sto.ufile.eu.org/smt.php?id=nation_pat&h=sto.ufile.eu.org&p=22364
+Tnn24,https://sto.ufile.eu.org/smt.php?id=tnn24_pat&h=sto.ufile.eu.org&p=22364
+Nbt,https://sto.ufile.eu.org/smt.php?id=nbt_pat&h=sto.ufile.eu.org&p=22364
+New,https://sto.ufile.eu.org/smt.php?id=new_pat&h=sto.ufile.eu.org&p=22364
+TPTV,https://sto.ufile.eu.org/smt.php?id=tptv_pat&h=sto.ufile.eu.org&p=22364
+Test 1,https://sto.ufile.eu.org/smt.php?id=AAA1&h=sto.ufile.eu.org&p=22364
+Test 2,https://sto.ufile.eu.org/smt.php?id=AAA2&h=sto.ufile.eu.org&p=22364
+Test 3,https://sto.ufile.eu.org/smt.php?id=AAA3&h=sto.ufile.eu.org&p=22364
+Test 4,https://sto.ufile.eu.org/smt.php?id=AAA4&h=sto.ufile.eu.org&p=22364
+Test 5,https://sto.ufile.eu.org/smt.php?id=AAA5&h=sto.ufile.eu.org&p=22364
+Channel 5,https://sto.ufile.eu.org/smt.php?id=Channel5HD&h=sto.ufile.eu.org&p=22364
+Channel 5 backup,https://sto.ufile.eu.org/smt.php?id=Mewatch_ch5&h=sto.ufile.eu.org&p=22364
+Channel 8,https://sto.ufile.eu.org/smt.php?id=Channel8HD&h=sto.ufile.eu.org&p=22364
+Channel 8 backup,https://sto.ufile.eu.org/smt.php?id=Mewatch_ch8&h=sto.ufile.eu.org&p=22364
+Channel U,https://sto.ufile.eu.org/smt.php?id=ChannelU&h=sto.ufile.eu.org&p=22364
+Channel U backup,https://sto.ufile.eu.org/smt.php?id=Mewatch_chU&h=sto.ufile.eu.org&p=22364
+Suria,https://sto.ufile.eu.org/smt.php?id=Suria&h=sto.ufile.eu.org&p=22364
+Suria backup,https://sto.ufile.eu.org/smt.php?id=Mewatch_Suria&h=sto.ufile.eu.org&p=22364
+Vasantham,https://sto.ufile.eu.org/smt.php?id=Vasantham&h=sto.ufile.eu.org&p=22364
+Vasantham backup,https://sto.ufile.eu.org/smt.php?id=Mewatch_Vasantham&h=sto.ufile.eu.org&p=22364
+CNA backup1,https://sto.ufile.eu.org/smt.php?id=Mewatch_cna&h=sto.ufile.eu.org&p=22364
+CNA backup2,https://sto.ufile.eu.org/smt.php?id=cna_twn&h=sto.ufile.eu.org&p=22364
+TVRi National,https://sto.ufile.eu.org/smt.php?id=TVRI&h=sto.ufile.eu.org&p=22364
+RCTI,https://sto.ufile.eu.org/smt.php?id=Rcti&h=sto.ufile.eu.org&p=22364
+Kompass TV,https://sto.ufile.eu.org/smt.php?id=Kompass&h=sto.ufile.eu.org&p=22364
+Berita Satu,https://sto.ufile.eu.org/smt.php?id=BeritaSatu_eko&h=sto.ufile.eu.org&p=22364
+Indosiar HD,https://sto.ufile.eu.org/smt.php?id=Indosiar&h=sto.ufile.eu.org&p=22364
+Metro TV,https://sto.ufile.eu.org/smt.php?id=metrotv_eko&h=sto.ufile.eu.org&p=22364
+SCTV,https://sto.ufile.eu.org/smt.php?id=SCTV&h=sto.ufile.eu.org&p=22364
+AnTV,https://sto.ufile.eu.org/smt.php?id=Antv&h=sto.ufile.eu.org&p=22364
+MNC TV,https://sto.ufile.eu.org/smt.php?id=Mnctv&h=sto.ufile.eu.org&p=22364
+Trans 7,https://sto.ufile.eu.org/smt.php?id=Trans7_eko&h=sto.ufile.eu.org&p=22364
+Transtv,https://sto.ufile.eu.org/smt.php?id=Transtv&h=sto.ufile.eu.org&p=22364
+JTV,https://sto.ufile.eu.org/smt.php?id=JTV_eko&h=sto.ufile.eu.org&p=22364
+Tvone,https://sto.ufile.eu.org/smt.php?id=Tvone&h=sto.ufile.eu.org&p=22364
+TVMU,https://sto.ufile.eu.org/smt.php?id=TVMU_eko&h=sto.ufile.eu.org&p=22364
+GTV,https://sto.ufile.eu.org/smt.php?id=Gtv&h=sto.ufile.eu.org&p=22364
+RTV,https://sto.ufile.eu.org/smt.php?id=Rtv&h=sto.ufile.eu.org&p=22364
+Jak TV,https://sto.ufile.eu.org/smt.php?id=JakTV&h=sto.ufile.eu.org&p=22364
+iNews TV,https://sto.ufile.eu.org/smt.php?id=Inewstv&h=sto.ufile.eu.org&p=22364
+Daai TV,https://sto.ufile.eu.org/smt.php?id=DaaiTV&h=sto.ufile.eu.org&p=22364
+Net TV,https://sto.ufile.eu.org/smt.php?id=NetTV&h=sto.ufile.eu.org&p=22364
+EWTN,https://sto.ufile.eu.org/smt.php?id=Ewtn&h=sto.ufile.eu.org&p=22364
+AlQuran AlKareem,https://sto.ufile.eu.org/smt.php?id=Alkareem&h=sto.ufile.eu.org&p=22364
+Tawaf TV,https://sto.ufile.eu.org/smt.php?id=TawafTV&h=sto.ufile.eu.org&p=22364
+Vision Prime,https://sto.ufile.eu.org/smt.php?id=VisionPrime&h=sto.ufile.eu.org&p=22364
+Muslim TV,https://sto.ufile.eu.org/smt.php?id=MuslimTV&h=sto.ufile.eu.org&p=22364
+Music TV,https://sto.ufile.eu.org/smt.php?id=MusicTV&h=sto.ufile.eu.org&p=22364
+Lifestyle&Fashion,https://sto.ufile.eu.org/smt.php?id=Lifestyle&h=sto.ufile.eu.org&p=22364
+Entertain,https://sto.ufile.eu.org/smt.php?id=Entertain&h=sto.ufile.eu.org&p=22364
+TV1,https://sto.ufile.eu.org/smt.php?id=TV1&h=sto.ufile.eu.org&p=22364
+TV1 backup,https://sto.ufile.eu.org/smt.php?id=TV1_backup&h=sto.ufile.eu.org&p=22364
+TV2,https://sto.ufile.eu.org/smt.php?id=TV2&h=sto.ufile.eu.org&p=22364
+TV3,https://sto.ufile.eu.org/smt.php?id=TV3&h=sto.ufile.eu.org&p=22364
+TV3 SD,https://sto.ufile.eu.org/smt.php?id=TV3_mega&h=sto.ufile.eu.org&p=22364
+TV3 backup,https://sto.ufile.eu.org/smt.php?id=TV3_backup&h=sto.ufile.eu.org&p=22364
+TV3 backup2,https://sto.ufile.eu.org/smt.php?id=TV3_1&h=sto.ufile.eu.org&p=22364
+TV5,https://sto.ufile.eu.org/smt.php?id=TV5&h=sto.ufile.eu.org&p=22364
+NTV7,https://sto.ufile.eu.org/smt.php?id=NTV7&h=sto.ufile.eu.org&p=22364
+8TV,https://sto.ufile.eu.org/smt.php?id=TV8&h=sto.ufile.eu.org&p=22364
+TV9,https://sto.ufile.eu.org/smt.php?id=TV9&h=sto.ufile.eu.org&p=22364
+Al-Hijrah,https://sto.ufile.eu.org/smt.php?id=Alhijrah&h=sto.ufile.eu.org&p=22364
+Quran,https://sto.ufile.eu.org/smt.php?id=quran_mido&h=sto.ufile.eu.org&p=22364
+Sunnah,https://sto.ufile.eu.org/smt.php?id=sunnah_mido&h=sto.ufile.eu.org&p=22364
+Bernama,https://sto.ufile.eu.org/smt.php?id=Bernama&h=sto.ufile.eu.org&p=22364
+Awani,https://sto.ufile.eu.org/smt.php?id=Awani&h=sto.ufile.eu.org&p=22364
+Ceria,https://sto.ufile.eu.org/smt.php?id=Ceria&h=sto.ufile.eu.org&p=22364
+Oasis,https://sto.ufile.eu.org/smt.php?id=Oasis&h=sto.ufile.eu.org&p=22364
+Boo,https://sto.ufile.eu.org/smt.php?id=Boo&h=sto.ufile.eu.org&p=22364
+Citra,https://sto.ufile.eu.org/smt.php?id=AAcitra1&h=sto.ufile.eu.org&p=22364
+Prima,https://sto.ufile.eu.org/smt.php?id=Prima&h=sto.ufile.eu.org&p=22364
+Prima backup,https://sto.ufile.eu.org/smt.php?id=AAprima&h=sto.ufile.eu.org&p=22364
+Ria,https://sto.ufile.eu.org/smt.php?id=Ria-0&h=sto.ufile.eu.org&p=22364
+Ria-3,https://sto.ufile.eu.org/smt.php?id=Ria_backup&h=sto.ufile.eu.org&p=22364
+Awesome TV,https://sto.ufile.eu.org/smt.php?id=Dsangat&h=sto.ufile.eu.org&p=22364
+Aura,https://sto.ufile.eu.org/smt.php?id=Aura&h=sto.ufile.eu.org&p=22364
+Sensasi,https://sto.ufile.eu.org/smt.php?id=Sensasi&h=sto.ufile.eu.org&p=22364
+Siar,https://sto.ufile.eu.org/smt.php?id=Siar&h=sto.ufile.eu.org&p=22364
+Rania,https://sto.ufile.eu.org/smt.php?id=Rania&h=sto.ufile.eu.org&p=22364
+WION,https://sto.ufile.eu.org/smt.php?id=Wion&h=sto.ufile.eu.org&p=22364
+Astro MTV,https://sto.ufile.eu.org/smt.php?id=AstroMTV&h=sto.ufile.eu.org&p=22364
+Showcase,https://sto.ufile.eu.org/smt.php?id=Showcase&h=sto.ufile.eu.org&p=22364
+RTM Asean,https://sto.ufile.eu.org/smt.php?id=Rtmasean&h=sto.ufile.eu.org&p=22364
+Foodnetwork Hd,https://sto.ufile.eu.org/smt.php?id=Foodnetwork&h=sto.ufile.eu.org&p=22364
+Cartoon Network,https://sto.ufile.eu.org/smt.php?id=Cn&h=sto.ufile.eu.org&p=22364
+TvN,https://sto.ufile.eu.org/smt.php?id=TVN&h=sto.ufile.eu.org&p=22364
+KBS World,https://sto.ufile.eu.org/smt.php?id=KBS&h=sto.ufile.eu.org&p=22364
+Sony HD,https://sto.ufile.eu.org/smt.php?id=SetOne&h=sto.ufile.eu.org&p=22364
+AEC,https://sto.ufile.eu.org/smt.php?id=AEC&h=sto.ufile.eu.org&p=22364
+AOD,https://sto.ufile.eu.org/smt.php?id=Aodhd&h=sto.ufile.eu.org&p=22364
+华丽台 HD (Wah Lai Toi),https://sto.ufile.eu.org/smt.php?id=Wlt&h=sto.ufile.eu.org&p=22364
+欢喜台 HD(Hua Hee Tai),https://sto.ufile.eu.org/smt.php?id=Huahee&h=sto.ufile.eu.org&p=22364
+Astro QJ,https://sto.ufile.eu.org/smt.php?id=Quanjia&h=sto.ufile.eu.org&p=22364
+TVB Jade,https://sto.ufile.eu.org/smt.php?id=Tvbjade&h=sto.ufile.eu.org&p=22364
+爱奇艺 iQiyi,https://sto.ufile.eu.org/smt.php?id=Qiyi&h=sto.ufile.eu.org&p=22364
+TVB 星河台  Xing He,https://sto.ufile.eu.org/smt.php?id=Xinhe&h=sto.ufile.eu.org&p=22364
+Discovery Asia,https://sto.ufile.eu.org/smt.php?id=Discoveryasia&h=sto.ufile.eu.org&p=22364
+Dmax,https://sto.ufile.eu.org/smt.php?id=Dmax&h=sto.ufile.eu.org&p=22364
+Celestial Movies HD,https://sto.ufile.eu.org/smt.php?id=Celestial&h=sto.ufile.eu.org&p=22364
+Astro LOL,https://sto.ufile.eu.org/smt.php?id=Astro_lol&h=sto.ufile.eu.org&p=22364
+Baby TV Eng,https://sto.ufile.eu.org/smt.php?id=Ind_babytv&h=sto.ufile.eu.org&p=22364
+Momo TV,https://sto.ufile.eu.org/smt.php?id=momo1_twn&h=sto.ufile.eu.org&p=22364
+Baby TV,https://sto.ufile.eu.org/smt.php?id=babytv_twn&h=sto.ufile.eu.org&p=22364
+MiaoMi,https://sto.ufile.eu.org/smt.php?id=MiaoMi&h=sto.ufile.eu.org&p=22364
+CI,https://sto.ufile.eu.org/smt.php?id=ci_twn&h=sto.ufile.eu.org&p=22364
+Asia Travel,https://sto.ufile.eu.org/smt.php?id=asiatravel_twn&h=sto.ufile.eu.org&p=22364
+Fashion TV,https://sto.ufile.eu.org/smt.php?id=fashiontv_twn&h=sto.ufile.eu.org&p=22364
