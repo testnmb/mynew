@@ -1,5 +1,4 @@
 smt,#genre#
-华数电影1080p,http://hmfs.f3322.net:3388/hls/40/index.m3u8
 CCTV-6 電影,http://96.44.160.246:9999/smt.php?id=cctv6
 HBO_HD,http://96.44.160.246:9999/smt.php?id=hbohd_twn
 HBO_HITS,http://96.44.160.246:9999/smt.php?id=hbohits_twn
