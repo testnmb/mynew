@@ -1125,6 +1125,11 @@ MOMO親子精選,http://dreamtv.sylu.net:2082/play/fast-live415/index.m3u8?token
 酉阳综合,https://yypull.cbg.cn/applive/youytv01/playlist.m3u8
 忠县综合,https://yypull.cbg.cn/applive/zxtv2/playlist.m3u8
 陕西卫视
+华视,http://74.91.26.218:82/live/cts.m3u8
+中视,http://74.91.26.218:82/live/ctv.m3u8
+公视,http://74.91.26.218:82/live/pts.m3u8
+台视,http://74.91.26.218:82/live/ttv.m3u8
+民视,http://74.91.26.218:82/live/ftv.m3u8
 纬来日本,https://hls.iill.top/api/VL-Japan/index.m3u8
 緯來電影台,https://hls.iill.top/api/VL-Movies/index.m3u8
 纬来综合,https://hls.iill.top/api/VL-ONTV/index.m3u8
