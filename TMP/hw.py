@@ -106,7 +106,7 @@ class WebContentFilter:
 if __name__ == "__main__":
     # 示例配置
     urls = [
-        "https://raw.githubusercontent.com/bj123sd/IPTV/refs/heads/main/hycg.txt",
+        "https://raw.githubusercontent.com/bj123sd/hycg/refs/heads/main/tv.txt",
         #"https://example.com/page2"
     ]
     
