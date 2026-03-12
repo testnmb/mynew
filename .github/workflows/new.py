@@ -1,13 +1,10 @@
-
-
-
 name: new
 
 # 触发条件
 on:
   schedule:
     # 每天 UTC 时间 00:00 和 12:00 运行
-    - cron: '0 0/2 * * *'
+    - cron: '0 0/3 * * *'
   workflow_dispatch: # 允许手动触发
 
 permissions:
