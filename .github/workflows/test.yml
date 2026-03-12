@@ -13,9 +13,12 @@ jobs:
   fetch_streams:
     runs-on: ubuntu-latest
     steps:
-      # 1. 检出仓库代码
+      # 1. 检出仓库代码（使用fetch-depth: 0确保获取完整历史）
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # 2. 设置 Python 环境
       - name: Set up Python
@@ -55,10 +58,10 @@ jobs:
           # 先尝试正常提交
           if git diff --staged --quiet; then
             echo "文件内容无变化，使用 --allow-empty 强制提交"
-            git commit --allow-empty -m "Force update TMP/ttest.txt via GitHub Actions - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git commit --allow-empty -m "Force update TMP/ttest.txt via GitHub Actions)"
           else
             echo "文件内容有变化，正常提交"
-            git commit -m "Update TMP/ttest.txt via GitHub Actions - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git commit -m "Update TMP/ttest.txt via GitHub Actions)"
           fi
 
       # 8. 推送到远程仓库
