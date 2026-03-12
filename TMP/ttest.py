@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-网页内容提取与过滤工具（修复版）
-功能：从指定URL列表获取内容，支持两种过滤模式：
-1. 段过滤：排除包含指定关键词的#genren#段
-2. 行过滤：排除包含指定关键词的行
-
-修复内容：
-1. 添加时间戳确保每次生成的内容都不同
-2. 优化错误处理，确保文件始终生成
-3. 添加生成时间信息便于追踪
-"""
-
 import os
 import re
 import requests
@@ -19,8 +7,22 @@ from datetime import datetime
 
 class WebContentFilter:
     def __init__(self, tmp_dir: str = "TMP"):
-        self.tmp_dir = tmp_dir
-        os.makedirs(tmp_dir, exist_ok=True)
+        # 获取脚本所在目录的父目录作为基础目录
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        base_dir = os.path.dirname(script_dir)
+        
+        # 设置TMP目录为根目录下的TMP
+        self.tmp_dir = os.path.join(base_dir, tmp_dir)
+        
+        # 如果目录不存在则创建
+        if not os.path.exists(self.tmp_dir):
+            os.makedirs(self.tmp_dir)
+            
+        print(f"当前工作目录: {os.getcwd()}")
+        print(f"脚本所在目录: {script_dir}")
+        print(f"基础目录: {base_dir}")
+        print(f"TMP目录路径: {self.tmp_dir}")
+
         
     def fetch_url_content(self, url: str) -> Optional[str]:
         """获取单个URL的内容"""
