@@ -285,7 +285,6 @@ CCTV-02,http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 CCTV-03,http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
 CCTV-08,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 CCTV-13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
-三沙卫视,http://43.159.77.196:80/tencent.live.cbncdn.cn/__cl/cg:live/__c/sanshaSD/__op/default/__f/index.m3u8
 三沙卫视,https://stream.iptv-search.com/main.php?id=%E4%B8%89%E6%B2%99%E5%8D%AB%E8%A7%86&t=1755401429&token=7ddfc6d40f1c98da27c8b5e7c59836a3
 重温经典,http://go.bkpcp.top/mg/cwjd
 CHC动作电影,http://go.bkpcp.top/mg/dzdy
