@@ -5235,7 +5235,7 @@ HD音乐,https://lhttp.qingting.fm/live/15318341/64k.mp3
 福建音乐,https://lhttp.qingting.fm/live/4585/64k.mp3
 河北音乐,https://lhttp.qingting.fm/live/1649/64k.mp3
 浙江音乐,https://lhttp.qingting.fm/live/4866/64k.mp3
-打赏才能长久,https://d6.qyshare.store/s/TBVWTxUNFQ9SVlIPBFMOGgZSVVQaKFCVA50wBUDxoPKFCVA50Q4PGlNVKFCVA50KFCVA508PBKFCVA508GU1VSVBUbFVhERH9YREMVDRVYREQZRk5CWRlYRVKFCVA50VGxVYRER8Uk4VDRVCR1tYVlMYBQcFKFCVA50RgHBRgFKFCVA50xgBBQcED1IFBBoKFCVA50KFCVA50QQOGgMFBgcaVgcGBBoPVQVTKFCVA50FMBVFYPKFCVA50QYZVV5ZFRsVVlQVDRUPVKFCVA50EGBlVWUhpTKFCVA50QKFCVA50BGgNVDgYaVVFVBxoDBQRTVQ8DKFCVA50Q4OKFCVA50gcVGxVZVlpSFQ0VBdGrvwYG0aCSGVpHKFCVA50xUbFVRYWUNSWUNjTkdSFQ0VQV5TUlgYWkcDFRsVVlMVDRVWD1YBKFCVA50g5RKFCVA50hpTBFZUGgMFBwQaDw8KFCVA50VRoCB1ZUKFCVA50lMGVgdRKFCVA501UVSg==
+打赏才能久,https://d6.qyshare.store/s/TBVWTxUNFQ9SVlIPBFMOGgZSVVQaKFCVA50wBUDxoPKFCVA50Q4PGlNVKFCVA50KFCVA508PBKFCVA508GU1VSVBUbFVhERH9YREMVDRVYREQZRk5CWRlYRVKFCVA50VGxVYRER8Uk4VDRVCR1tYVlMYBQcFKFCVA50RgHBRgFKFCVA50xgBBQcED1IFBBoKFCVA50KFCVA50QQOGgMFBgcaVgcGBBoPVQVTKFCVA50FMBVFYPKFCVA50QYZVV5ZFRsVVlQVDRUPVKFCVA50EGBlVWUhpTKFCVA50QKFCVA50BGgNVDgYaVVFVBxoDBQRTVQ8DKFCVA50Q4OKFCVA50gcVGxVZVlpSFQ0VBdGrvwYG0aCSGVpHKFCVA50xUbFVRYWUNSWUNjTkdSFQ0VQV5TUlgYWkcDFRsVVlMVDRVWD1YBKFCVA50g5RKFCVA50hpTBFZUGgMFBwQaDw8KFCVA50VRoCB1ZUKFCVA50lMGVgdRKFCVA501UVSg==
 打赏才能长久,https://i.uik.cc/view.php/8d9d37a2fc11480442b8fd8b2fd70ace.mp4
 K歌软件购买加YXMV525,https://i.uik.cc/view.php/2b0238dc0d48dfccfb405acecd571de3.mp4
 CCTV4K,http://198.204.240.250:82/live/cctv4k.m3u8?jsbt=1760148172&jsbk=8ce47519e62b009dfa80f8fbfb2dd932
@@ -5295,7 +5295,6 @@ CCTV15-音乐,http://36.136.38.87:9901/tsfile/live/0015_1.m3u8?key=txiptv&playli
 金鹰卡通,http://36.136.38.87:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 卡酷卡通,http://36.136.38.87:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 佳佳卡通,http://36.136.38.87:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-📀
 CCTV16,http://go.bkpcp.top/mg/cctv16
 cct4欧洲,http://go.bkpcp.top/mg/cctv4o
 cct4美洲,http://go.bkpcp.top/mg/cctv4m
@@ -6179,7 +6178,6 @@ Channel [V],http://111.221.137.152:44330/tsfile/live/1012_1.m3u8?key=txiptv&play
 烟台新闻,http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199b7657c8eb88f07-1.m3u8?shandd
 烟台公共频道,http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8?shandd
 烟台公共频道,http://live.yantaitv.cn/live/412a6764092149faa58f80a0fd8004e9/22bbe85c960145dc95fc25e699d0fb3a-1.m3u8
-\
 菏泽一套新闻综合频道,http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8
 菏泽三套影视频道,http://live.hznet.tv:1935/live/live3/500K/tzwj_video.m3u8
 安徽卫视,http://tv.sohu.blog/d/fjbst.php?id=190
@@ -6335,7 +6333,6 @@ G60新桥收费口,https://play-a2.quklive.com/live/1732441115629264.m3u8
 1|刘三姐轮播,rtmp://live.gxxw.cn/hls/lsj
 经典电影轮播,rtmp://live.gxrb.com.cn/pull/red_movies_0501
 经典电影轮播,rtmp://live.gxxw.cn/pull/red_movies_0501
-\
 江苏无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
 江苏无锡新闻综合,http://stream.thmz.com/wxtv1/playlist.m3u8
 江苏无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd
@@ -7126,7 +7123,6 @@ momoTV,rtmp://f13h.mine.nu/sat/tv761
 唯心电视,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8
 GOOD  TV,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 GOOD2 TV,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
-\
 🇻🇳越南PTV,http://iptv.zkbhj.com/tv/url/go?id=467ff2c3dd95c95fa5355ba9e2e53013f2325e82e1723382000c25c9009b1449703a53d8cb741b92224765715d1a7388d43b8da7f422852ecf86f83de913c00f
 🇦🇱阿尔巴尼亚Syri,https://stream.syritv.al/SyriTV/index.m3u8
 🇧🇷巴西Record News,https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
@@ -7340,8 +7336,7 @@ MeWatch Ch 8,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_ch8
 MeWatch Ch U,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_chU
 MeWatch Suria,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_Suria
 MeWatch Vasantham,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_Vasantham
-MeWatch CNA,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_cna
-/live/lhyp/tream.m3u8
+MeWatch CNA,http://156.238.254.169/zb/SMT33558.php?id=Mewatch_cna/live/lhyp/tream.m3u8
 三立戏剧,http://61.221.215.25:8800/hls/41/index.m3u8?txiptv&playlive
 华文三套,https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8
 华文四套,https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
@@ -7369,7 +7364,6 @@ YMG未来频道,http://l.cztvcloud.com/channels/lantian/SXyuhang3/720p.m3u8
 纬来体育,rtmp://f13h.mine.nu:1935/sat/tv721
 东森超视,rtmp://f13h.mine.nu:1935/sat/tv331
 Mo综合,rtmp://f13h.mine.nu:1935/sat/tv761
-/
 探索频道,http://61.221.215.25:8800/hls/1/index.m3u8
 探索亚洲,http://61.221.215.25:8800/hls/50/index.m3u8
 八大综合,http://61.221.215.25:8800/hls/56/index.m3u8
@@ -7439,8 +7433,6 @@ Tele Pavia,http://wms.shared.streamshow.it:1935/telepavia/telepavia/live.m3u8
 KoreaTV,https://mlive.ktv.go.kr/live/klive_m.stream/playlist.m3u8
 MBC,http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
 Music Reload,http://web.onair-radio.eu:1935/video/video/chunklist.m3u8
-███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 SPOTIFY音乐欣赏,http://61.221.215.25:8800/hls/58/index.m3u8
 钢琴音乐,http://61.221.215.25:8800/hls/49/index.m3u8
 节目暂停1,http://61.221.215.25:8800/hls/40/index.m3u8
@@ -7860,7 +7852,6 @@ LOUIS樱,http://222.186.39.21:35466/douyu/9235284
 一起看港剧(斗鱼),http://222.186.39.21:35466/douyu/50615501
 埋堆堆官方,http://39.153.130.167:35455/huya/23740156
 鹿鼎记,http://39.153.130.167:35455/huya/29847482
-↓
 创世纪,http://39.153.130.167:35455/huya/29465852
 笑看风云,http://39.153.130.167:35455/huya/29465858
 陀枪师姐,http://39.153.130.167:35455/huya/29465857
