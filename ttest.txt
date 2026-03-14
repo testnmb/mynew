@@ -71,7 +71,6 @@ test,#genre#
 美丽河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://8.138.7.223/tv/hebtv.m3u8
-河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 石家庄新,http://pluslive1.sjzntv.cn/xmzh/HD/live.m3u8
 石家庄娱,http://pluslive1.sjzntv.cn/yule/HD2/live.m3u8
 石家庄生,http://pluslive1.sjzntv.cn/shenghuo/HD3/live.m3u8
