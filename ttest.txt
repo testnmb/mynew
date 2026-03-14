@@ -136,8 +136,6 @@ test,#genre#
 郑州豫剧频道,http://www.lwfz.fun:8800/rtp/239.16.10.157:2000
 郑州妇女儿童,http://www.lwfz.fun:8800/rtp/239.16.10.158:2000
 郑州都市生活,http://www.lwfz.fun:8800/rtp/239.16.10.159:2000
-河南梨园频道,rtsp://139.215.98.88/PLTV/88888888/224/3221225498/10000100000000060000000000029510_0.smil
-河南武术世界,rtsp://139.215.98.88/PLTV/88888888/224/3221225534/10000100000000060000000000029589_0.smil
 郑州新闻综合,http://vapi.91kds.cc/live1/hoge.m3u8?ip=hazztv&apiKey=73c963d13814ce7d0e4743c5e7d033cc&id=103
 郑州商都频道,http://vapi.91kds.cc/live1/hoge.m3u8?ip=hazztv&apiKey=73c963d13814ce7d0e4743c5e7d033cc&id=104
 郑州文体旅游,http://vapi.91kds.cc/live1/hoge.m3u8?ip=hazztv&apiKey=73c963d13814ce7d0e4743c5e7d033cc&id=105
@@ -315,8 +313,6 @@ test,#genre#
 安阳科教频道,http://zhpull.dxhmt.cn:80/anyang/24edb37167474b17948c6fbaf09890b8/playlist.m3u8
 信阳综合,http://push.xytv.cn:80/live/871627674812443875/index.m3u8
 湖南卫视台,http://69.30.246.194/live/hnws.m3u8
-湖南经视台,http://phoneal.qing.mgtv.com/nn_live/nn_x64/dWlwPTExOS4xMjMuNzIuMTIyJnRlcm09NSZxaWQ9JnJhdXRoX2VuYWJsZT1vbiZjZG5leF9pZD1hbF9waG9uZTMmY2hzPSZkZWY9MSZzPWE0Y2FkODA2MmZmOWFkZTcwYmFhNGY3ZTI5OGQxNmM2JnVpZD0mdXVpZD0zYjI4NjhhODU4YTlhNjFkZmFlYThiM2IyNTU2NTFjZS03NzdiNDg3YSZ2PTImYXM9MCZlcz0xNzcxNTc0OTA1/HNJSMPP360.m3u8
-湖南电视剧台,http://phonehwei.qing.mgtv.com/nn_live/nn_x64/dWlwPTExOS4xMjMuNzIuMTIyJnRlcm09NSZxaWQ9JnJhdXRoX2VuYWJsZT1vZmYmY2RuZXhfaWQ9aHdfcGhvbmUmY2hzPSZkZWY9MSZzPTMwYjZlMDIyMTk2Y2I5MmU3YjlkMjZjNmM5MzZiZTU1JnVpZD0mdXVpZD1hOTU5MWQ5YWZjM2JiZTlkNWQ2OTVlNGUwM2M1YjA2OC03NzdiNDg3YSZ2PTImYXM9MCZlcz0xNzcxNTc3MTkw/HNDSJMPP360.m3u8
 湖南经视|,http://183.215.134.239:19901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南都市|,http://183.215.134.239:19901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南爱晚|,http://8.07456.me:24901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
