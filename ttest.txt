@@ -141,7 +141,6 @@ CGTN-法,http://go.bkpcp.top/mg/cgtnf
 兵团卫视,http://go.bkpcp.top/mg/btws
 黑龙江视,http://go.bkpcp.top/mg/hljws
 广东珠江,http://go.bkpcp.top/mg/gdzj
-广东体育,http://go.bkpcp.top/mg/gdty
 大湾区卫视,http://go.bkpcp.top/mg/gddwq
 广东影视,http://go.bkpcp.top/mg/gdys
 广东新闻,http://go.bkpcp.top/mg/gdxw
@@ -258,7 +257,6 @@ CGTN,http://116.77.239.26:44300/tsfile/live/1012_1.m3u8?key=txiptv&playlive=0&au
 陕西卫视,http://116.77.239.26:44300/tsfile/live/0116_2.m3u8?key=txiptv&playlive=0&authid=0
 黑龙江卫视,http://116.77.239.26:44300/tsfile/live/0143_1.m3u8?key=txiptv&playlive=0&authid=0
 重温经典,http://116.77.239.26:44300/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0
-广东体育,http://116.77.239.26:44300/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 广东公共,http://116.77.239.26:44300/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
 广东新闻,http://116.77.239.26:44300/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
 深圳体育健康,http://116.77.239.26:44300/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -268,7 +266,6 @@ CGTN,http://116.77.239.26:44300/tsfile/live/1012_1.m3u8?key=txiptv&playlive=0&au
 凤凰中文,http://116.77.239.26:44300/tsfile/live/0141_2.m3u8?key=txiptv&playlive=0&authid=0
 明珠台,http://116.77.239.26:44300/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
 星空卫视,http://116.77.239.26:44300/tsfile/live/0112_2.m3u8?key=txiptv&playlive=0&authid=0
-翡翠台,http://116.77.239.26:44300/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0广东体育,http://116.77.239.26:44300/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 重温经典,http://8.138.7.223/tv/cwjd.php
 重温经典,http://219.146.65.78:59902/tsfile/live/0150_1.m3u8
 凤凰中文,http://m.061899.xyz/mg/fhzw
@@ -280,7 +277,6 @@ CGTN,http://116.77.239.26:44300/tsfile/live/1012_1.m3u8?key=txiptv&playlive=0&au
 广东珠江,http://m.061899.xyz/mg/gdzj
 广东新闻,http://m.061899.xyz/mg/gdxw
 广东民生,http://m.061899.xyz/mg/gdms
-广东体育,http://m.061899.xyz/mg/gdty
 CCTV-01,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 CCTV-02,http://iptv.huuc.edu.cn/hls/cctv2hd.m3u8
 CCTV-03,http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
@@ -317,7 +313,6 @@ Channel [V],http://111.221.137.152:44330/tsfile/live/1012_1.m3u8?key=txiptv&play
 明珠台,http://111.221.137.152:44330/tsfile/live/1010_1.m3u8?key=txiptv&playlive=0&authid=0
 凤凰卫视中文台,http://111.221.137.152:44330/tsfile/live/1013_1.m3u8?key=txiptv&playlive=0&authid=0
 广东卫视,http://111.221.137.152:44330/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
-广东体育,http://111.221.137.152:44330/tsfile/live/1005_1.m3u8?key=txiptv&playlive=0&authid=0
 广东公共,http://111.221.137.152:44330/tsfile/live/1006_1.m3u8?key=txiptv&playlive=0&authid=0
 广东新闻,http://111.221.137.152:44330/tsfile/live/1007_1.m3u8?key=txiptv&playlive=0&authid=0
 南方卫视,http://111.221.137.152:44330/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -1091,7 +1086,6 @@ Channel [V],http://111.221.137.152:44330/tsfile/live/1012_1.m3u8?key=txiptv&play
 烟台新闻,http://live.yantaitv.cn/live/3e81a8879da44c5dadf3bd9c10468e1c/9b776d420ee4438199b7657c8eb88f07-1.m3u8?shandd
 烟台公共频道,http://live.yantaitv.cn/live/e50f104a4ffe4a41b2217cbda534146f/d86092e69df94668b33390278b061700-1.m3u8?shandd
 烟台公共频道,http://live.yantaitv.cn/live/412a6764092149faa58f80a0fd8004e9/22bbe85c960145dc95fc25e699d0fb3a-1.m3u8
-\
 菏泽一套新闻综合频道,http://live.hznet.tv:1935/live/live1/500K/tzwj_video.m3u8
 菏泽三套影视频道,http://live.hznet.tv:1935/live/live3/500K/tzwj_video.m3u8
 安徽卫视,http://tv.sohu.blog/d/fjbst.php?id=190
@@ -1272,7 +1266,6 @@ G60新桥收费口,https://play-a2.quklive.com/live/1732441115629264.m3u8
 1|刘三姐轮播,rtmp://live.gxxw.cn/hls/lsj
 经典电影轮播,rtmp://live.gxrb.com.cn/pull/red_movies_0501
 经典电影轮播,rtmp://live.gxxw.cn/pull/red_movies_0501
-\
 江苏无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd
 江苏无锡新闻综合,http://stream.thmz.com/wxtv1/playlist.m3u8
 江苏无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd
@@ -2133,7 +2126,6 @@ momoTV,rtmp://f13h.mine.nu/sat/tv761
 唯心电视,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8
 GOOD  TV,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 GOOD2 TV,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch2-2.m3u8
-\
 🇱🇰斯里兰卡Mon Tamil TV,http://198.144.149.206:8080/MONTAMIL_CINEMA/index.m3u8?token=GTR
 🇧🇪比利时BX1 Redif,http://iptv.zkbhj.com/tv/url/go?id=f1be0d493321f4c33715e1b7e70c09d0f2325e82e1723382000c25c9009b1449703a53d8cb741b92224765715d1a7388d43b8da7f422852ecf86f83de913c00f
 🇷🇴罗马尼亚Kanal Jadid,http://iptv.zkbhj.com/tv/url/go?id=fb81bb9b43e59961094aa63269613455f2325e82e1723382000c25c9009b1449703a53d8cb741b92224765715d1a7388d43b8da7f422852ecf86f83de913c00f
