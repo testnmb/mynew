@@ -86,6 +86,10 @@ CETV4,http://111.56.90.5/000000000000/5000000006000012123/1.m3u8
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 亚太第一,http://play2.one-tv.com/live/onetv.m3u8
 长影频道,http://tpc.x3322.net:9901/tsfile/live/1010_1.m3u8
+西部电影,http://hxwangcong.x3322.net:26000/rtp/239.111.205.41:5140
+西部电影,http://gxlive.snrtv.com/sx8-SD.m3u8
+峨眉电影,http://183.223.157.33:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
 人间卫视,http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGG3Tfx3VAqXOWUzjOIvR7GQEa6bpu3H-AA2odAiJdAbGmWhpU_Q2ycGAov6XbbheEh3oWE7jCSHDVOCrZObn61JnipbW4uobUqjFA0oqFFbrEif8_OcA0m3WnKJHesrIiodZdHvaGIXc6UTyDqgZm0BSeqeHCsTZtgYxrCd_eiDBSvooGndDrNwF6ZFPq4CuaKUmitgPh3yy0Hfwwb6z32A.m3u8?u=1757123819
 人间卫视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU-PTrevW4Nb5kml8ZMd3at75YlJ6K20ZBxPSIVz1hxlQv4--543vHKzJQmc_7DJDjPJLCh0YfnBWZrTucC_NtDBWVt5kUxt1vWrfF83wAqI1iixUCDpzx1tuQY-RCqjKfwVA2ajTOutnOjvELsWsmMhiob_GIIebIQw0ZyBKhJ7pZ9S98HEPxb2IkiXHJ_4cgNGyGWPmpcc-DhIaZJaX3DA.m3u8?u=1756878715
 澳门卫视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU7mTqxQB_sqm6bXI0cSeVrFB_n8HyELmysWUTQMEQoIR03bY77tpE0Dk0eWUxIZM_YGFbhdRAjz_eJP9tcU5UU_0bndr4v8VZa4FB7iuj6GBMxEdoRkXowyAg7YFz_PD4GdaWVnmXQKZtMvgD1MMAsd4FWR1_JDPDZgaxuqyi5SbM6rI91aYTjMYNcpKc1-0ta5MKtpfAFmoZ6clswzDQmg.m3u8?u=1756878715
