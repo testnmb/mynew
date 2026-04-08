@@ -119,7 +119,10 @@ class TVSourceProcessor:
         """主处理流程"""
         print("开始处理直播源")
         
-        urls = ["http://rihou.cc:555/gggg.nzk"]
+        urls = [
+            "http://119.91.7.169:35789/dszb/dszb.txt",
+            "http://rihou.cc:555/gggg.nzk"
+        ]
         print(f"源URL: {len(urls)}个")
         
         if not self.fetch_multiple_urls(urls):
