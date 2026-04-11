@@ -88,6 +88,7 @@ CCTV8K,http://rihou.cc:555/tv/CCTV8K
 第一剧场,http://rihou.cc:555/tv/CCTV第一剧场
 电视指南,http://rihou.cc:555/tv/CCTV电视指南
 卫生健康,http://rihou.cc:555/tv/CCTV卫生健康
+澳门莲花,https://cdn10.163189.xyz/stream/163189/ccm/
 CCTV1,http://123.118.56.249:8686/rtp/239.3.1.129:8008$北京联通11
 CCTV1,http://39.77.25.187:4002/rtp/239.253.254.77:8000$山东联通11
 CCTV1,http://60.4.30.55:8077/rtp/239.253.92.83:8012$河北联通11
@@ -497,6 +498,7 @@ CETV1,http://rihou.cc:555/tv/CETV1
 CETV3,http://rihou.cc:555/tv/CETV3
 CETV4,http://rihou.cc:555/tv/CETV4
 全球时尚,https://player.juyun.tv/camera/137932133.m3u8
+翡翠台,http://o11.163189.xyz/stream/tvb/fct/
 湖南,http://123.118.56.249:8686/rtp/239.3.1.132:8012$北京联通11
 湖南,http://39.77.25.187:4002/rtp/239.253.254.82:8000$山东联通11
 湖南,http://60.4.30.55:8077/rtp/239.253.92.84:8015$河北联通11
@@ -965,6 +967,16 @@ CETV4,http://rihou.cc:555/tv/CETV4
 早期教育,http://60.4.30.55:8077/rtp/239.253.93.164:6440$河北联通11
 早期教育,http://121.29.215.146:2083/rtp/239.253.93.164:6440$河北联通21
 早期教育,http://106.116.240.74:9999/rtp/239.254.201.230:7253$河北电信21
+ASTRO AOD,http://o11.163189.xyz/stream/live/aod/
+ASTRO AEC,http://o11.163189.xyz/stream/live/aec/
+ASTRO欢喜台,http://o11.163189.xyz/stream/live/hxt/
+IQYI,http://o11.163189.xyz/stream/live/iqiyi/
+八度空间,http://cdn6.163189.xyz/163189/8tv
+CH5,http://cdn6.163189.xyz/163189/ch5
+CH8,http://cdn6.163189.xyz/163189/ch8
+CHU,http://cdn6.163189.xyz/163189/chu
+天映新加坡,https://cdn10.163189.xyz/stream/163189/typd/
+天映经典,https://cdn10.163189.xyz/stream/163189/ccm/
 AMC,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUQcKJgqGv1BzPFE67m_1RcaoG-tKyp2-YGC8GV0Dbc3tcYFNMg0INMyF45g0sUF0qOGHxghDYsSFfGiY_SNWMifqSTADgiSDMJI7l9i6xMjnWkXB1NxvM-Q1f7FPWdZiXsg4gvxp7eUcJm5s65yqLbMiixwV-IiltxnxoSFHKf7SQCqv8r-GnGQ44ioXaFbgxqE_GSivfUTdymnqwcdy2bQ.m3u8?u=1756878715
 AMC,https://stream1.freetv.fun/f78ff1e484b79f13f26a2863929a81959551bbce10c86a293620ec8f19238480.ctv
 公视戏剧https://stream1.freetv.fun/5d7f7cd3ae208653f25e1f78ef7f4684b10b37f034002f7566d045a779fe1cdf.ctv
@@ -1013,6 +1025,7 @@ TVB功夫国语,http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jU
 邵氏武侠,http://feilong123.vip/409990236/tv.php?id=sswx
 邵氏动作,http://feilong123.vip/409990236/tv.php?id=ssdz
 邵氏电影,http://feilong123.vip/409990236/tv.php?id=ssdy
+金光布袋,http://o11.163189.xyz/stream/live/jgbdx/
 梦幻工厂,https://stream1.freetv.fun/583a8e22fa9e922ce7b3723eaf4e5bc0a082863a7f7b2f1b46931a2eb5bbbc25.ctv
 精选动漫,https://stream1.freetv.fun/34d341b28d12cfc988f2423e2981320ccc57ca9d55436b6b94a1a0c16e745ff1.ctv
 小公视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUyH_fs26-c7nBUTry9_G9WOBIdF5FM6zE6NeWMnFGfZswYaNRfRUTIjkQy2Qx0YtY22fUkYNYLLztWyuLelrbgaLjfAZfJhL55ANiC-GszIxVA37ebKcn_Z5C3ijFIs1F9tPFpnaoqCKrWtiWXexmFiYUtj9gmD_voIGod75UKoPv4sshiybKUG66E8A-zP4OI8lxKKIxNMhgtl4SEBlf4w.m3u8?u=1756878715
