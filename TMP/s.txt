@@ -504,8 +504,8 @@ CETV3,http://rihou.cc:555/tv/CETV3
 CETV4,http://rihou.cc:555/tv/CETV4
 全球时尚,https://player.juyun.tv/camera/137932133.m3u8
 翡翠台,http://o11.163189.xyz/stream/tvb/fct/
-中天新闻,http://222.128.55.152:9080/live/fc.m3u8
-寰宇新闻,http://222.128.55.152:9080/live/hy.m3u8
+中天新闻,rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
+寰宇新闻,http://127.0.0.1:9978/proxy/m3u8?url=https%3A%2F%2Fpixman.passwdwork.cc.cd%2Fproxy%2F5b436f102e0f789f.m3u8
 寰宇新闻,http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGzBGO_5rjP_x_fBbIjWnn4LHjBH2ukJK6v_-VCP5x3tP1unCAxP9T392rhTgwF2O68ij3NP5pn1khx_QGEDs3LBNfg0cvWaFBYAjUA5S7_ZcVfKe_a-GD7-HESRwIQt42LkfGPQMCUPZTHQ4NwQ0YviYaezVyIO3YlWngG6wrgWv5GWj9uhg7CvxEhYXI9tmgvxlroN0VhBpAwE3kBxLtVQ.m3u8?u=1757123819
 中视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUyH_fs26-c7nBUTry9_G9WGy09ymXSD9wXdLZy9sOecPlojBUe1paai2WOcdIb3J3dMpqjSfbMiHNc-DGdAygSFQDqCj032dKRnzw7fnV6q3_BouKS8cqJAUpD0KXf3y7rk-jvDuakYh4vbVx7G7Lho2xeQGUN38RxTk3Qxo32XRE8ksexVM1mrM6m6D52X3l128VziS7f6X-_2vbEDQRWQ.m3u8?u=1756878715
 中视,http://211.72.174.95:8113/0.ts
