@@ -110,6 +110,7 @@ CCTV8K,http://rihou.cc:555/tv/CCTV8K
 西部电影,http://gxlive.snrtv.com/sx8-SD.m3u8
 峨眉电影,http://183.223.157.33:85/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 峨眉电影,http://118.122.144.115:8888/newlive/live/hls/32/live.m3u8
+湖南电影,http://110.53.235.13:19901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 澳门卫视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU7mTqxQB_sqm6bXI0cSeVrFB_n8HyELmysWUTQMEQoIR03bY77tpE0Dk0eWUxIZM_YGFbhdRAjz_eJP9tcU5UU_0bndr4v8VZa4FB7iuj6GBMxEdoRkXowyAg7YFz_PD4GdaWVnmXQKZtMvgD1MMAsd4FWR1_JDPDZgaxuqyi5SbM6rI91aYTjMYNcpKc1-0ta5MKtpfAFmoZ6clswzDQmg.m3u8?u=1756878715
 澳门卫视,http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGtXiTfoQ0ZCFqJHLrtLmjoOMypMnSwlfSIs0InMsufKh-B81ws4nKVBwLiu6i_tihEsscR80-4XU1pCXWrdtr5G5SBg4hTNQG6EzciF0Ch1JlZeiJ0yJUkuB8KQmlgf7xxBz3rifSueJltQRleQYIu44dyRhO_0FnrUl11C32QHWAWeXux6_ytkV1SC2j28TVF6IF0fueQ8BaTkRZR_Mk4Q.m3u8?u=1757123819
 国兴卫视,http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUgZLPnRKJZDxkmSKa-lNFc5nDI-rnGhCcZaQBRry2ytxBGIzZJ27zPQ2FWlHUFxrG5ox6LcaDVpqTxGmlTu_bhQUeUJwhwHCCLODoEOCrbYsboKfgsWXNi3erjoylXryggSyjXl0qDJq2ZH6OVHQag3blCtPOLyEb_8Kf6J_Cn9kJ6JqeFVAgIfEYSyA4MhCA2F0Tu-nkdjzzG_hfgrcWRA.m3u8?u=1756878715
