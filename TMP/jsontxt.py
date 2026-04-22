@@ -92,6 +92,7 @@ def parse_json_to_txt(urls, output_path, quality_filter='1080p'):
     # 过滤并写入txt文件
     count = 0
     with open(output_path, 'w', encoding='utf-8') as f:
+        f.write("未整理,#genre#\n")
         for item in all_items:
             title = item.get('title', '')
             url = item.get('url', '')
