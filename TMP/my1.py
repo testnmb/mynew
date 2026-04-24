@@ -140,7 +140,6 @@ class TVSourceProcessor:
         # 使用指定的URL
         urls = [
             "https://live.hacks.tools/tv/iptv4.txt",
-            "https://tv.nxog.top/m/tv/?ou=1a8",
         ]
         print(f"源URL: {len(urls)}个")
         
