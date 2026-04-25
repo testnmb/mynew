@@ -12,7 +12,7 @@ EXCLUDE_KEYWORDS = [
 
 # 行内容过滤关键词
 CONTENT_FILTER_KEYWORDS = [
-    "rihou", "盗源", "DJ", "p3p", "shorturl", "更新", "group", 
+    "盗源", "DJ", "p3p", "shorturl", "更新", "group", 
     "颜人中", "打赏", "购买", "河南网", "阜阳", "野草", "少儿", 
     "广东体育", "\\", "iill.top","凡人修仙传","woshinibaba","cfss.cc"
 ]
