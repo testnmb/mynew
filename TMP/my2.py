@@ -11,7 +11,7 @@ TVBox直播接口解密工具
     1. 自动使用正确的User-Agent请求接口
     2. 解析返回的JSON配置数据
     3. 提取直播源、解析接口、站点信息等
-    4. 下载直播源内容并保存到my1.txt
+    4. 下载直播源内容并保存到my3.txt
     5. 支持关键词过滤，排除特定#genre#分组
 """
 
@@ -50,7 +50,7 @@ EXCLUDE_KEYWORDS = [
 ]
 
 # 输出文件名
-OUTPUT_FILE = "my2.txt"
+OUTPUT_FILE = "my3.txt"
 
 
 class TVBoxAPI:
