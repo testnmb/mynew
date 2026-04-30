@@ -161,7 +161,7 @@ class TVSourceProcessor:
             return False
         
         # 4. 保存文件
-        if self.save_to_file(final, "my1.txt", "smt,#genre#"):
+        if self.save_to_file(final, "my1.txt", "hacktool,#genre#"):
             print("处理完成")
             return True
         else:
