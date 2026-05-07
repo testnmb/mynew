@@ -1,4 +1,8 @@
 rihou,#genre#
+05-07⬇️欧冠半决赛第2轮⬇️⚽📡,http://rihou.cc:555/tv/t
+03:00拜仁(1🆚1)巴黎,http://rihou.cc:555/tv/v
+粤🔊小肥旁述,http://rihou.cc:555/tv/小肥回放拜巴
+国🔊爱奇评述,http://rihou.cc:555/tv/爱奇回放拜巴
 CCTV-01咪咕,http://rihou.cc:555/tv/[mg]CCTV-01
 CCTV-02咪咕,http://rihou.cc:555/tv/[mg]CCTV-02
 CCTV-03咪咕,http://rihou.cc:555/tv/[mg]CCTV-03
@@ -197,7 +201,6 @@ CH8综合Pdtv,http://rihou.cc:555/tv/[Pd]CH8综合
 广东珠江欣赏,http://rihou.cc:555/tv/[At|]广东珠江
 广东珠江欣赏,http://rihou.cc:555/tv/[Cx]广东珠江
 广东珠江欣赏,http://rihou.cc:555/tv/[AtI]广东珠江
-⬇️特闽新闻⬇️,http://rihou.cc:555/tv/v
 有线新闻欣赏,http://rihou.cc:555/tv/[Mt]有线新闻
 有线新闻欣赏,http://rihou.cc:555/tv/[Hv]有线新闻
 有线新闻欣赏,http://rihou.cc:555/tv/[FY]有线新闻
@@ -882,7 +885,6 @@ CCTV-17高码,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17
 青海卫视高码,http://cdn6.bkpcp.top/tl/tuiliu.php?id=qhws
 吉林卫视高码,http://cdn6.bkpcp.top/tl/tuiliu.php?id=jlws
 黑龙江视高码,http://cdn6.bkpcp.top/tl/tuiliu.php?id=hljws
-⬇️赛事抖音网页直播⬇️,http://rihou.cc:555/tv/t
 绝嗲数码抖播,video://https://live.douyin.com/277034086130
 音乐库抖直播,video://http://rihou.cc:555/tv/mu10
 杨凯乔抖直播,video://http://rihou.cc:555/tv/dt
