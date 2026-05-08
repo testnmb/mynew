@@ -192,6 +192,7 @@ CHU综合Pdtv,http://rihou.cc:555/tv/[Pd]CHU综合
 CH5综合Pdtv,http://rihou.cc:555/tv/[Pd]CH5综合
 CH8综合Pdtv,http://rihou.cc:555/tv/[Pd]CH8综合
 八度空间Pdtv,http://rihou.cc:555/tv/[Pd]八度空间
+粤语戏曲欣赏,https://test.946985.filegear-sg.me/proxy/ecb0453314ebdc87
 粤语戏曲欣赏,http://tl.061833.xyz/tl/null-15
 粤语长片欣赏,http://tl.061833.xyz/tl/null-10
 广东珠江欣赏,http://rihou.cc:555/tv/[At|]广东珠江
