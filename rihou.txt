@@ -1,9 +1,4 @@
 rihou,#genre#
-21:00般尼🆚维拉,http://rihou.cc:555/tv/v
-国🔊10英述评,http://rihou.cc:555/tv/10英超咪述评
-国🔊10英评评,http://rihou.cc:555/tv/10英超咪评评
-国🔊10英述述,http://rihou.cc:555/tv/10英超咪述述
-国🔊10英旁述,http://rihou.cc:555/tv/10英超咪旁述
 CCTV-01咪咕,http://rihou.cc:555/tv/[mg]CCTV-01
 CCTV-02咪咕,http://rihou.cc:555/tv/[mg]CCTV-02
 CCTV-03咪咕,http://rihou.cc:555/tv/[mg]CCTV-03
@@ -203,6 +198,7 @@ CH8综合Pdtv,http://rihou.cc:555/tv/[Pd]CH8综合
 广东珠江欣赏,http://rihou.cc:555/tv/[At|]广东珠江
 广东珠江欣赏,http://rihou.cc:555/tv/[Cx]广东珠江
 广东珠江欣赏,http://rihou.cc:555/tv/[AtI]广东珠江
+⬇️特闽新闻⬇️,http://rihou.cc:555/tv/v
 有线新闻欣赏,http://rihou.cc:555/tv/[Mt]有线新闻
 有线新闻欣赏,http://rihou.cc:555/tv/[Hv]有线新闻
 有线新闻欣赏,http://rihou.cc:555/tv/[FY]有线新闻
