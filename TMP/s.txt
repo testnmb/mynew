@@ -4651,6 +4651,16 @@ iHOT爱旅行,http://182.135.0.195:888/rtp/239.94.1.137:5140$四川电信
 凤凰卫视电影台,http://emby.xlangnan.cn:10316/rtp/239.254.201.1:5214$河北电信
 凤凰卫视电影台,http://dsm.xlangnan.cn:10316/rtp/239.254.201.1:5214$河北电信
 凤凰卫视电影台,http://60.4.30.55:8077/rtp/239.253.93.81:6247$河北联通
+凤凰中文,http://cdn6.163189.xyz/163189/fhzw
+凤凰资讯,http://cdn6.163189.xyz/163189/fhzx
+凤凰香港,http://cdn6.163189.xyz/163189/fhhk
+香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+环球卫视,http://utv1.hqtvzb.com:9999/hls/world.m3u8
+凤凰美洲台,https://550e8400-e29b.kylintv.tv/live/pxnaus_iphone.m3u8
+澳门综艺台,http://cdn6.163189.xyz/163189/amzy
+东森中国台,http://bt.sc1970.xyz:9099/38.64.72.148/hls/modn/list/2003/playlist.m3u8
+泰国thaipbs,https://t.freetv.fun/live/tai-guo-thai-pbs.m3u8
+泰国thaipbs,http://thaipbs-live.cdn.byteark.com/live-en/playlist_720p/index.m3u8
 全球时尚,https://player.juyun.tv/camera/137932133.m3u8
 翡翠台,http://mytv.cdn.loc.cc/o12.php?id=fct
 翡翠台,http://o11.163189.xyz/stream/tvb/fct/
@@ -4659,8 +4669,6 @@ iHOT爱旅行,http://182.135.0.195:888/rtp/239.94.1.137:5140$四川电信
 明珠台,http://iptv.4666888.xyz/iptv2A.php?id=29
 TVBPLUS,https://o11.163189.xyz/stream/tvb/tvbp/
 中天新闻台,rtmp://demo2.anj365.com/live/xiangjiaoge-ztxw
-长江剧场HD,https://a3f1b2.kylintv.tv/live/yangtse_iphone.m3u8
-昆仑剧场HD,https://a3f1b2.kylintv.tv/live/kunlunhd_iphone.m3u8
 中视,http://211.72.174.95:8113/0.ts
 华视,http://211.72.174.95:8114/0.ts
 台视,http://211.72.174.95:8112/0.ts
@@ -4672,6 +4680,7 @@ TVBPLUS,https://o11.163189.xyz/stream/tvb/tvbp/
 华视新闻台,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv052&token=https://t.me/GPT_858
 寰宇新闻台,https://litv.tzh911.qzz.io/litv.php?id=litv-longturn14&token=https://t.me/GPT_858
 寰宇新闻台湾台,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv156&token=https://t.me/GPT_858
+公视戏剧台,https://cdn12.178.indevs.in/163189/2973b910e7719c08
 公视戏剧台,https://cdn12.178.indevs.in/163189/2973b910e7719c08
 采昌影剧台,https://cdn12.178.indevs.in/163189/0a6204ed0261460c
 TVB金曲,http://iptv.4666888.xyz/iptv2A.php?id=57
@@ -4709,6 +4718,7 @@ AMC电影台,https://stream1.freetv.fun/f78ff1e484b79f13f26a2863929a81959551bbce
 影迷数位电影台,https://stream1.freetv.fun/2902406f6fba98e1c99134ccad60cc7ca4043e21e2e087d97f1b59900c78efd1.ctv
 CinemaWorld,https://cdn12.178.indevs.in/163189/6086cfe7a9756110
 MyCinemaEurope,https://cdn12.178.indevs.in/163189/5bda99f1c049edef
+Thrill,https://iptv.707626.xyz/ch/e37675b4b09b0cb6f5520ecef524d0fd/master.m3u8
 东森电影,http://rihou.cc:555/tv/东森电影
 靖天映画,https://cdn12.178.indevs.in/163189/bd4752bd7828b2bf
 靖天戏剧台,https://cdn12.178.indevs.in/163189/177d541552f78003
@@ -4737,6 +4747,7 @@ MOMO亲子台,http://iptv.4666888.xyz/iptv2A.php?id=49
 综艺大赢家,http://iptv.4666888.xyz/iptv2A.php?id=65
 娱乐百分百,http://iptv.4666888.xyz/iptv2A.php?id=64
 镜新闻,http://rihou.cc:555/tv/[Hk]闽镜新闻
+寰宇新闻,http://jnzq.ohoyee.com:9080/live/xiangjiaoge-hyxw.m3u8
 寰宇新闻,http://rihou.cc:555/tv/寰宇新闻
 八度空间,http://iptv.4666888.xyz/iptv2A.php?id=52
 欢喜台,http://o11.163189.xyz/stream/live/hxt/
@@ -4752,6 +4763,15 @@ CHU,http://cdn6.163189.xyz/163189/chu
 龙华戏剧,http://cdn8.163189.xyz/163189/lhrh
 龙华电影,https://cdn8.163189.xyz/163189/lhdy
 龙华经典,https://cdn8.163189.xyz/163189/lhjd
+龙华卡通,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang01
+龙华洋片,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang02
+龙华电影,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang03
+龙华戏剧,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang18
+龙华经典,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang21
+龙华日韩,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang11
+龙华偶像,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang12
+Smart知识台,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang19
+亚洲旅游台,http://xclasvgas.sylu.cc:8880/?token=dbm&id=4gtv-4gtv076
 大立,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 MOMOTV,rtmp://f13h.mine.nu/sat/tv761
 美亚C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
@@ -4788,7 +4808,10 @@ TVBHD,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjNSWQcdupC2yxU2gpN_4V
 民视台湾台,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWzB6cSyvZ6yVefB6WhupC2yxU2gpN_4VPnaAm&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3D31ed21ec%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3D124b32818d75e323c00fc6c83384d767
 华视,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWnBpWy9ZNSNVrfOVCsIVCel6iIMdN0h&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3D39f4ac90%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3D60756d87d462e2fc4fdfe1be2320ea30
 公视,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWnB6LThZNSNVrfOVCsIVCel6iIMdN0h&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3Dcfe6b318%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3Dad1b5a01838543e10525b6f77fde4668
+台湾戏剧台,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang22
+ELTV生活英语台,http://xclasvgas.sylu.cc:8880/?token=dbm&id=litv-xinchuang20
 八大第一台,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWJyzCsRvZJl6ifOVCsIVCel6iIMdN0h&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3Dcd0e961c%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3D47132cd6145e69f2d290e1e45c620dd6
+八大精彩台,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv034&token=https://t.me/GPT_858
 八大综合台,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWJyzCsovCf4zWyejNt8QZe8vZnBjRBl6PF&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3Da08b3b9a%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3D1c976f544632a0ec51217d1ed4403ebe
 八大戏剧台,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWJyzCs9pRsMQ3fOVCsIVCel6iIMdN0h&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3D78010431%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3Db4dbdbe8aa1cce8da95c92b143cb58bd
 八大娱乐台,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWJyzCseVcSepcSyvUhupC2yxU2gpN_4VPnaAm&h=dbmlasvgas.sylu.cc&p=18081&q=cu%3D881505fa%26cd%3D94f3831d%26cp%3D5919965f%26cn%3D5e292d03%26rp%3DdLmajLThn3h2dLQ4dPd2%26tid%3Dm9c00d3e4b8fb%26tsum%3D84a0dc71b30e1908a911081007fc8326
@@ -4857,6 +4880,9 @@ BBC Earth Lifestyle,http://dbmlasvgas.sylu.cc:8080/smt.php?id=lr/dLQOnPmNjWJrQW2
 尼克儿童,http://220.135.64.124:5050/4gtv-live105/index.m3u8?proxy=true
 视纳华仁纪实,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv013&token=https://t.me/GPT_858
 影迷数位纪实,https://litv.tzh911.qzz.io/litv.php?id=litv-ftv15&token=https://t.me/GPT_858
+客家电视,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv043&token=https://t.me/GPT_858
+韩国娱乐台,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv016&token=https://t.me/GPT_858
+达文西,https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv018&token=https://t.me/GPT_858
 MyCinemaEurope,https://cdn12.178.indevs.in/163189/5bda99f1c049edef
 黑龙江,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江文体,https://idclive.hljtv.com:4430/live/hljwy_hd.m3u8
@@ -6415,6 +6441,8 @@ CHC华诚影视,http://120.76.248.139/live/bfgd/4200000289.m3u8
 湖北生活,http://www.dwphic.com:9999/rtp/239.69.1.205:10872
 湖北生活,http://vapi.91kds.cc/live1/udp.m3u8?ip=hubei-dx&apiKey=73c963d13814ce7d0e4743c5e7d033cc&id=239.69.1.205:10872
 武汉综合,http://livestream.hannews.com.cn/hannews/1511-hannews.m3u8?txSecret=894cfb3bf400ee80f6b4c1a1ed0bd3ab&txTime=760D3C40
+恩施新闻综合,https://46240-live.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_3724.m3u8?auth_key=3328907803-0-0-321fd94de673ddac51716682fcb59297&extra_key=otZkd8cRloD44exAcfs76VOKG0XxTIC_6EDN2NNyydxkHXO7SomobKCJ5pmP3ccWbAiKKFTBhCrxNiU592hEpO7_524eRtN2aE93uigIzbz68_WjbTJH9RM4h_VYBFPtQVk6Kfup5BnPHGpZjWXVBr2fq_1u-rkYE98yQjb2gqU
+恩施文化旅游,https://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1811.m3u8?auth_key=4857760464-0-0-ecabcbf26d39dc20cde584db2fa2a053&extra_key=D1dJezG95YTkYytoe8tr2Qhf-jhFFJmJpij9JNzLnfjYgxE5Q69rjZT1b2VrOxeb2zvhRo107e0Ze_h5agVjcLhNxl4RzjBShtdz-pQKUqaNbHnJMUJaS637QCoHNkKlJAb5i0lkR8MlxmIB6LIGojFm8kqvpZp_pI7SG10olDg
 黄石,http://huangshifb-live21.cjyun.org/10200/s10200-huangshitv01.m3u8?auth_key=1798732799-ced13be0a8ae11efa7dfa7dfd677b8f3-0-881db406245fb25ab51e962f0b5b23a1
 神农架,http://221.234.48.152:19888/hls/snjt/snjt_live.m3u8
 宜昌综合,https://liveplay.ycrmt.cn/sxgd/zhpd.m3u8
@@ -6636,6 +6664,7 @@ CHC华诚影视,http://120.76.248.139/live/bfgd/4200000289.m3u8
 党员远程教育频道,https://12371wbndali.v.myalicdn.com/12371wbnd/dangyuanwang_2hd.m3u8
 重庆新闻,https://12371wbndali.v.myalicdn.com/12371wbnd/dangyuanwang_2hd.m3u8
 重庆移动公交,https://zbxclive9.cbg.cn/app_2/ls_58.stream/playlist.m3u8
+铜梁新闻频道,http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 铜梁新闻频道,https://tlpc01.cqliving.com:443/ch1.m3u8
 巴南综合频道,http://live.cqbntv.com/bnmc/tv0709.m3u8
 巴南综合广播,https://livebnmc.cqbntv.com/bnmc/camera.m3u8
@@ -6647,6 +6676,7 @@ CHC华诚影视,http://120.76.248.139/live/bfgd/4200000289.m3u8
 荣县,https://play.rongxianwang.net/ydrx/rongxianlive.m3u8?auth_key=1715846517-0-0-69728c58ca3d40f9331a8cf77d985e93
 苍溪,rtmp://118.121.231.225:1935/live/hdmi054
 梁平综合频道,https://yypull.cbg.cn/applive/lplive01/playlist.m3u8
+合川综合频道,http://125.62.24.72:8030/ch0.m3u8?zzhongqd
 合川综合频道,https://yypull.cbg.cn/applive/hechuantv1/playlist.m3u8
 酉阳综合频道,https://yypull.cbg.cn/applive/youytv01/playlist.m3u8
 开州综合频道,https://yypull.cbg.cn/applive/kzpd02/playlist.m3u8
@@ -6780,13 +6810,14 @@ CHC华诚影视,http://120.76.248.139/live/bfgd/4200000289.m3u8
 四川文化旅游,http://183.221.92.176:50080/hls/19/index.m3u8
 四川乡村,http://scxclivepull.sctvcloud.com/live/c0b8c1c3018e1000e51198d100000000/playlist.m3u8?wsSecret=b627c9d9b2cdf4afed08253b6125fe1f&wsTime=2019657600
 
-贵州公共,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzgg
-贵州影视,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzwy
-贵州生活,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzsh
-贵州法制,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzfz
-贵州科教,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzkj
-贵州经济,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzjj
-贵州移动,http://111.170.156.74:3344/地方/地方/guizhou/guizhou.php?id=gzyd
+贵州卫视,https://9bwaz8y2.gzstv.com/live/CH01_lo.m3u8?txSecret=438548cb40dfb29ee81b5a03882a7ed3&txTime=69FD6FA0
+贵州公共,https://9bwaz8y2.gzstv.com/live/CH02_lo.m3u8?txSecret=faeeaa244166a2bac52d44f9ed0cef45&txTime=69FD6D11
+贵州影视,https://9bwaz8y2.gzstv.com/live/CH03_lo.m3u8?txSecret=1ce1a9a0b158bd31e1ad89c21b18f366&txTime=69FD7049
+贵州生活,https://9bwaz8y2.gzstv.com/live/CH04_lo.m3u8?txSecret=412f6b5918ca36eed41f3a5df237354c&txTime=69FD6A61
+贵州生态乡村,https://9bwaz8y2.gzstv.com/live/CH05_lo.m3u8?txSecret=da04137adac06519073981388347df9d&txTime=69FD6C43
+贵州科教健康,https://9bwaz8y2.gzstv.com/live/CH06_lo.m3u8?txSecret=aecfeda92fec579dfa4f283195ad4388&txTime=69FD6C45
+贵州移动,https://9bwaz8y2.gzstv.com/live/CH13_lo.m3u8?txSecret=e209207e6ed3029bb6153f094d161a6a&txTime=69FD6D5F
+安顺新闻综合,https://7f75586bd5ebd8b2e3ebfe8377925c17.livehwc4.com/hplayer1.juyun.tv/camera/197226150.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=cb8c0cc50bdf32cf7aebf36ed557b99c
 仁怀,http://111.170.156.74:3344/地方/地方/guizhou/renhuai.php
 黔南,rtmp://tv.qntv.net/channellive/ch1
 黔南公共,rtmp://tv.qntv.net/channellive/ch2
