@@ -888,3 +888,8 @@ Canal 7 Neuquén,https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/playlist.m3u8
 Canal 7 Salta,https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 Canal 8 Vision TV,https://tigocloudgen.desdeparaguay.net/satelitaltv/satelitaltv/playlist.m3u8
 Canal 9 Bío Bío Televisión,https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
+Canal 11,https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
+Canal 21 TV,https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
+Canal 26,https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
+Canal 26 Aguascalientes,https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
+Canal 26 TV IAP,https://vdo.tecnoservix.stream:3899/live/canal26tvlive.m3u8
