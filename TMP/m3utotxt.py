@@ -89,6 +89,6 @@ if __name__ == "__main__":
     ]
     
     # 需要排除的字符列表
-    exclude_chars = ["wns.live","cloudfront.net","stevosure123","visionplus.id"]
+    exclude_chars = ["wns.live","cloudfront.net","stevosure123","visionplus.id","google"]
     
     convert_m3u_to_txt(m3u_urls, exclude_chars)
