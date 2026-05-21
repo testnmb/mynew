@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 TVBox M3U直播源获取工具（Cloudflare绕过版）
-优化版：取消所有原有分组，统一放在mengyxx分组下
+优化版：按分组名过滤整个分组，最后统一放在mengyxx分组下
 """
 import re
 import time
@@ -17,10 +17,11 @@ except ImportError:
 API_URLS = [
     "https://ds65.tv1288.xyz",
 ]
+# 分组名含这些关键词则过滤整个分组
 EXCLUDE_KEYWORDS = ["音乐", "金曲", "DJ", "黄色", "激情", "私拍", "体育", "代理", "咪"]
 OUTPUT_FILE = "my3.txt"
 MAX_RETRIES = 3
-FIXED_GROUP = "mengyxx,#genre#"  # 固定分组名称
+FIXED_GROUP = "mengyxx,#genre#"  # 最终固定分组名称
 
 
 def create_scraper():
@@ -68,73 +69,66 @@ def fetch_m3u(url):
     return None
 
 
-def parse_m3u_to_txt(m3u_content):
-    """将M3U转换为TXT格式（不保留原始分组）"""
+def parse_m3u_with_groups(m3u_content):
+    """解析M3U，保留分组信息用于后续过滤"""
     if not m3u_content:
-        return ""
+        return [], {}
     
     lines = m3u_content.splitlines()
-    result = []
+    channels_by_group = {}  # {分组名: [频道列表]}
+    current_group = "其他"
     current_name = None
+    all_groups = []
     
     for line in lines:
         line = line.strip()
         if not line:
             continue
         
-        # 跳过全局注释和分组
         if line.startswith("#EXTM3U") or line.startswith("#EXT-X-") or line.startswith("//"):
             continue
         
-        # 处理 #EXTINF 行
         if line.startswith("#EXTINF"):
-            # 只提取频道名，忽略分组信息
             match = re.search(r',([^,]+)$', line)
             if match:
                 current_name = match.group(1).strip()
+            group_match = re.search(r'group-title="([^"]*)"', line)
+            if group_match:
+                current_group = group_match.group(1).strip()
+                if current_group not in all_groups:
+                    all_groups.append(current_group)
             continue
         
-        # 处理 URL 行 - 不添加任何分组标记
         if line and not line.startswith("#") and current_name:
-            result.append(f"{current_name},{line}")
+            if current_group not in channels_by_group:
+                channels_by_group[current_group] = []
+            channels_by_group[current_group].append(f"{current_name},{line}")
             current_name = None
     
-    return "\n".join(result)
+    return all_groups, channels_by_group
 
 
-def filter_by_group_and_keyword(txt_content, exclude_keywords):
-    """按关键词过滤（频道名和URL中含有关键词也过滤）"""
-    if not txt_content:
-        return ""
+def filter_groups(channels_by_group, exclude_keywords):
+    """按分组名过滤整个分组"""
+    filtered = {}
+    skipped_groups = []
     
-    lines = txt_content.splitlines()
-    filtered = []
-    skipped_count = 0
-    
-    for line in lines:
-        # 跳过所有原有的#genre#行
-        if line.endswith(",#genre#"):
+    for group_name, channels in channels_by_group.items():
+        # 检查分组名是否包含排除关键词
+        if any(kw.lower() in group_name.lower() for kw in exclude_keywords):
+            skipped_groups.append((group_name, len(channels)))
             continue
-        
-        # 检查是否包含排除关键词
-        if any(kw.lower() in line.lower() for kw in exclude_keywords):
-            skipped_count += 1
-            continue
-        
-        filtered.append(line)
+        filtered[group_name] = channels
     
-    if skipped_count > 0:
-        print(f"  已过滤 {skipped_count} 个含排除关键词的频道")
-    
-    return "\n".join(filtered)
+    return filtered, skipped_groups
 
 
 def main():
     print("=" * 50)
-    print("TVBox M3U → TXT 转换工具 (Cloudflare绕过版)")
+    print("TVBox M3U → TXT 转换工具 (按分组过滤版)")
     print("=" * 50)
     
-    all_txt_parts = []
+    all_channels = []
     
     for url in API_URLS:
         print(f"\n正在处理: {url}")
@@ -144,40 +138,44 @@ def main():
             print("  ✗ 获取失败，跳过")
             continue
         
-        print("  ↳ 转换为 TXT 格式...")
-        txt = parse_m3u_to_txt(m3u)
+        print("  ↳ 解析分组信息...")
+        all_groups, channels_by_group = parse_m3u_with_groups(m3u)
+        print(f"  ↳ 发现 {len(all_groups)} 个分组，共 {sum(len(v) for v in channels_by_group.values())} 个频道")
         
-        if txt:
-            all_txt_parts.append(txt)
-            print(f"  ↳ 转换完成，共 {len(txt.splitlines())} 行")
-        else:
-            print("  ↳ 转换结果为空")
+        # 按分组名过滤
+        print("  ↳ 按分组名过滤...")
+        filtered_channels, skipped = filter_groups(channels_by_group, EXCLUDE_KEYWORDS)
+        
+        # 统计过滤的频道
+        for group_name, count in skipped:
+            print(f"    ✗ 跳过分组 [{group_name}] - {count} 个频道")
+        
+        # 收集所有保留的频道
+        for group_name, channels in filtered_channels.items():
+            all_channels.extend(channels)
+        
+        print(f"  ↳ 保留 {len(filtered_channels)} 个分组，{len(all_channels)} 个频道")
     
-    if not all_txt_parts:
+    if not all_channels:
         print("\n❌ 未获取到任何有效内容，退出")
         return
     
-    combined = "\n".join(all_txt_parts)
-    filtered = filter_by_group_and_keyword(combined, EXCLUDE_KEYWORDS)
-    
     # 去重
-    lines = filtered.splitlines()
-    unique_lines = list(dict.fromkeys(lines))  # 保持顺序去重
-    dedup_count = len(lines) - len(unique_lines)
+    unique_channels = list(dict.fromkeys(all_channels))
+    dedup_count = len(all_channels) - len(unique_channels)
     
     if dedup_count > 0:
-        print(f"  已去除 {dedup_count} 个重复频道")
+        print(f"\n  已去除 {dedup_count} 个重复频道")
     
     # 添加固定分组在第一行
-    final_content = FIXED_GROUP + "\n" + "\n".join(unique_lines)
+    final_content = FIXED_GROUP + "\n" + "\n".join(unique_channels)
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(final_content)
     
     print("\n" + "=" * 50)
     print(f"✅ 完成！已保存到 {OUTPUT_FILE}")
-    print(f"  原始频道数: {len(combined.splitlines())}")
-    print(f"  最终频道数: {len(unique_lines)}")
+    print(f"  最终频道数: {len(unique_channels)}")
     print(f"  文件大小: {len(final_content.encode('utf-8'))} 字节")
     print(f"  固定分组: {FIXED_GROUP}")
     print("=" * 50)
