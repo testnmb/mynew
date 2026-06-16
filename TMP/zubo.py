@@ -133,7 +133,7 @@ class TVSourceProcessor:
             print("去重后无内容")
             return False
         
-        if self.save_to_file(final, "rihou.txt", "rihou,#genre#"):
+        if self.save_to_file(final, "zubo.txt", "组播,#genre#"):
             print("处理完成")
             return True
         return False
@@ -143,8 +143,8 @@ def main():
     processor = TVSourceProcessor()
     success = processor.process()
     
-    if success and os.path.exists("rihou.txt"):
-        print(f"文件位置: {os.path.abspath('rihou.txt')}")
+    if success and os.path.exists("zubo.txt"):
+        print(f"文件位置: {os.path.abspath('zubo.txt')}")
         sys.exit(0)
     else:
         print("处理失败")
